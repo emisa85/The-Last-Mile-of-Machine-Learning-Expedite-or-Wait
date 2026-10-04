@@ -1,0 +1,2001 @@
+ship_id,week,arrival_day,origin,miles,carrier,mode,lead_time_days,snow_forecast,supplier_on_time_pct,carrier_alert,late,p_vendor,p_homemade
+HV-0001,3,Thu,"Newark, NJ",265,Keystone Freight,Full truckload,1,0,78,0,0,0.034,0.025
+HV-0002,2,Fri,"Harrisburg, PA",89,Keystone Freight,LTL,2,0,88,0,0,0.005,0.005
+HV-0003,4,Wed,"Columbus, OH",317,Allegheny Express,Full truckload,1,0,85,0,0,0.014,0.04
+HV-0004,2,Mon,"Philadelphia, PA",193,Allegheny Express,LTL,2,0,85,0,0,0.05,0.057
+HV-0005,2,Tue,"Harrisburg, PA",91,Blue Ridge Lines,Parcel,2,0,93,0,0,0.004,0.043
+HV-0006,3,Fri,"Dallas, TX",1488,Allegheny Express,Full truckload,5,1,97,0,0,0.022,0.057
+HV-0007,4,Tue,"Pittsburgh, PA",141,Keystone Freight,Full truckload,2,0,82,0,0,0.011,0.026
+HV-0008,1,Tue,"Philadelphia, PA",190,Blue Ridge Lines,LTL,1,0,92,0,0,0.188,0.095
+HV-0009,1,Fri,"Pittsburgh, PA",143,Allegheny Express,Full truckload,2,0,88,0,0,0.012,0.029
+HV-0010,5,Wed,"Philadelphia, PA",205,Allegheny Express,LTL,3,0,87,0,0,0.033,0.055
+HV-0011,4,Wed,"Dallas, TX",1503,Susquehanna Trucking,Full truckload,4,0,99,0,0,0.116,0.033
+HV-0012,3,Tue,"Newark, NJ",246,Allegheny Express,LTL,2,0,74,0,0,0.004,0.144
+HV-0013,5,Tue,"Harrisburg, PA",92,Allegheny Express,LTL,2,1,96,0,0,0.021,0.04
+HV-0014,5,Tue,"Harrisburg, PA",90,Allegheny Express,Full truckload,1,0,87,0,0,0.014,0.02
+HV-0015,5,Thu,"Philadelphia, PA",199,Susquehanna Trucking,Parcel,3,1,93,0,0,0.074,0.137
+HV-0016,1,Mon,"Harrisburg, PA",84,Allegheny Express,LTL,1,0,93,0,0,0.245,0.019
+HV-0017,2,Wed,"Atlanta, GA",679,Keystone Freight,Full truckload,4,0,96,0,0,0.007,0.078
+HV-0018,5,Wed,"Philadelphia, PA",194,Blue Ridge Lines,Full truckload,1,0,86,0,0,0.074,0.028
+HV-0019,1,Mon,"Charlotte, NC",511,Keystone Freight,Full truckload,1,0,90,0,0,0.04,0.033
+HV-0020,3,Tue,"Philadelphia, PA",212,Allegheny Express,LTL,3,0,96,0,0,0.014,0.066
+HV-0021,2,Mon,"Newark, NJ",259,Allegheny Express,Parcel,4,0,88,0,0,0.059,0.087
+HV-0022,5,Tue,"Atlanta, GA",682,Susquehanna Trucking,LTL,4,0,96,0,0,0.037,0.122
+HV-0023,4,Mon,"Newark, NJ",250,Allegheny Express,LTL,2,0,85,0,0,0.01,0.06
+HV-0024,2,Tue,"Philadelphia, PA",196,Susquehanna Trucking,Parcel,1,0,93,0,0,0.056,0.011
+HV-0025,1,Thu,"Philadelphia, PA",192,Allegheny Express,Full truckload,1,1,74,0,0,0.097,0.037
+HV-0026,3,Fri,"Los Angeles, CA",2719,Susquehanna Trucking,Parcel,6,1,87,0,1,0.908,0.52
+HV-0027,2,Thu,"Charlotte, NC",485,Keystone Freight,Full truckload,3,1,85,0,0,0.017,0.063
+HV-0028,1,Fri,"Philadelphia, PA",185,Blue Ridge Lines,LTL,1,1,87,0,0,0.33,0.043
+HV-0029,4,Mon,"Harrisburg, PA",97,Susquehanna Trucking,LTL,3,1,82,0,0,0.099,0.062
+HV-0030,5,Fri,"Pittsburgh, PA",145,Blue Ridge Lines,Full truckload,1,0,87,0,0,0.2,0.079
+HV-0031,1,Fri,"Columbus, OH",287,Keystone Freight,Full truckload,1,0,84,0,0,0.008,0.019
+HV-0032,3,Thu,"Atlanta, GA",691,Allegheny Express,LTL,3,0,85,0,0,0.111,0.051
+HV-0033,5,Wed,"Harrisburg, PA",92,Keystone Freight,LTL,1,0,89,0,0,0.042,0.046
+HV-0034,4,Mon,"Philadelphia, PA",197,Keystone Freight,Full truckload,3,0,81,0,0,0.046,0.045
+HV-0035,4,Tue,"Atlanta, GA",717,Allegheny Express,Full truckload,4,0,77,0,1,0.03,0.065
+HV-0036,3,Tue,"Newark, NJ",260,Allegheny Express,Full truckload,4,0,90,1,0,0.01,0.231
+HV-0037,2,Thu,"Philadelphia, PA",190,Susquehanna Trucking,LTL,1,0,87,0,0,0.03,0.304
+HV-0038,5,Wed,"Atlanta, GA",688,Blue Ridge Lines,Full truckload,3,0,98,0,1,0.101,0.021
+HV-0039,2,Thu,"Pittsburgh, PA",133,Keystone Freight,Full truckload,1,0,99,0,0,0.011,0.044
+HV-0040,2,Fri,"Pittsburgh, PA",139,Susquehanna Trucking,Full truckload,3,1,85,0,0,0.019,0.1
+HV-0041,1,Mon,"Harrisburg, PA",92,Keystone Freight,Full truckload,2,0,89,0,0,0.011,0.023
+HV-0042,4,Thu,"Charlotte, NC",447,Allegheny Express,LTL,2,0,90,0,0,0.003,0.137
+HV-0043,5,Thu,"Newark, NJ",275,Keystone Freight,Full truckload,1,0,99,0,0,0.111,0.047
+HV-0044,1,Fri,"Philadelphia, PA",202,Keystone Freight,LTL,2,1,81,0,0,0.023,0.043
+HV-0045,4,Thu,"Harrisburg, PA",90,Keystone Freight,LTL,2,0,76,0,0,0.015,0.023
+HV-0046,5,Thu,"Newark, NJ",241,Keystone Freight,Full truckload,2,0,80,0,0,0.013,0.094
+HV-0047,3,Tue,"Philadelphia, PA",210,Susquehanna Trucking,LTL,3,0,92,0,0,0.04,0.039
+HV-0048,4,Thu,"Pittsburgh, PA",133,Keystone Freight,Full truckload,2,0,84,0,0,0.023,0.008
+HV-0049,3,Fri,"Philadelphia, PA",186,Allegheny Express,Full truckload,3,0,78,0,0,0.041,0.124
+HV-0050,4,Fri,"Pittsburgh, PA",149,Allegheny Express,Full truckload,2,0,93,0,0,0.009,0.02
+HV-0051,3,Mon,"Pittsburgh, PA",140,Allegheny Express,LTL,3,0,94,0,0,0.065,0.025
+HV-0052,4,Wed,"Harrisburg, PA",86,Allegheny Express,LTL,3,0,84,1,1,0.026,0.686
+HV-0053,2,Mon,"Harrisburg, PA",96,Keystone Freight,LTL,1,1,84,0,0,0.23,0.14
+HV-0054,4,Thu,"Chicago, IL",641,Blue Ridge Lines,LTL,4,0,79,0,0,0.039,0.126
+HV-0055,1,Fri,"Newark, NJ",239,Allegheny Express,LTL,2,0,88,0,0,0.037,0.124
+HV-0056,4,Wed,"Chicago, IL",566,Keystone Freight,LTL,3,1,88,0,1,0.089,0.041
+HV-0057,1,Fri,"Atlanta, GA",683,Susquehanna Trucking,Full truckload,4,1,90,0,0,0.022,0.193
+HV-0058,3,Wed,"Newark, NJ",278,Keystone Freight,Full truckload,2,0,90,0,0,0.006,0.016
+HV-0059,1,Tue,"Columbus, OH",295,Allegheny Express,LTL,2,0,89,0,0,0.004,0.007
+HV-0060,4,Tue,"Pittsburgh, PA",142,Keystone Freight,Parcel,3,1,76,0,0,0.171,0.031
+HV-0061,3,Fri,"Harrisburg, PA",89,Keystone Freight,LTL,2,0,96,0,0,0.024,0.028
+HV-0062,3,Thu,"Pittsburgh, PA",140,Allegheny Express,Full truckload,1,1,88,0,0,0.141,0.093
+HV-0063,1,Mon,"Philadelphia, PA",187,Keystone Freight,Full truckload,2,0,97,0,0,0.014,0.02
+HV-0064,4,Mon,"Columbus, OH",291,Allegheny Express,Full truckload,2,0,95,0,0,0.008,0.02
+HV-0065,5,Mon,"Philadelphia, PA",202,Allegheny Express,Parcel,1,0,75,0,0,0.056,0.02
+HV-0066,5,Mon,"Philadelphia, PA",209,Allegheny Express,Parcel,2,0,93,0,0,0.025,0.013
+HV-0067,4,Mon,"Atlanta, GA",668,Keystone Freight,Full truckload,3,1,85,0,0,0.037,0.037
+HV-0068,5,Wed,"Pittsburgh, PA",130,Susquehanna Trucking,LTL,2,0,91,0,0,0.165,0.056
+HV-0069,2,Thu,"Pittsburgh, PA",146,Susquehanna Trucking,LTL,1,1,82,0,0,0.343,0.071
+HV-0070,1,Thu,"Columbus, OH",312,Keystone Freight,Full truckload,2,0,78,0,0,0.03,0.03
+HV-0071,2,Thu,"Pittsburgh, PA",143,Allegheny Express,Full truckload,3,0,95,0,0,0.008,0.017
+HV-0072,4,Tue,"Columbus, OH",285,Allegheny Express,LTL,2,0,88,0,0,0.033,0.058
+HV-0073,3,Mon,"Pittsburgh, PA",148,Keystone Freight,LTL,1,0,81,0,0,0.051,0.018
+HV-0074,3,Mon,"Pittsburgh, PA",130,Allegheny Express,Parcel,1,0,99,0,0,0.03,0.027
+HV-0075,1,Fri,"Pittsburgh, PA",131,Allegheny Express,Full truckload,1,0,84,0,0,0.018,0.054
+HV-0076,5,Mon,"Philadelphia, PA",214,Keystone Freight,Parcel,3,0,89,0,0,0.011,0.042
+HV-0077,2,Thu,"Pittsburgh, PA",144,Blue Ridge Lines,Full truckload,2,0,95,0,0,0.05,0.009
+HV-0078,4,Thu,"Atlanta, GA",691,Keystone Freight,Parcel,2,1,88,0,0,0.055,0.012
+HV-0079,1,Tue,"Philadelphia, PA",193,Blue Ridge Lines,Full truckload,2,0,96,0,0,0.023,0.022
+HV-0080,2,Tue,"Chicago, IL",590,Keystone Freight,Full truckload,3,0,88,0,0,0.016,0.027
+HV-0081,3,Thu,"Charlotte, NC",504,Blue Ridge Lines,LTL,4,0,92,0,0,0.023,0.032
+HV-0082,5,Fri,"Newark, NJ",261,Keystone Freight,Full truckload,1,1,84,0,0,0.227,0.138
+HV-0083,5,Fri,"Charlotte, NC",493,Susquehanna Trucking,Parcel,5,0,86,0,0,0.049,0.047
+HV-0084,2,Tue,"Harrisburg, PA",85,Keystone Freight,Parcel,2,0,83,0,0,0.006,0.086
+HV-0085,1,Wed,"Newark, NJ",266,Keystone Freight,Full truckload,2,1,91,0,0,0.005,0.052
+HV-0086,1,Mon,"Newark, NJ",280,Susquehanna Trucking,LTL,4,0,94,0,0,0.091,0.043
+HV-0087,5,Tue,"Pittsburgh, PA",143,Keystone Freight,LTL,2,0,83,0,0,0.028,0.075
+HV-0088,1,Tue,"Philadelphia, PA",191,Allegheny Express,Parcel,2,0,94,0,0,0.023,0.019
+HV-0089,2,Wed,"Columbus, OH",320,Susquehanna Trucking,Full truckload,3,0,87,0,0,0.004,0.124
+HV-0090,2,Mon,"Philadelphia, PA",188,Susquehanna Trucking,Parcel,2,0,98,0,0,0.009,0.018
+HV-0091,2,Tue,"Pittsburgh, PA",134,Keystone Freight,Full truckload,1,0,99,0,0,0.001,0.003
+HV-0092,4,Fri,"Philadelphia, PA",201,Allegheny Express,Parcel,3,0,88,0,0,0.009,0.002
+HV-0093,5,Wed,"Columbus, OH",303,Allegheny Express,LTL,2,0,86,0,0,0.007,0.029
+HV-0094,3,Fri,"Atlanta, GA",746,Allegheny Express,Parcel,3,0,87,0,0,0.048,0.01
+HV-0095,1,Mon,"Newark, NJ",244,Keystone Freight,Full truckload,2,0,82,0,0,0.004,0.022
+HV-0096,1,Wed,"Atlanta, GA",700,Keystone Freight,Full truckload,3,1,96,0,0,0.01,0.032
+HV-0097,4,Wed,"Charlotte, NC",449,Susquehanna Trucking,LTL,2,0,89,0,0,0.015,0.041
+HV-0098,1,Mon,"Columbus, OH",299,Susquehanna Trucking,Full truckload,3,0,83,0,0,0.111,0.032
+HV-0099,2,Tue,"Dallas, TX",1468,Blue Ridge Lines,LTL,5,1,99,0,1,0.532,0.019
+HV-0100,4,Thu,"Atlanta, GA",695,Keystone Freight,Full truckload,4,0,95,0,0,0.021,0.016
+HV-0101,5,Mon,"Columbus, OH",304,Keystone Freight,LTL,3,0,75,0,0,0.032,0.024
+HV-0102,1,Thu,"Philadelphia, PA",196,Susquehanna Trucking,Full truckload,3,1,91,0,1,0.094,0.032
+HV-0103,3,Tue,"Harrisburg, PA",92,Keystone Freight,Full truckload,2,0,91,0,0,0.004,0.037
+HV-0104,4,Wed,"Chicago, IL",599,Keystone Freight,LTL,4,1,96,0,0,0.18,0.022
+HV-0105,5,Fri,"Pittsburgh, PA",133,Allegheny Express,Parcel,3,0,80,0,0,0.039,0.097
+HV-0106,2,Mon,"Charlotte, NC",488,Allegheny Express,LTL,1,0,94,0,0,0.015,0.044
+HV-0107,4,Fri,"Philadelphia, PA",213,Allegheny Express,Parcel,1,0,83,0,0,0.047,0.062
+HV-0108,1,Wed,"Philadelphia, PA",191,Keystone Freight,Parcel,3,0,90,0,0,0.016,0.078
+HV-0109,2,Thu,"Newark, NJ",265,Blue Ridge Lines,LTL,1,0,77,0,0,0.107,0.038
+HV-0110,5,Fri,"Pittsburgh, PA",136,Allegheny Express,LTL,2,0,82,0,0,0.037,0.125
+HV-0111,5,Mon,"Philadelphia, PA",207,Susquehanna Trucking,LTL,1,0,90,0,0,0.02,0.048
+HV-0112,2,Wed,"Pittsburgh, PA",150,Allegheny Express,Full truckload,3,0,93,0,0,0.002,0.047
+HV-0113,3,Fri,"Newark, NJ",268,Keystone Freight,Full truckload,1,1,85,0,0,0.043,0.044
+HV-0114,3,Mon,"Harrisburg, PA",83,Keystone Freight,Full truckload,1,0,91,0,0,0.014,0.011
+HV-0115,5,Wed,"Pittsburgh, PA",145,Susquehanna Trucking,Full truckload,2,0,86,0,0,0.019,0.054
+HV-0116,1,Wed,"Los Angeles, CA",2720,Allegheny Express,Full truckload,7,0,82,0,0,0.372,0.03
+HV-0117,1,Mon,"Chicago, IL",624,Blue Ridge Lines,Full truckload,2,0,80,0,0,0.471,0.048
+HV-0118,2,Thu,"Philadelphia, PA",198,Blue Ridge Lines,Full truckload,1,0,85,1,1,0.323,0.314
+HV-0119,5,Tue,"Chicago, IL",615,Keystone Freight,LTL,2,0,93,0,0,0.015,0.008
+HV-0120,4,Wed,"Dallas, TX",1314,Blue Ridge Lines,Full truckload,6,0,78,0,1,0.512,0.166
+HV-0121,2,Fri,"Atlanta, GA",730,Susquehanna Trucking,LTL,3,0,99,0,0,0.033,0.193
+HV-0122,4,Mon,"Pittsburgh, PA",142,Blue Ridge Lines,Parcel,1,0,80,0,0,0.338,0.204
+HV-0123,1,Mon,"Dallas, TX",1353,Allegheny Express,Full truckload,5,0,75,0,0,0.069,0.034
+HV-0124,5,Mon,"Newark, NJ",243,Allegheny Express,Full truckload,3,0,86,0,0,0.051,0.044
+HV-0125,2,Tue,"Atlanta, GA",742,Blue Ridge Lines,LTL,4,0,93,1,1,0.185,0.345
+HV-0126,4,Fri,"Chicago, IL",586,Susquehanna Trucking,Parcel,2,0,87,0,0,0.039,0.104
+HV-0127,1,Thu,"Dallas, TX",1491,Allegheny Express,LTL,5,0,91,0,0,0.018,0.042
+HV-0128,2,Thu,"Dallas, TX",1493,Allegheny Express,Full truckload,4,0,89,0,0,0.016,0.077
+HV-0129,1,Fri,"Harrisburg, PA",95,Keystone Freight,LTL,3,0,92,0,0,0.003,0.017
+HV-0130,4,Tue,"Philadelphia, PA",210,Susquehanna Trucking,LTL,2,1,87,0,0,0.074,0.076
+HV-0131,2,Mon,"Charlotte, NC",442,Keystone Freight,Full truckload,3,0,78,0,0,0.044,0.096
+HV-0132,5,Mon,"Columbus, OH",309,Susquehanna Trucking,Parcel,2,1,89,0,0,0.356,0.149
+HV-0133,3,Mon,"Harrisburg, PA",89,Blue Ridge Lines,LTL,2,0,90,0,0,0.04,0.15
+HV-0134,1,Fri,"Philadelphia, PA",207,Allegheny Express,Full truckload,3,0,97,0,0,0.004,0.006
+HV-0135,2,Wed,"Newark, NJ",260,Susquehanna Trucking,Full truckload,1,0,91,0,0,0.029,0.021
+HV-0136,5,Thu,"Newark, NJ",280,Keystone Freight,Full truckload,2,0,93,0,0,0.001,0.06
+HV-0137,2,Tue,"Charlotte, NC",493,Keystone Freight,Full truckload,2,0,85,0,0,0.007,0.032
+HV-0138,2,Wed,"Dallas, TX",1489,Susquehanna Trucking,Full truckload,6,0,88,0,0,0.018,0.076
+HV-0139,1,Wed,"Columbus, OH",324,Blue Ridge Lines,Parcel,3,0,77,0,0,0.042,0.022
+HV-0140,4,Tue,"Philadelphia, PA",205,Susquehanna Trucking,Full truckload,2,0,87,0,0,0.031,0.01
+HV-0141,5,Mon,"Chicago, IL",633,Allegheny Express,LTL,4,0,74,0,0,0.062,0.344
+HV-0142,4,Fri,"Dallas, TX",1449,Keystone Freight,Full truckload,4,0,95,0,0,0.01,0.111
+HV-0143,1,Tue,"Atlanta, GA",757,Allegheny Express,LTL,4,0,81,0,0,0.071,0.168
+HV-0144,4,Mon,"Pittsburgh, PA",146,Blue Ridge Lines,LTL,2,0,92,0,0,0.182,0.04
+HV-0145,1,Wed,"Harrisburg, PA",86,Keystone Freight,Full truckload,2,0,92,0,0,0.006,0.176
+HV-0146,4,Mon,"Chicago, IL",569,Keystone Freight,Full truckload,4,0,84,0,0,0.093,0.12
+HV-0147,5,Wed,"Los Angeles, CA",2614,Blue Ridge Lines,Parcel,7,0,90,0,1,0.804,0.195
+HV-0148,1,Wed,"Harrisburg, PA",94,Susquehanna Trucking,LTL,1,0,90,0,0,0.14,0.058
+HV-0149,3,Fri,"Newark, NJ",276,Keystone Freight,LTL,5,1,98,0,0,0.095,0.037
+HV-0150,4,Thu,"Dallas, TX",1400,Keystone Freight,Full truckload,5,0,83,0,0,0.033,0.031
+HV-0151,5,Thu,"Charlotte, NC",513,Blue Ridge Lines,LTL,3,0,97,0,0,0.019,0.075
+HV-0152,1,Thu,"Newark, NJ",273,Allegheny Express,Full truckload,2,0,71,0,1,0.144,0.034
+HV-0153,4,Tue,"Pittsburgh, PA",143,Allegheny Express,LTL,3,0,88,0,0,0.072,0.057
+HV-0154,5,Mon,"Philadelphia, PA",185,Keystone Freight,LTL,3,0,91,0,0,0.028,0.013
+HV-0155,3,Thu,"Newark, NJ",260,Allegheny Express,LTL,1,0,85,0,0,0.047,0.039
+HV-0156,5,Fri,"Pittsburgh, PA",132,Keystone Freight,LTL,2,0,88,0,0,0.038,0.107
+HV-0157,2,Fri,"Pittsburgh, PA",129,Blue Ridge Lines,Full truckload,2,0,93,0,0,0.025,0.006
+HV-0158,2,Mon,"Columbus, OH",285,Susquehanna Trucking,LTL,3,0,95,0,0,0.007,0.169
+HV-0159,5,Fri,"Pittsburgh, PA",145,Allegheny Express,LTL,1,0,92,0,0,0.109,0.041
+HV-0160,4,Mon,"Columbus, OH",282,Keystone Freight,LTL,2,0,84,0,0,0.003,0.019
+HV-0161,3,Wed,"Philadelphia, PA",196,Allegheny Express,Parcel,2,0,89,0,0,0.011,0.018
+HV-0162,5,Tue,"Harrisburg, PA",84,Susquehanna Trucking,LTL,1,1,93,0,0,0.203,0.157
+HV-0163,4,Fri,"Dallas, TX",1289,Allegheny Express,LTL,7,0,85,0,0,0.273,0.046
+HV-0164,2,Mon,"Harrisburg, PA",94,Susquehanna Trucking,LTL,3,0,92,0,0,0.122,0.166
+HV-0165,5,Fri,"Charlotte, NC",467,Susquehanna Trucking,LTL,3,0,97,0,0,0.021,0.031
+HV-0166,1,Thu,"Harrisburg, PA",87,Blue Ridge Lines,LTL,3,0,83,0,0,0.024,0.154
+HV-0167,3,Fri,"Dallas, TX",1427,Susquehanna Trucking,Full truckload,5,0,91,0,0,0.047,0.009
+HV-0168,5,Thu,"Philadelphia, PA",203,Keystone Freight,Full truckload,1,0,79,0,1,0.084,0.026
+HV-0169,5,Tue,"Pittsburgh, PA",135,Keystone Freight,Full truckload,2,0,81,0,0,0.005,0.007
+HV-0170,2,Fri,"Harrisburg, PA",85,Blue Ridge Lines,LTL,2,0,82,0,0,0.051,0.007
+HV-0171,1,Thu,"Dallas, TX",1424,Keystone Freight,Full truckload,5,0,83,0,0,0.028,0.035
+HV-0172,5,Fri,"Philadelphia, PA",199,Susquehanna Trucking,LTL,2,0,93,0,0,0.008,0.029
+HV-0173,5,Wed,"Dallas, TX",1401,Allegheny Express,LTL,4,0,81,0,0,0.053,0.054
+HV-0174,3,Fri,"Los Angeles, CA",2616,Allegheny Express,Full truckload,7,1,93,0,0,0.636,0.434
+HV-0175,3,Mon,"Newark, NJ",242,Allegheny Express,LTL,2,0,89,0,0,0.117,0.049
+HV-0176,5,Wed,"Pittsburgh, PA",148,Susquehanna Trucking,Parcel,2,0,85,0,0,0.002,0.062
+HV-0177,3,Mon,"Chicago, IL",571,Keystone Freight,LTL,2,0,94,0,0,0.007,0.021
+HV-0178,1,Tue,"Pittsburgh, PA",131,Keystone Freight,Parcel,2,0,85,0,0,0.007,0.042
+HV-0179,2,Wed,"Philadelphia, PA",188,Susquehanna Trucking,Full truckload,2,0,96,0,0,0.004,0.089
+HV-0180,4,Mon,"Newark, NJ",243,Allegheny Express,Full truckload,2,1,95,0,0,0.02,0.06
+HV-0181,4,Thu,"Los Angeles, CA",2418,Susquehanna Trucking,Full truckload,7,0,88,0,0,0.118,0.162
+HV-0182,4,Fri,"Newark, NJ",269,Blue Ridge Lines,LTL,3,0,98,0,0,0.11,0.015
+HV-0183,2,Wed,"Columbus, OH",280,Keystone Freight,LTL,2,0,97,0,0,0.013,0.031
+HV-0184,1,Wed,"Harrisburg, PA",96,Keystone Freight,Full truckload,3,0,99,0,0,0.001,0.023
+HV-0185,5,Tue,"Los Angeles, CA",2736,Allegheny Express,LTL,8,0,87,0,0,0.079,0.036
+HV-0186,4,Fri,"Chicago, IL",607,Allegheny Express,LTL,2,0,86,0,0,0.04,0.015
+HV-0187,2,Fri,"Philadelphia, PA",202,Blue Ridge Lines,Parcel,1,0,74,0,0,0.038,0.027
+HV-0188,4,Fri,"Philadelphia, PA",195,Susquehanna Trucking,Full truckload,2,0,96,0,0,0.2,0.013
+HV-0189,1,Mon,"Pittsburgh, PA",129,Keystone Freight,LTL,1,0,96,0,0,0.02,0.082
+HV-0190,2,Thu,"Newark, NJ",268,Keystone Freight,LTL,2,1,75,0,0,0.047,0.163
+HV-0191,3,Wed,"Philadelphia, PA",187,Keystone Freight,Parcel,3,0,79,0,0,0.05,0.049
+HV-0192,4,Wed,"Los Angeles, CA",2782,Allegheny Express,Full truckload,7,0,76,0,0,0.038,0.048
+HV-0193,3,Wed,"Atlanta, GA",776,Susquehanna Trucking,Full truckload,4,1,79,0,0,0.275,0.173
+HV-0194,2,Mon,"Dallas, TX",1303,Keystone Freight,LTL,5,1,80,1,1,0.472,0.501
+HV-0195,1,Thu,"Columbus, OH",300,Blue Ridge Lines,LTL,4,0,85,0,0,0.025,0.059
+HV-0196,5,Tue,"Chicago, IL",560,Blue Ridge Lines,Full truckload,4,0,99,0,0,0.072,0.076
+HV-0197,4,Mon,"Dallas, TX",1475,Allegheny Express,Full truckload,4,0,92,0,0,0.116,0.046
+HV-0198,5,Fri,"Dallas, TX",1349,Allegheny Express,Parcel,4,0,99,0,0,0.072,0.025
+HV-0199,4,Thu,"Harrisburg, PA",92,Keystone Freight,Parcel,2,0,89,1,0,0.001,0.375
+HV-0200,3,Wed,"Newark, NJ",263,Keystone Freight,Full truckload,4,0,83,0,0,0.045,0.012
+HV-0201,4,Thu,"Columbus, OH",317,Allegheny Express,LTL,2,0,95,0,0,0.133,0.059
+HV-0202,4,Mon,"Harrisburg, PA",93,Keystone Freight,LTL,1,0,94,0,0,0.032,0.01
+HV-0203,3,Mon,"Los Angeles, CA",2502,Keystone Freight,Full truckload,7,0,86,1,1,0.164,0.423
+HV-0204,1,Mon,"Harrisburg, PA",86,Keystone Freight,Parcel,1,1,85,0,0,0.136,0.026
+HV-0205,1,Fri,"Philadelphia, PA",199,Allegheny Express,Full truckload,1,0,85,0,0,0.006,0.097
+HV-0206,2,Mon,"Philadelphia, PA",188,Allegheny Express,LTL,3,0,97,0,0,0.189,0.154
+HV-0207,5,Mon,"Dallas, TX",1395,Keystone Freight,Full truckload,4,0,97,0,0,0.01,0.013
+HV-0208,3,Wed,"Philadelphia, PA",216,Blue Ridge Lines,Full truckload,2,0,80,0,0,0.146,0.04
+HV-0209,2,Tue,"Newark, NJ",263,Keystone Freight,Full truckload,1,0,85,0,0,0.008,0.108
+HV-0210,3,Tue,"Los Angeles, CA",2807,Susquehanna Trucking,LTL,7,0,84,0,0,0.39,0.013
+HV-0211,1,Mon,"Atlanta, GA",730,Allegheny Express,LTL,3,0,82,0,0,0.275,0.048
+HV-0212,1,Mon,"Philadelphia, PA",214,Susquehanna Trucking,Full truckload,1,0,83,0,0,0.18,0.111
+HV-0213,3,Tue,"Newark, NJ",250,Allegheny Express,Full truckload,1,1,92,0,0,0.024,0.121
+HV-0214,3,Mon,"Pittsburgh, PA",129,Susquehanna Trucking,Full truckload,2,1,81,0,0,0.122,0.061
+HV-0215,4,Wed,"Pittsburgh, PA",145,Keystone Freight,Parcel,2,0,90,0,0,0.004,0.044
+HV-0216,4,Mon,"Philadelphia, PA",215,Allegheny Express,Full truckload,2,1,88,0,0,0.067,0.012
+HV-0217,5,Wed,"Atlanta, GA",767,Blue Ridge Lines,Full truckload,3,0,99,0,0,0.172,0.039
+HV-0218,4,Wed,"Los Angeles, CA",2599,Blue Ridge Lines,Full truckload,9,0,91,0,1,0.383,0.086
+HV-0219,2,Mon,"Atlanta, GA",726,Keystone Freight,LTL,5,0,82,0,0,0.021,0.086
+HV-0220,4,Wed,"Atlanta, GA",725,Keystone Freight,Full truckload,3,0,76,0,0,0.015,0.061
+HV-0221,1,Tue,"Harrisburg, PA",87,Keystone Freight,Full truckload,3,1,88,0,0,0.062,0.044
+HV-0222,1,Mon,"Columbus, OH",284,Susquehanna Trucking,Full truckload,2,1,91,0,0,0.079,0.036
+HV-0223,4,Fri,"Philadelphia, PA",203,Keystone Freight,LTL,2,0,83,0,0,0.277,0.184
+HV-0224,4,Thu,"Harrisburg, PA",86,Allegheny Express,Parcel,2,0,79,0,0,0.113,0.014
+HV-0225,2,Wed,"Columbus, OH",319,Allegheny Express,Full truckload,2,0,86,0,0,0.002,0.084
+HV-0226,4,Wed,"Atlanta, GA",707,Allegheny Express,LTL,4,0,84,0,0,0.104,0.039
+HV-0227,5,Mon,"Harrisburg, PA",89,Susquehanna Trucking,Full truckload,1,0,92,0,0,0.096,0.005
+HV-0228,1,Fri,"Chicago, IL",642,Allegheny Express,Parcel,3,0,87,0,0,0.004,0.143
+HV-0229,4,Mon,"Newark, NJ",263,Keystone Freight,Full truckload,3,0,94,0,0,0.003,0.014
+HV-0230,4,Tue,"Philadelphia, PA",198,Allegheny Express,LTL,1,0,85,0,1,0.131,0.136
+HV-0231,3,Mon,"Atlanta, GA",707,Keystone Freight,LTL,3,0,99,0,0,0.011,0.108
+HV-0232,2,Mon,"Newark, NJ",255,Keystone Freight,LTL,1,0,90,0,0,0.018,0.118
+HV-0233,1,Tue,"Philadelphia, PA",210,Blue Ridge Lines,LTL,1,0,87,0,0,0.284,0.235
+HV-0234,3,Thu,"Chicago, IL",615,Keystone Freight,Full truckload,4,0,96,0,0,0.025,0.006
+HV-0235,4,Tue,"Los Angeles, CA",2548,Keystone Freight,Full truckload,9,0,99,0,0,0.016,0.223
+HV-0236,5,Tue,"Pittsburgh, PA",138,Susquehanna Trucking,Parcel,2,0,76,0,1,0.119,0.017
+HV-0237,4,Mon,"Pittsburgh, PA",148,Allegheny Express,LTL,1,0,85,0,0,0.077,0.173
+HV-0238,1,Mon,"Harrisburg, PA",85,Susquehanna Trucking,LTL,2,0,87,0,0,0.014,0.049
+HV-0239,5,Thu,"Charlotte, NC",511,Keystone Freight,LTL,3,0,99,0,0,0.026,0.017
+HV-0240,5,Thu,"Pittsburgh, PA",148,Keystone Freight,LTL,1,0,83,0,0,0.042,0.095
+HV-0241,2,Fri,"Columbus, OH",324,Blue Ridge Lines,Full truckload,2,0,74,0,0,0.104,0.103
+HV-0242,2,Fri,"Columbus, OH",317,Allegheny Express,Full truckload,3,0,84,0,0,0.067,0.012
+HV-0243,1,Thu,"Philadelphia, PA",214,Susquehanna Trucking,Parcel,2,0,87,0,0,0.021,0.02
+HV-0244,2,Mon,"Pittsburgh, PA",143,Keystone Freight,Parcel,1,0,93,0,0,0.007,0.028
+HV-0245,1,Mon,"Atlanta, GA",750,Keystone Freight,Full truckload,3,0,86,0,0,0.016,0.015
+HV-0246,2,Fri,"Harrisburg, PA",84,Susquehanna Trucking,Full truckload,2,0,82,0,0,0.023,0.042
+HV-0247,1,Fri,"Pittsburgh, PA",141,Blue Ridge Lines,LTL,2,0,88,0,0,0.114,0.227
+HV-0248,1,Wed,"Philadelphia, PA",196,Allegheny Express,LTL,2,0,98,0,0,0.011,0.012
+HV-0249,3,Mon,"Philadelphia, PA",208,Blue Ridge Lines,LTL,2,0,86,0,0,0.021,0.021
+HV-0250,5,Mon,"Dallas, TX",1403,Blue Ridge Lines,Full truckload,5,0,79,0,0,0.241,0.164
+HV-0251,2,Mon,"Harrisburg, PA",91,Keystone Freight,LTL,1,0,98,0,0,0.013,0.013
+HV-0252,3,Tue,"Charlotte, NC",483,Allegheny Express,Full truckload,4,1,79,0,0,0.159,0.036
+HV-0253,1,Mon,"Harrisburg, PA",92,Susquehanna Trucking,Parcel,4,0,92,0,1,0.121,0.139
+HV-0254,1,Mon,"Philadelphia, PA",197,Allegheny Express,LTL,3,0,93,0,0,0.205,0.045
+HV-0255,4,Mon,"Chicago, IL",608,Allegheny Express,LTL,3,0,93,0,0,0.107,0.038
+HV-0256,2,Thu,"Chicago, IL",591,Susquehanna Trucking,Full truckload,3,0,96,0,1,0.049,0.089
+HV-0257,5,Fri,"Chicago, IL",594,Allegheny Express,LTL,2,0,92,0,0,0.017,0.037
+HV-0258,5,Fri,"Newark, NJ",248,Keystone Freight,LTL,2,0,82,0,0,0.031,0.114
+HV-0259,4,Fri,"Philadelphia, PA",213,Keystone Freight,Full truckload,2,1,89,0,0,0.038,0.06
+HV-0260,1,Wed,"Atlanta, GA",767,Susquehanna Trucking,LTL,4,0,81,0,0,0.211,0.14
+HV-0261,4,Fri,"Harrisburg, PA",93,Keystone Freight,LTL,2,0,89,0,0,0.004,0.025
+HV-0262,1,Thu,"Pittsburgh, PA",149,Allegheny Express,LTL,1,0,81,1,1,0.348,0.272
+HV-0263,3,Thu,"Atlanta, GA",770,Blue Ridge Lines,LTL,3,0,89,0,0,0.034,0.175
+HV-0264,2,Tue,"Harrisburg, PA",96,Blue Ridge Lines,LTL,3,0,99,0,0,0.037,0.035
+HV-0265,4,Fri,"Philadelphia, PA",206,Keystone Freight,Parcel,2,0,99,1,0,0.002,0.36
+HV-0266,5,Wed,"Atlanta, GA",750,Keystone Freight,LTL,4,0,97,0,0,0.006,0.022
+HV-0267,4,Fri,"Harrisburg, PA",85,Allegheny Express,LTL,2,0,93,1,1,0.009,0.384
+HV-0268,5,Thu,"Los Angeles, CA",2704,Keystone Freight,LTL,8,0,95,0,0,0.02,0.063
+HV-0269,2,Wed,"Charlotte, NC",474,Allegheny Express,LTL,3,0,76,0,0,0.032,0.043
+HV-0270,3,Mon,"Pittsburgh, PA",149,Keystone Freight,Full truckload,3,0,89,0,0,0.008,0.008
+HV-0271,2,Thu,"Harrisburg, PA",91,Allegheny Express,Full truckload,2,1,90,0,0,0.016,0.026
+HV-0272,4,Tue,"Atlanta, GA",772,Allegheny Express,Parcel,3,0,88,0,0,0.07,0.216
+HV-0273,4,Thu,"Philadelphia, PA",185,Allegheny Express,Parcel,1,1,99,0,0,0.004,0.01
+HV-0274,3,Thu,"Los Angeles, CA",2635,Keystone Freight,Full truckload,7,1,93,0,0,0.122,0.008
+HV-0275,2,Mon,"Newark, NJ",244,Allegheny Express,LTL,3,0,83,0,0,0.021,0.059
+HV-0276,1,Wed,"Dallas, TX",1380,Allegheny Express,LTL,5,0,86,0,0,0.08,0.046
+HV-0277,5,Fri,"Harrisburg, PA",96,Allegheny Express,Full truckload,1,0,99,0,0,0.077,0.025
+HV-0278,5,Wed,"Philadelphia, PA",200,Blue Ridge Lines,Full truckload,3,0,87,0,0,0.112,0.012
+HV-0279,1,Mon,"Columbus, OH",323,Blue Ridge Lines,Full truckload,2,0,97,0,0,0.026,0.028
+HV-0280,5,Tue,"Harrisburg, PA",95,Susquehanna Trucking,Full truckload,1,0,88,0,0,0.014,0.227
+HV-0281,5,Fri,"Chicago, IL",581,Blue Ridge Lines,LTL,3,0,93,0,0,0.115,0.034
+HV-0282,1,Wed,"Pittsburgh, PA",144,Allegheny Express,LTL,3,1,88,0,0,0.074,0.035
+HV-0283,4,Thu,"Columbus, OH",311,Keystone Freight,Full truckload,2,0,84,0,0,0.005,0.088
+HV-0284,3,Wed,"Philadelphia, PA",198,Susquehanna Trucking,Parcel,1,0,83,0,0,0.008,0.08
+HV-0285,2,Thu,"Newark, NJ",276,Blue Ridge Lines,LTL,1,0,84,1,1,0.278,0.223
+HV-0286,4,Thu,"Charlotte, NC",448,Allegheny Express,LTL,2,0,80,0,0,0.276,0.033
+HV-0287,5,Tue,"Dallas, TX",1346,Blue Ridge Lines,LTL,4,0,94,0,0,0.113,0.168
+HV-0288,3,Wed,"Pittsburgh, PA",132,Susquehanna Trucking,Full truckload,3,1,95,0,0,0.143,0.013
+HV-0289,3,Wed,"Charlotte, NC",509,Susquehanna Trucking,Full truckload,2,0,94,0,0,0.003,0.031
+HV-0290,4,Wed,"Columbus, OH",321,Keystone Freight,Full truckload,2,0,83,0,0,0.014,0.004
+HV-0291,1,Tue,"Philadelphia, PA",212,Susquehanna Trucking,LTL,2,0,94,0,0,0.048,0.023
+HV-0292,4,Wed,"Harrisburg, PA",89,Susquehanna Trucking,LTL,2,1,89,0,0,0.023,0.194
+HV-0293,4,Tue,"Harrisburg, PA",93,Keystone Freight,Full truckload,3,0,85,0,0,0.018,0.005
+HV-0294,1,Wed,"Atlanta, GA",695,Allegheny Express,Full truckload,4,0,78,0,0,0.056,0.035
+HV-0295,1,Mon,"Pittsburgh, PA",135,Susquehanna Trucking,Full truckload,1,0,98,0,0,0.164,0.01
+HV-0296,1,Wed,"Philadelphia, PA",202,Allegheny Express,LTL,2,0,90,0,0,0.019,0.007
+HV-0297,5,Mon,"Pittsburgh, PA",145,Blue Ridge Lines,Full truckload,1,1,94,0,0,0.267,0.079
+HV-0298,5,Thu,"Dallas, TX",1398,Allegheny Express,Full truckload,6,0,84,0,0,0.068,0.009
+HV-0299,4,Wed,"Chicago, IL",618,Allegheny Express,Parcel,2,0,87,0,0,0.013,0.019
+HV-0300,2,Fri,"Pittsburgh, PA",130,Susquehanna Trucking,LTL,1,0,87,0,0,0.066,0.031
+HV-0301,4,Thu,"Chicago, IL",631,Keystone Freight,LTL,4,0,86,0,0,0.036,0.065
+HV-0302,2,Wed,"Columbus, OH",284,Keystone Freight,Parcel,1,0,94,0,0,0.002,0.006
+HV-0303,4,Wed,"Harrisburg, PA",89,Allegheny Express,Parcel,2,1,92,0,0,0.019,0.039
+HV-0304,2,Thu,"Atlanta, GA",686,Keystone Freight,LTL,4,0,81,0,0,0.075,0.191
+HV-0305,5,Tue,"Pittsburgh, PA",148,Susquehanna Trucking,LTL,2,0,99,0,1,0.237,0.106
+HV-0306,3,Tue,"Chicago, IL",589,Allegheny Express,LTL,3,0,83,0,0,0.328,0.014
+HV-0307,2,Thu,"Newark, NJ",272,Allegheny Express,LTL,3,0,81,0,1,0.272,0.127
+HV-0308,3,Mon,"Columbus, OH",281,Keystone Freight,LTL,2,0,91,0,0,0.022,0.031
+HV-0309,5,Tue,"Philadelphia, PA",204,Allegheny Express,Full truckload,2,0,95,0,0,0.016,0.01
+HV-0310,4,Thu,"Philadelphia, PA",192,Allegheny Express,LTL,2,0,86,0,0,0.038,0.032
+HV-0311,4,Thu,"Harrisburg, PA",85,Keystone Freight,Full truckload,2,0,87,0,0,0.009,0.003
+HV-0312,3,Mon,"Dallas, TX",1289,Keystone Freight,LTL,3,1,73,0,0,0.136,0.086
+HV-0313,1,Tue,"Harrisburg, PA",94,Allegheny Express,Full truckload,4,0,77,0,0,0.002,0.061
+HV-0314,2,Tue,"Columbus, OH",281,Blue Ridge Lines,Full truckload,1,0,87,0,0,0.009,0.009
+HV-0315,5,Wed,"Dallas, TX",1508,Allegheny Express,LTL,6,0,83,0,0,0.025,0.102
+HV-0316,4,Thu,"Chicago, IL",590,Allegheny Express,LTL,3,0,75,0,0,0.009,0.055
+HV-0317,4,Wed,"Dallas, TX",1411,Keystone Freight,LTL,6,0,95,0,0,0.021,0.258
+HV-0318,5,Mon,"Philadelphia, PA",195,Susquehanna Trucking,Parcel,3,0,84,0,0,0.104,0.027
+HV-0319,2,Wed,"Newark, NJ",240,Keystone Freight,LTL,2,1,90,0,0,0.163,0.037
+HV-0320,5,Mon,"Philadelphia, PA",213,Susquehanna Trucking,Full truckload,1,1,88,0,0,0.206,0.061
+HV-0321,4,Mon,"Philadelphia, PA",206,Allegheny Express,Full truckload,2,0,80,0,0,0.014,0.01
+HV-0322,3,Fri,"Chicago, IL",642,Blue Ridge Lines,Full truckload,1,0,96,0,0,0.008,0.155
+HV-0323,1,Mon,"Newark, NJ",259,Allegheny Express,Full truckload,2,0,88,0,0,0.005,0.017
+HV-0324,1,Mon,"Los Angeles, CA",2469,Allegheny Express,Full truckload,8,0,72,0,1,0.325,0.16
+HV-0325,2,Wed,"Pittsburgh, PA",147,Susquehanna Trucking,Parcel,3,0,76,0,0,0.066,0.077
+HV-0326,5,Fri,"Columbus, OH",284,Allegheny Express,LTL,1,0,98,0,0,0.04,0.023
+HV-0327,2,Thu,"Columbus, OH",302,Keystone Freight,Full truckload,4,0,97,0,0,0.013,0.012
+HV-0328,4,Mon,"Philadelphia, PA",194,Susquehanna Trucking,Full truckload,3,0,99,0,0,0.038,0.111
+HV-0329,2,Wed,"Harrisburg, PA",87,Susquehanna Trucking,LTL,2,0,99,0,0,0.019,0.016
+HV-0330,5,Fri,"Chicago, IL",636,Susquehanna Trucking,LTL,4,0,90,0,0,0.089,0.009
+HV-0331,3,Tue,"Harrisburg, PA",89,Blue Ridge Lines,Full truckload,2,0,92,0,0,0.013,0.038
+HV-0332,2,Thu,"Pittsburgh, PA",131,Allegheny Express,Full truckload,2,0,77,0,0,0.012,0.054
+HV-0333,5,Mon,"Columbus, OH",314,Keystone Freight,Parcel,2,0,86,0,0,0.103,0.017
+HV-0334,4,Mon,"Harrisburg, PA",92,Keystone Freight,LTL,3,0,84,0,0,0.029,0.016
+HV-0335,5,Fri,"Atlanta, GA",739,Blue Ridge Lines,Parcel,2,0,99,0,0,0.005,0.043
+HV-0336,3,Mon,"Harrisburg, PA",85,Susquehanna Trucking,LTL,1,0,89,0,0,0.066,0.107
+HV-0337,5,Tue,"Pittsburgh, PA",150,Keystone Freight,Full truckload,1,0,93,0,0,0.005,0.006
+HV-0338,3,Tue,"Chicago, IL",605,Allegheny Express,LTL,3,0,86,0,0,0.016,0.022
+HV-0339,1,Tue,"Columbus, OH",278,Keystone Freight,LTL,3,1,85,0,0,0.045,0.103
+HV-0340,4,Tue,"Pittsburgh, PA",133,Keystone Freight,Full truckload,2,0,87,0,0,0.004,0.023
+HV-0341,4,Wed,"Harrisburg, PA",96,Keystone Freight,Full truckload,2,1,78,0,0,0.011,0.046
+HV-0342,4,Tue,"Philadelphia, PA",196,Keystone Freight,Parcel,3,0,88,0,0,0.011,0.005
+HV-0343,5,Wed,"Dallas, TX",1374,Susquehanna Trucking,Full truckload,6,0,96,0,0,0.032,0.014
+HV-0344,2,Wed,"Charlotte, NC",502,Susquehanna Trucking,Full truckload,4,0,93,0,0,0.014,0.03
+HV-0345,3,Tue,"Los Angeles, CA",2491,Keystone Freight,Full truckload,7,1,90,1,1,0.343,0.658
+HV-0346,1,Fri,"Charlotte, NC",455,Keystone Freight,LTL,2,0,89,0,0,0.003,0.006
+HV-0347,1,Tue,"Philadelphia, PA",197,Susquehanna Trucking,LTL,2,0,84,0,0,0.037,0.064
+HV-0348,3,Mon,"Pittsburgh, PA",140,Keystone Freight,LTL,3,0,79,0,0,0.005,0.063
+HV-0349,3,Mon,"Charlotte, NC",506,Allegheny Express,Full truckload,3,0,85,0,0,0.095,0.01
+HV-0350,5,Tue,"Pittsburgh, PA",144,Keystone Freight,LTL,1,0,88,0,0,0.015,0.008
+HV-0351,2,Thu,"Los Angeles, CA",2478,Keystone Freight,Full truckload,8,0,88,0,0,0.03,0.09
+HV-0352,3,Tue,"Dallas, TX",1394,Keystone Freight,LTL,4,0,92,1,1,0.128,0.597
+HV-0353,2,Fri,"Newark, NJ",262,Allegheny Express,LTL,3,0,82,0,0,0.125,0.015
+HV-0354,1,Thu,"Atlanta, GA",730,Allegheny Express,Full truckload,4,0,91,0,0,0.001,0.02
+HV-0355,4,Wed,"Harrisburg, PA",92,Allegheny Express,LTL,1,1,93,0,0,0.493,0.025
+HV-0356,2,Wed,"Pittsburgh, PA",138,Keystone Freight,Parcel,1,0,87,0,0,0.018,0.12
+HV-0357,2,Mon,"Newark, NJ",256,Blue Ridge Lines,LTL,2,0,84,0,0,0.063,0.053
+HV-0358,5,Tue,"Harrisburg, PA",88,Allegheny Express,LTL,2,1,95,0,0,0.057,0.011
+HV-0359,3,Mon,"Harrisburg, PA",86,Keystone Freight,LTL,2,0,94,0,0,0.008,0.04
+HV-0360,3,Tue,"Los Angeles, CA",2675,Keystone Freight,LTL,7,1,99,0,0,0.022,0.187
+HV-0361,2,Tue,"Columbus, OH",288,Keystone Freight,Full truckload,3,0,86,0,0,0.187,0.074
+HV-0362,2,Mon,"Columbus, OH",304,Allegheny Express,Full truckload,2,0,88,0,0,0.115,0.079
+HV-0363,4,Mon,"Charlotte, NC",475,Susquehanna Trucking,LTL,4,0,99,0,0,0.149,0.078
+HV-0364,1,Wed,"Philadelphia, PA",192,Susquehanna Trucking,Full truckload,2,1,89,0,0,0.197,0.049
+HV-0365,3,Thu,"Pittsburgh, PA",146,Keystone Freight,LTL,2,1,85,0,0,0.014,0.028
+HV-0366,1,Wed,"Philadelphia, PA",215,Allegheny Express,LTL,1,0,86,0,0,0.119,0.021
+HV-0367,5,Thu,"Pittsburgh, PA",151,Keystone Freight,Full truckload,1,0,85,0,0,0.003,0.095
+HV-0368,4,Thu,"Newark, NJ",254,Keystone Freight,Full truckload,2,0,82,0,0,0.006,0.019
+HV-0369,3,Wed,"Pittsburgh, PA",147,Blue Ridge Lines,LTL,3,1,92,0,1,0.7,0.135
+HV-0370,4,Wed,"Harrisburg, PA",94,Susquehanna Trucking,Full truckload,2,0,94,0,0,0.034,0.042
+HV-0371,1,Fri,"Columbus, OH",301,Allegheny Express,LTL,3,0,94,0,0,0.018,0.031
+HV-0372,5,Thu,"Charlotte, NC",475,Susquehanna Trucking,LTL,3,0,86,0,0,0.052,0.071
+HV-0373,2,Fri,"Chicago, IL",555,Allegheny Express,LTL,3,0,95,0,0,0.129,0.064
+HV-0374,3,Tue,"Chicago, IL",562,Blue Ridge Lines,Full truckload,3,0,90,0,0,0.028,0.275
+HV-0375,2,Thu,"Atlanta, GA",723,Allegheny Express,LTL,2,0,96,0,0,0.028,0.098
+HV-0376,5,Mon,"Harrisburg, PA",88,Susquehanna Trucking,Parcel,2,0,86,0,0,0.06,0.1
+HV-0377,1,Thu,"Charlotte, NC",494,Blue Ridge Lines,Parcel,2,0,85,0,0,0.456,0.081
+HV-0378,3,Tue,"Harrisburg, PA",90,Allegheny Express,LTL,1,0,99,0,0,0.031,0.012
+HV-0379,3,Fri,"Philadelphia, PA",212,Blue Ridge Lines,LTL,3,0,91,0,0,0.011,0.044
+HV-0380,5,Mon,"Dallas, TX",1327,Blue Ridge Lines,LTL,6,0,84,0,1,0.517,0.064
+HV-0381,5,Wed,"Los Angeles, CA",2622,Allegheny Express,Parcel,8,0,91,0,0,0.021,0.021
+HV-0382,2,Thu,"Charlotte, NC",492,Allegheny Express,LTL,3,0,86,0,0,0.078,0.047
+HV-0383,3,Thu,"Pittsburgh, PA",147,Allegheny Express,Full truckload,2,1,91,0,0,0.082,0.086
+HV-0384,3,Thu,"Newark, NJ",244,Keystone Freight,Full truckload,1,0,97,0,0,0.003,0.06
+HV-0385,5,Wed,"Philadelphia, PA",202,Allegheny Express,LTL,2,0,93,0,0,0.027,0.069
+HV-0386,2,Mon,"Chicago, IL",609,Keystone Freight,LTL,3,1,96,0,0,0.132,0.025
+HV-0387,5,Tue,"Columbus, OH",318,Susquehanna Trucking,Full truckload,4,1,86,0,0,0.03,0.058
+HV-0388,1,Mon,"Philadelphia, PA",207,Keystone Freight,Full truckload,2,0,87,0,0,0.009,0.118
+HV-0389,2,Wed,"Newark, NJ",247,Keystone Freight,Full truckload,2,0,84,0,0,0.008,0.069
+HV-0390,2,Thu,"Los Angeles, CA",2529,Keystone Freight,Full truckload,8,1,91,0,0,0.104,0.045
+HV-0391,1,Thu,"Philadelphia, PA",213,Allegheny Express,LTL,1,0,99,0,1,0.038,0.008
+HV-0392,1,Thu,"Columbus, OH",306,Blue Ridge Lines,Parcel,3,0,88,0,0,0.009,0.088
+HV-0393,1,Thu,"Pittsburgh, PA",142,Keystone Freight,LTL,3,1,82,0,0,0.146,0.14
+HV-0394,3,Fri,"Chicago, IL",566,Allegheny Express,Full truckload,2,0,78,0,0,0.008,0.011
+HV-0395,5,Fri,"Harrisburg, PA",95,Susquehanna Trucking,Full truckload,1,1,89,0,0,0.038,0.025
+HV-0396,1,Fri,"Harrisburg, PA",95,Allegheny Express,LTL,2,0,90,0,0,0.008,0.067
+HV-0397,1,Fri,"Columbus, OH",315,Allegheny Express,Parcel,3,0,93,0,0,0.006,0.071
+HV-0398,2,Thu,"Philadelphia, PA",200,Keystone Freight,Parcel,2,0,81,0,0,0.011,0.046
+HV-0399,2,Tue,"Pittsburgh, PA",144,Keystone Freight,Full truckload,2,1,93,0,0,0.032,0.019
+HV-0400,1,Wed,"Columbus, OH",300,Keystone Freight,Full truckload,1,0,88,0,0,0.011,0.04
+HV-0401,5,Fri,"Pittsburgh, PA",137,Allegheny Express,Full truckload,4,0,90,0,0,0.013,0.029
+HV-0402,1,Wed,"Newark, NJ",246,Susquehanna Trucking,LTL,3,1,93,0,0,0.025,0.094
+HV-0403,2,Wed,"Pittsburgh, PA",138,Keystone Freight,Full truckload,2,0,99,0,0,0.002,0.012
+HV-0404,1,Thu,"Newark, NJ",274,Susquehanna Trucking,Full truckload,4,0,71,0,0,0.017,0.142
+HV-0405,4,Wed,"Charlotte, NC",501,Allegheny Express,LTL,3,0,99,0,0,0.011,0.027
+HV-0406,4,Fri,"Charlotte, NC",513,Blue Ridge Lines,Full truckload,3,0,96,0,0,0.052,0.025
+HV-0407,4,Tue,"Charlotte, NC",457,Blue Ridge Lines,Full truckload,3,0,97,0,0,0.013,0.007
+HV-0408,1,Wed,"Chicago, IL",607,Susquehanna Trucking,Full truckload,3,0,96,0,0,0.017,0.109
+HV-0409,4,Wed,"Harrisburg, PA",85,Susquehanna Trucking,LTL,1,0,97,0,0,0.004,0.033
+HV-0410,1,Tue,"Newark, NJ",243,Blue Ridge Lines,LTL,3,0,97,0,0,0.016,0.015
+HV-0411,3,Wed,"Atlanta, GA",696,Allegheny Express,LTL,3,0,99,0,0,0.003,0.018
+HV-0412,2,Wed,"Philadelphia, PA",214,Keystone Freight,LTL,2,1,99,0,0,0.072,0.019
+HV-0413,2,Mon,"Dallas, TX",1455,Allegheny Express,Full truckload,5,0,90,0,0,0.133,0.261
+HV-0414,4,Tue,"Atlanta, GA",777,Keystone Freight,Full truckload,2,0,95,0,0,0.017,0.093
+HV-0415,3,Mon,"Chicago, IL",586,Allegheny Express,LTL,4,0,99,0,0,0.033,0.04
+HV-0416,4,Thu,"Chicago, IL",616,Keystone Freight,Full truckload,3,0,90,0,0,0.009,0.073
+HV-0417,1,Tue,"Los Angeles, CA",2460,Susquehanna Trucking,Full truckload,7,0,73,1,1,0.625,0.86
+HV-0418,4,Mon,"Los Angeles, CA",2430,Blue Ridge Lines,LTL,7,0,84,0,1,0.401,0.246
+HV-0419,3,Fri,"Philadelphia, PA",194,Keystone Freight,Full truckload,2,0,86,0,0,0.021,0.065
+HV-0420,1,Mon,"Philadelphia, PA",215,Allegheny Express,Parcel,1,0,81,0,1,0.263,0.063
+HV-0421,3,Mon,"Columbus, OH",307,Blue Ridge Lines,Full truckload,2,0,93,0,0,0.013,0.013
+HV-0422,3,Mon,"Chicago, IL",627,Keystone Freight,LTL,3,0,99,0,0,0.004,0.03
+HV-0423,3,Mon,"Newark, NJ",241,Blue Ridge Lines,Full truckload,3,0,96,0,0,0.031,0.021
+HV-0424,1,Wed,"Charlotte, NC",461,Blue Ridge Lines,Full truckload,3,0,95,0,0,0.019,0.127
+HV-0425,4,Wed,"Newark, NJ",256,Susquehanna Trucking,LTL,3,1,89,0,1,0.445,0.049
+HV-0426,2,Fri,"Pittsburgh, PA",143,Allegheny Express,LTL,3,0,98,0,0,0.013,0.03
+HV-0427,1,Mon,"Pittsburgh, PA",147,Allegheny Express,Full truckload,2,0,83,0,0,0.039,0.11
+HV-0428,2,Thu,"Columbus, OH",318,Allegheny Express,Full truckload,1,0,95,0,0,0.103,0.079
+HV-0429,2,Thu,"Harrisburg, PA",97,Blue Ridge Lines,Full truckload,2,0,95,0,1,0.041,0.016
+HV-0430,4,Mon,"Charlotte, NC",461,Keystone Freight,Full truckload,3,1,83,0,0,0.194,0.091
+HV-0431,3,Thu,"Newark, NJ",275,Allegheny Express,LTL,2,0,92,0,0,0.03,0.01
+HV-0432,2,Thu,"Harrisburg, PA",85,Allegheny Express,LTL,3,0,90,0,0,0.012,0.015
+HV-0433,4,Wed,"Harrisburg, PA",96,Keystone Freight,Full truckload,3,0,92,0,0,0.002,0.169
+HV-0434,1,Thu,"Harrisburg, PA",88,Keystone Freight,Full truckload,2,0,87,0,0,0.014,0.006
+HV-0435,5,Tue,"Chicago, IL",612,Blue Ridge Lines,LTL,4,0,92,1,1,0.081,0.311
+HV-0436,3,Mon,"Harrisburg, PA",92,Allegheny Express,Parcel,2,0,93,0,0,0.009,0.097
+HV-0437,1,Tue,"Dallas, TX",1335,Susquehanna Trucking,Full truckload,5,0,81,0,0,0.009,0.074
+HV-0438,1,Thu,"Atlanta, GA",672,Keystone Freight,Full truckload,3,0,87,0,0,0.009,0.019
+HV-0439,5,Fri,"Newark, NJ",266,Allegheny Express,LTL,3,0,89,0,0,0.009,0.009
+HV-0440,5,Tue,"Newark, NJ",253,Blue Ridge Lines,Full truckload,2,0,91,0,0,0.017,0.017
+HV-0441,3,Mon,"Pittsburgh, PA",151,Allegheny Express,Full truckload,2,1,99,0,0,0.187,0.074
+HV-0442,4,Mon,"Chicago, IL",569,Susquehanna Trucking,LTL,2,0,95,1,0,0.06,0.625
+HV-0443,4,Mon,"Charlotte, NC",499,Susquehanna Trucking,Parcel,3,1,85,0,0,0.044,0.025
+HV-0444,1,Wed,"Chicago, IL",565,Allegheny Express,Parcel,2,1,89,0,0,0.053,0.01
+HV-0445,5,Thu,"Pittsburgh, PA",134,Allegheny Express,Full truckload,1,0,83,0,0,0.037,0.113
+HV-0446,5,Fri,"Philadelphia, PA",212,Susquehanna Trucking,Full truckload,4,0,82,0,0,0.104,0.013
+HV-0447,5,Tue,"Chicago, IL",623,Blue Ridge Lines,LTL,3,0,92,0,0,0.123,0.163
+HV-0448,4,Mon,"Columbus, OH",316,Keystone Freight,LTL,3,0,94,0,0,0.024,0.172
+HV-0449,4,Thu,"Pittsburgh, PA",149,Keystone Freight,LTL,1,0,90,0,0,0.03,0.013
+HV-0450,2,Fri,"Dallas, TX",1308,Blue Ridge Lines,LTL,4,0,90,0,0,0.075,0.171
+HV-0451,5,Wed,"Pittsburgh, PA",147,Keystone Freight,Full truckload,1,0,74,0,0,0.003,0.071
+HV-0452,1,Tue,"Chicago, IL",606,Keystone Freight,LTL,1,0,86,0,0,0.069,0.078
+HV-0453,1,Mon,"Philadelphia, PA",188,Allegheny Express,LTL,3,0,97,0,0,0.004,0.016
+HV-0454,1,Mon,"Pittsburgh, PA",140,Allegheny Express,Full truckload,3,0,89,0,0,0.025,0.077
+HV-0455,5,Wed,"Los Angeles, CA",2778,Allegheny Express,Full truckload,9,1,89,0,0,0.24,0.032
+HV-0456,1,Tue,"Philadelphia, PA",186,Allegheny Express,LTL,2,0,89,0,0,0.024,0.032
+HV-0457,2,Mon,"Philadelphia, PA",190,Allegheny Express,Full truckload,2,0,75,0,0,0.009,0.014
+HV-0458,4,Mon,"Dallas, TX",1474,Allegheny Express,Full truckload,6,0,92,0,0,0.007,0.015
+HV-0459,1,Mon,"Pittsburgh, PA",145,Allegheny Express,LTL,3,0,75,0,0,0.083,0.084
+HV-0460,4,Fri,"Philadelphia, PA",210,Keystone Freight,LTL,2,0,91,0,0,0.065,0.009
+HV-0461,3,Mon,"Los Angeles, CA",2512,Allegheny Express,LTL,8,0,91,0,0,0.159,0.154
+HV-0462,5,Fri,"Harrisburg, PA",94,Susquehanna Trucking,LTL,1,0,81,0,0,0.435,0.226
+HV-0463,1,Mon,"Pittsburgh, PA",150,Keystone Freight,LTL,2,0,83,0,0,0.023,0.047
+HV-0464,3,Thu,"Atlanta, GA",702,Allegheny Express,Full truckload,4,0,83,0,0,0.002,0.049
+HV-0465,5,Mon,"Charlotte, NC",478,Keystone Freight,Full truckload,2,0,85,0,0,0.027,0.037
+HV-0466,4,Fri,"Dallas, TX",1395,Keystone Freight,LTL,4,0,84,0,0,0.027,0.06
+HV-0467,1,Tue,"Charlotte, NC",474,Susquehanna Trucking,Full truckload,3,0,94,0,0,0.013,0.126
+HV-0468,4,Mon,"Pittsburgh, PA",144,Keystone Freight,LTL,2,1,94,0,0,0.114,0.067
+HV-0469,3,Tue,"Harrisburg, PA",95,Allegheny Express,Full truckload,2,0,84,0,0,0.007,0.033
+HV-0470,2,Fri,"Chicago, IL",592,Allegheny Express,LTL,2,0,85,0,0,0.021,0.064
+HV-0471,2,Fri,"Columbus, OH",318,Keystone Freight,LTL,3,0,84,0,0,0.048,0.1
+HV-0472,2,Wed,"Pittsburgh, PA",142,Keystone Freight,Full truckload,2,1,88,0,0,0.023,0.05
+HV-0473,3,Tue,"Los Angeles, CA",2671,Susquehanna Trucking,LTL,7,0,75,0,1,0.865,0.114
+HV-0474,5,Fri,"Philadelphia, PA",205,Susquehanna Trucking,Full truckload,2,1,99,0,0,0.011,0.031
+HV-0475,4,Wed,"Chicago, IL",634,Keystone Freight,Parcel,5,0,94,0,0,0.005,0.01
+HV-0476,4,Thu,"Los Angeles, CA",2728,Keystone Freight,Full truckload,9,0,81,0,0,0.308,0.1
+HV-0477,5,Mon,"Los Angeles, CA",2647,Blue Ridge Lines,Full truckload,8,0,95,1,1,0.367,0.88
+HV-0478,2,Wed,"Dallas, TX",1341,Keystone Freight,LTL,4,0,87,0,1,0.045,0.143
+HV-0479,5,Tue,"Columbus, OH",313,Allegheny Express,LTL,1,0,97,0,0,0.154,0.188
+HV-0480,3,Thu,"Philadelphia, PA",211,Susquehanna Trucking,Full truckload,3,0,83,0,0,0.009,0.061
+HV-0481,1,Tue,"Los Angeles, CA",2779,Susquehanna Trucking,Parcel,9,0,95,0,0,0.45,0.054
+HV-0482,4,Thu,"Columbus, OH",292,Blue Ridge Lines,LTL,2,1,89,0,0,0.199,0.237
+HV-0483,4,Tue,"Charlotte, NC",448,Keystone Freight,Full truckload,1,0,88,0,0,0.036,0.039
+HV-0484,5,Mon,"Dallas, TX",1302,Keystone Freight,Parcel,6,0,82,0,0,0.04,0.06
+HV-0485,5,Tue,"Atlanta, GA",723,Allegheny Express,LTL,4,0,99,0,0,0.012,0.022
+HV-0486,4,Mon,"Los Angeles, CA",2434,Allegheny Express,LTL,7,0,84,0,1,0.439,0.137
+HV-0487,5,Wed,"Philadelphia, PA",197,Susquehanna Trucking,LTL,1,0,86,0,0,0.227,0.021
+HV-0488,3,Tue,"Charlotte, NC",485,Susquehanna Trucking,Full truckload,1,1,81,0,1,0.093,0.471
+HV-0489,5,Mon,"Harrisburg, PA",96,Allegheny Express,LTL,2,0,99,0,0,0.05,0.017
+HV-0490,3,Tue,"Philadelphia, PA",192,Allegheny Express,Parcel,2,0,99,0,0,0.003,0.018
+HV-0491,4,Wed,"Atlanta, GA",665,Allegheny Express,Parcel,3,0,88,0,0,0.179,0.173
+HV-0492,1,Wed,"Chicago, IL",637,Susquehanna Trucking,LTL,4,0,92,0,0,0.041,0.029
+HV-0493,1,Mon,"Newark, NJ",273,Allegheny Express,Full truckload,1,0,76,0,0,0.01,0.101
+HV-0494,4,Fri,"Newark, NJ",248,Allegheny Express,LTL,2,0,76,0,1,0.265,0.005
+HV-0495,4,Fri,"Dallas, TX",1395,Blue Ridge Lines,Full truckload,5,0,92,1,1,0.273,0.499
+HV-0496,1,Mon,"Harrisburg, PA",84,Susquehanna Trucking,Parcel,2,0,95,0,0,0.01,0.01
+HV-0497,5,Thu,"Harrisburg, PA",97,Susquehanna Trucking,LTL,3,0,93,0,0,0.013,0.07
+HV-0498,5,Mon,"Pittsburgh, PA",150,Keystone Freight,LTL,2,1,93,0,0,0.034,0.042
+HV-0499,4,Wed,"Newark, NJ",274,Blue Ridge Lines,LTL,2,1,85,0,0,0.281,0.186
+HV-0500,5,Mon,"Philadelphia, PA",185,Blue Ridge Lines,LTL,2,1,83,0,1,0.277,0.056
+HV-0501,4,Fri,"Charlotte, NC",473,Susquehanna Trucking,Parcel,3,0,81,0,0,0.159,0.038
+HV-0502,2,Mon,"Chicago, IL",582,Allegheny Express,LTL,3,0,78,0,0,0.015,0.306
+HV-0503,1,Fri,"Pittsburgh, PA",144,Allegheny Express,Full truckload,1,0,82,0,0,0.077,0.022
+HV-0504,4,Wed,"Chicago, IL",637,Susquehanna Trucking,LTL,4,0,82,0,0,0.294,0.068
+HV-0505,2,Mon,"Harrisburg, PA",90,Blue Ridge Lines,LTL,1,1,90,0,0,0.225,0.184
+HV-0506,3,Tue,"Chicago, IL",593,Allegheny Express,Full truckload,3,0,96,0,0,0.026,0.039
+HV-0507,5,Thu,"Harrisburg, PA",87,Keystone Freight,LTL,2,0,77,0,0,0.009,0.144
+HV-0508,4,Wed,"Atlanta, GA",678,Allegheny Express,Full truckload,3,0,89,0,0,0.052,0.005
+HV-0509,2,Mon,"Charlotte, NC",458,Susquehanna Trucking,Full truckload,3,0,96,0,0,0.107,0.005
+HV-0510,1,Wed,"Pittsburgh, PA",150,Allegheny Express,LTL,2,0,92,0,0,0.089,0.146
+HV-0511,1,Fri,"Harrisburg, PA",94,Susquehanna Trucking,LTL,3,0,89,0,0,0.01,0.197
+HV-0512,5,Tue,"Charlotte, NC",498,Keystone Freight,Full truckload,3,0,99,0,0,0.01,0.044
+HV-0513,3,Wed,"Charlotte, NC",489,Allegheny Express,LTL,3,0,89,0,0,0.337,0.019
+HV-0514,4,Tue,"Pittsburgh, PA",138,Allegheny Express,Parcel,2,1,96,0,1,0.032,0.097
+HV-0515,2,Fri,"Charlotte, NC",483,Allegheny Express,Full truckload,3,0,98,0,0,0.057,0.018
+HV-0516,3,Wed,"Chicago, IL",603,Blue Ridge Lines,LTL,2,0,94,0,0,0.06,0.098
+HV-0517,3,Fri,"Philadelphia, PA",193,Allegheny Express,LTL,2,0,74,0,0,0.018,0.014
+HV-0518,2,Thu,"Philadelphia, PA",200,Blue Ridge Lines,LTL,2,0,91,0,0,0.034,0.147
+HV-0519,4,Thu,"Newark, NJ",270,Susquehanna Trucking,Full truckload,3,0,70,0,0,0.027,0.094
+HV-0520,3,Mon,"Columbus, OH",318,Keystone Freight,Full truckload,3,0,86,0,0,0.072,0.079
+HV-0521,3,Wed,"Pittsburgh, PA",131,Susquehanna Trucking,Full truckload,2,0,80,0,0,0.145,0.13
+HV-0522,5,Tue,"Columbus, OH",302,Blue Ridge Lines,Full truckload,2,0,89,0,0,0.04,0.202
+HV-0523,3,Wed,"Pittsburgh, PA",149,Blue Ridge Lines,Full truckload,4,1,92,0,0,0.044,0.27
+HV-0524,1,Thu,"Pittsburgh, PA",135,Blue Ridge Lines,Parcel,2,0,95,0,0,0.019,0.021
+HV-0525,3,Wed,"Philadelphia, PA",197,Allegheny Express,Parcel,1,0,88,0,0,0.066,0.031
+HV-0526,2,Mon,"Harrisburg, PA",86,Keystone Freight,LTL,2,0,93,0,0,0.046,0.02
+HV-0527,3,Wed,"Philadelphia, PA",191,Susquehanna Trucking,LTL,2,0,86,0,1,0.09,0.039
+HV-0528,3,Mon,"Pittsburgh, PA",147,Blue Ridge Lines,LTL,1,0,79,0,0,0.217,0.16
+HV-0529,4,Tue,"Pittsburgh, PA",141,Keystone Freight,Full truckload,2,1,79,1,1,0.076,0.514
+HV-0530,1,Mon,"Newark, NJ",272,Keystone Freight,LTL,1,0,80,0,0,0.514,0.056
+HV-0531,1,Fri,"Newark, NJ",274,Keystone Freight,Full truckload,2,0,87,0,0,0.002,0.069
+HV-0532,3,Thu,"Philadelphia, PA",205,Keystone Freight,LTL,1,1,97,0,0,0.109,0.085
+HV-0533,2,Mon,"Philadelphia, PA",213,Susquehanna Trucking,Full truckload,2,0,91,0,0,0.019,0.028
+HV-0534,2,Wed,"Newark, NJ",276,Allegheny Express,Full truckload,1,0,91,0,0,0.01,0.038
+HV-0535,5,Wed,"Columbus, OH",306,Susquehanna Trucking,Full truckload,2,0,95,0,0,0.016,0.021
+HV-0536,4,Tue,"Harrisburg, PA",96,Keystone Freight,Full truckload,2,0,88,0,0,0.008,0.014
+HV-0537,2,Tue,"Pittsburgh, PA",136,Keystone Freight,Full truckload,1,0,94,0,0,0.004,0.018
+HV-0538,1,Thu,"Harrisburg, PA",85,Keystone Freight,LTL,1,0,93,0,0,0.035,0.011
+HV-0539,1,Mon,"Pittsburgh, PA",133,Allegheny Express,Full truckload,1,0,96,0,0,0.015,0.018
+HV-0540,5,Mon,"Harrisburg, PA",92,Allegheny Express,LTL,2,0,83,1,0,0.037,0.813
+HV-0541,2,Fri,"Harrisburg, PA",90,Keystone Freight,LTL,2,0,77,0,0,0.143,0.008
+HV-0542,4,Tue,"Atlanta, GA",776,Susquehanna Trucking,Parcel,3,0,95,0,0,0.069,0.175
+HV-0543,2,Wed,"Newark, NJ",245,Blue Ridge Lines,LTL,2,0,86,0,0,0.043,0.021
+HV-0544,2,Thu,"Dallas, TX",1381,Keystone Freight,Parcel,6,0,90,0,0,0.025,0.03
+HV-0545,1,Wed,"Dallas, TX",1477,Susquehanna Trucking,LTL,6,0,97,0,0,0.133,0.079
+HV-0546,1,Wed,"Los Angeles, CA",2552,Susquehanna Trucking,LTL,7,0,95,0,0,0.367,0.048
+HV-0547,4,Thu,"Charlotte, NC",472,Susquehanna Trucking,LTL,2,0,95,0,0,0.074,0.016
+HV-0548,2,Tue,"Philadelphia, PA",190,Keystone Freight,LTL,3,0,87,0,0,0.025,0.049
+HV-0549,4,Tue,"Philadelphia, PA",195,Keystone Freight,LTL,2,0,82,0,0,0.015,0.113
+HV-0550,3,Tue,"Los Angeles, CA",2566,Blue Ridge Lines,LTL,7,0,89,1,1,0.665,0.923
+HV-0551,1,Mon,"Columbus, OH",292,Keystone Freight,Full truckload,3,1,81,0,0,0.04,0.082
+HV-0552,1,Fri,"Pittsburgh, PA",151,Keystone Freight,Full truckload,2,0,71,0,0,0.005,0.053
+HV-0553,5,Wed,"Pittsburgh, PA",131,Blue Ridge Lines,Full truckload,1,0,89,0,0,0.034,0.02
+HV-0554,2,Fri,"Pittsburgh, PA",132,Allegheny Express,Full truckload,1,0,83,0,0,0.013,0.056
+HV-0555,3,Mon,"Los Angeles, CA",2429,Keystone Freight,LTL,7,0,86,0,0,0.12,0.018
+HV-0556,5,Mon,"Pittsburgh, PA",143,Keystone Freight,LTL,2,1,87,1,1,0.08,0.337
+HV-0557,3,Wed,"Chicago, IL",638,Allegheny Express,LTL,3,0,80,0,0,0.028,0.046
+HV-0558,5,Fri,"Charlotte, NC",492,Susquehanna Trucking,Full truckload,3,0,82,0,0,0.031,0.041
+HV-0559,5,Fri,"Chicago, IL",636,Keystone Freight,Full truckload,3,1,97,0,0,0.011,0.011
+HV-0560,1,Mon,"Charlotte, NC",491,Blue Ridge Lines,Full truckload,3,0,92,0,0,0.031,0.094
+HV-0561,4,Tue,"Atlanta, GA",665,Blue Ridge Lines,LTL,3,0,84,0,0,0.31,0.07
+HV-0562,4,Mon,"Chicago, IL",613,Susquehanna Trucking,Parcel,3,0,90,0,0,0.275,0.031
+HV-0563,3,Mon,"Harrisburg, PA",96,Allegheny Express,LTL,2,0,91,0,0,0.104,0.03
+HV-0564,3,Wed,"Chicago, IL",560,Susquehanna Trucking,Full truckload,3,0,99,0,0,0.007,0.035
+HV-0565,5,Fri,"Dallas, TX",1407,Allegheny Express,Full truckload,4,0,87,0,0,0.006,0.054
+HV-0566,5,Thu,"Harrisburg, PA",92,Allegheny Express,LTL,2,0,91,0,0,0.017,0.079
+HV-0567,2,Fri,"Pittsburgh, PA",139,Allegheny Express,Parcel,2,0,81,0,0,0.06,0.039
+HV-0568,5,Mon,"Newark, NJ",271,Keystone Freight,LTL,3,0,90,0,0,0.031,0.012
+HV-0569,5,Thu,"Los Angeles, CA",2484,Keystone Freight,Full truckload,7,0,86,0,0,0.056,0.039
+HV-0570,5,Tue,"Pittsburgh, PA",132,Allegheny Express,Full truckload,2,0,89,0,0,0.002,0.042
+HV-0571,1,Tue,"Harrisburg, PA",91,Keystone Freight,LTL,1,0,84,0,0,0.126,0.043
+HV-0572,3,Mon,"Pittsburgh, PA",130,Susquehanna Trucking,LTL,1,1,88,0,0,0.344,0.095
+HV-0573,3,Tue,"Harrisburg, PA",93,Keystone Freight,LTL,2,0,90,0,0,0.025,0.012
+HV-0574,5,Fri,"Philadelphia, PA",204,Allegheny Express,LTL,2,0,83,0,0,0.028,0.063
+HV-0575,5,Thu,"Columbus, OH",284,Allegheny Express,Full truckload,2,0,87,0,0,0.008,0.046
+HV-0576,1,Mon,"Philadelphia, PA",210,Allegheny Express,Full truckload,3,1,81,1,1,0.155,0.484
+HV-0577,2,Tue,"Philadelphia, PA",214,Allegheny Express,Parcel,2,0,77,0,0,0.04,0.337
+HV-0578,5,Mon,"Harrisburg, PA",90,Susquehanna Trucking,LTL,1,0,86,0,0,0.042,0.129
+HV-0579,3,Wed,"Philadelphia, PA",215,Susquehanna Trucking,LTL,3,0,77,0,0,0.062,0.061
+HV-0580,4,Wed,"Newark, NJ",246,Allegheny Express,LTL,2,0,91,0,0,0.008,0.077
+HV-0581,4,Tue,"Dallas, TX",1356,Susquehanna Trucking,LTL,4,0,83,0,0,0.39,0.139
+HV-0582,1,Fri,"Philadelphia, PA",185,Allegheny Express,LTL,2,1,91,0,0,0.021,0.015
+HV-0583,1,Wed,"Pittsburgh, PA",148,Allegheny Express,LTL,1,0,82,0,0,0.031,0.101
+HV-0584,4,Thu,"Columbus, OH",307,Allegheny Express,LTL,3,0,74,0,0,0.015,0.027
+HV-0585,5,Mon,"Chicago, IL",571,Keystone Freight,Full truckload,4,0,84,0,0,0.024,0.006
+HV-0586,1,Mon,"Dallas, TX",1492,Keystone Freight,LTL,4,0,86,0,0,0.158,0.155
+HV-0587,4,Tue,"Charlotte, NC",485,Blue Ridge Lines,Full truckload,4,1,94,0,0,0.16,0.152
+HV-0588,3,Wed,"Dallas, TX",1487,Keystone Freight,LTL,5,1,88,0,0,0.331,0.1
+HV-0589,4,Fri,"Harrisburg, PA",93,Allegheny Express,LTL,1,0,78,0,0,0.028,0.091
+HV-0590,4,Tue,"Harrisburg, PA",94,Blue Ridge Lines,Full truckload,2,0,99,0,0,0.019,0.07
+HV-0591,5,Mon,"Los Angeles, CA",2632,Susquehanna Trucking,Full truckload,9,1,81,0,1,0.228,0.348
+HV-0592,4,Wed,"Pittsburgh, PA",149,Susquehanna Trucking,LTL,2,0,90,0,0,0.077,0.016
+HV-0593,5,Wed,"Los Angeles, CA",2489,Allegheny Express,LTL,5,1,84,0,1,0.886,0.007
+HV-0594,2,Mon,"Pittsburgh, PA",131,Keystone Freight,Full truckload,2,0,99,0,0,0.003,0.003
+HV-0595,1,Wed,"Dallas, TX",1400,Keystone Freight,Full truckload,4,0,88,0,0,0.038,0.059
+HV-0596,4,Tue,"Philadelphia, PA",185,Blue Ridge Lines,Parcel,1,0,75,0,0,0.229,0.166
+HV-0597,3,Mon,"Charlotte, NC",516,Blue Ridge Lines,Full truckload,2,0,75,0,0,0.094,0.061
+HV-0598,1,Wed,"Harrisburg, PA",91,Allegheny Express,Full truckload,2,1,86,0,0,0.041,0.096
+HV-0599,5,Tue,"Columbus, OH",304,Keystone Freight,Full truckload,3,0,93,0,0,0.005,0.085
+HV-0600,4,Fri,"Columbus, OH",297,Susquehanna Trucking,LTL,3,1,90,1,1,0.197,0.295
+HV-0601,1,Wed,"Columbus, OH",306,Keystone Freight,Parcel,2,0,90,0,0,0.001,0.019
+HV-0602,5,Mon,"Charlotte, NC",504,Keystone Freight,LTL,2,1,90,0,0,0.137,0.06
+HV-0603,3,Tue,"Pittsburgh, PA",137,Blue Ridge Lines,LTL,3,0,96,0,0,0.027,0.09
+HV-0604,2,Tue,"Philadelphia, PA",191,Blue Ridge Lines,LTL,3,0,82,0,0,0.054,0.053
+HV-0605,5,Tue,"Columbus, OH",295,Allegheny Express,Full truckload,4,0,85,0,0,0.021,0.042
+HV-0606,5,Tue,"Charlotte, NC",513,Keystone Freight,Full truckload,3,1,89,0,0,0.029,0.024
+HV-0607,4,Tue,"Harrisburg, PA",83,Allegheny Express,Full truckload,1,0,76,0,0,0.017,0.027
+HV-0608,1,Mon,"Philadelphia, PA",198,Keystone Freight,LTL,1,0,75,0,0,0.28,0.243
+HV-0609,2,Mon,"Harrisburg, PA",91,Susquehanna Trucking,Parcel,1,0,82,0,0,0.264,0.155
+HV-0610,3,Mon,"Columbus, OH",315,Susquehanna Trucking,LTL,1,0,98,0,1,0.368,0.06
+HV-0611,1,Tue,"Dallas, TX",1315,Keystone Freight,LTL,3,0,88,0,0,0.108,0.147
+HV-0612,3,Mon,"Newark, NJ",274,Keystone Freight,LTL,1,0,91,0,0,0.023,0.024
+HV-0613,2,Mon,"Newark, NJ",275,Keystone Freight,Parcel,4,0,82,0,0,0.023,0.008
+HV-0614,3,Mon,"Harrisburg, PA",95,Keystone Freight,LTL,1,0,73,0,0,0.057,0.079
+HV-0615,5,Tue,"Dallas, TX",1467,Allegheny Express,LTL,5,0,94,0,0,0.041,0.018
+HV-0616,1,Tue,"Columbus, OH",300,Allegheny Express,Parcel,3,0,80,0,0,0.002,0.021
+HV-0617,1,Mon,"Chicago, IL",587,Susquehanna Trucking,Full truckload,3,0,89,0,0,0.07,0.008
+HV-0618,4,Tue,"Pittsburgh, PA",141,Allegheny Express,Full truckload,1,0,93,0,0,0.039,0.048
+HV-0619,5,Fri,"Harrisburg, PA",92,Allegheny Express,Full truckload,2,1,81,0,0,0.046,0.019
+HV-0620,3,Mon,"Pittsburgh, PA",147,Allegheny Express,LTL,1,0,95,0,0,0.166,0.041
+HV-0621,2,Thu,"Columbus, OH",321,Susquehanna Trucking,Parcel,2,0,80,0,0,0.183,0.031
+HV-0622,5,Wed,"Chicago, IL",621,Allegheny Express,Full truckload,2,0,95,0,0,0.029,0.093
+HV-0623,3,Mon,"Columbus, OH",322,Susquehanna Trucking,LTL,3,0,90,0,0,0.106,0.041
+HV-0624,1,Wed,"Harrisburg, PA",93,Susquehanna Trucking,Full truckload,2,0,97,0,0,0.004,0.03
+HV-0625,1,Tue,"Newark, NJ",274,Blue Ridge Lines,Full truckload,3,1,97,0,0,0.145,0.037
+HV-0626,5,Fri,"Philadelphia, PA",216,Keystone Freight,Full truckload,3,0,88,0,0,0.002,0.022
+HV-0627,4,Mon,"Chicago, IL",608,Keystone Freight,Full truckload,2,0,96,0,0,0.005,0.101
+HV-0628,3,Fri,"Columbus, OH",300,Keystone Freight,LTL,2,0,93,0,0,0.017,0.075
+HV-0629,2,Tue,"Philadelphia, PA",212,Allegheny Express,Full truckload,3,0,84,0,0,0.006,0.053
+HV-0630,5,Tue,"Los Angeles, CA",2799,Allegheny Express,Parcel,8,0,86,0,1,0.29,0.043
+HV-0631,1,Tue,"Columbus, OH",321,Blue Ridge Lines,Full truckload,3,0,89,0,0,0.038,0.165
+HV-0632,4,Tue,"Chicago, IL",589,Allegheny Express,LTL,3,0,91,0,0,0.041,0.021
+HV-0633,3,Fri,"Columbus, OH",310,Allegheny Express,LTL,3,1,90,0,0,0.264,0.113
+HV-0634,1,Thu,"Harrisburg, PA",92,Allegheny Express,Full truckload,2,0,95,0,0,0.029,0.099
+HV-0635,4,Mon,"Newark, NJ",268,Susquehanna Trucking,Full truckload,2,0,95,0,0,0.044,0.161
+HV-0636,4,Wed,"Chicago, IL",627,Susquehanna Trucking,Full truckload,2,0,91,0,0,0.008,0.057
+HV-0637,2,Thu,"Chicago, IL",589,Keystone Freight,LTL,3,0,94,0,0,0.048,0.049
+HV-0638,5,Wed,"Pittsburgh, PA",133,Susquehanna Trucking,Full truckload,2,1,81,0,0,0.095,0.075
+HV-0639,5,Thu,"Pittsburgh, PA",144,Allegheny Express,Full truckload,3,0,89,0,0,0.02,0.014
+HV-0640,4,Wed,"Chicago, IL",556,Keystone Freight,Full truckload,3,0,80,0,0,0.022,0.023
+HV-0641,3,Wed,"Chicago, IL",622,Keystone Freight,LTL,5,0,91,0,0,0.044,0.055
+HV-0642,3,Tue,"Chicago, IL",620,Keystone Freight,Parcel,3,1,80,1,1,0.596,0.675
+HV-0643,5,Mon,"Chicago, IL",585,Keystone Freight,Parcel,2,0,74,0,0,0.122,0.158
+HV-0644,1,Mon,"Columbus, OH",315,Keystone Freight,Full truckload,2,0,78,0,0,0.006,0.101
+HV-0645,5,Fri,"Philadelphia, PA",213,Keystone Freight,LTL,2,0,66,0,0,0.026,0.072
+HV-0646,2,Mon,"Chicago, IL",565,Keystone Freight,LTL,3,0,99,0,0,0.068,0.005
+HV-0647,2,Mon,"Dallas, TX",1365,Allegheny Express,Full truckload,4,0,94,0,0,0.023,0.034
+HV-0648,2,Thu,"Newark, NJ",275,Allegheny Express,Full truckload,3,1,85,0,0,0.049,0.348
+HV-0649,5,Tue,"Dallas, TX",1505,Keystone Freight,LTL,5,0,88,0,0,0.006,0.025
+HV-0650,4,Wed,"Charlotte, NC",464,Allegheny Express,Full truckload,3,1,80,0,0,0.074,0.043
+HV-0651,1,Thu,"Philadelphia, PA",190,Keystone Freight,Full truckload,2,0,98,0,0,0.003,0.025
+HV-0652,3,Wed,"Chicago, IL",587,Keystone Freight,LTL,3,0,85,0,0,0.024,0.028
+HV-0653,1,Wed,"Harrisburg, PA",96,Blue Ridge Lines,Parcel,2,0,79,0,0,0.109,0.13
+HV-0654,5,Mon,"Dallas, TX",1484,Susquehanna Trucking,LTL,5,0,87,0,1,0.243,0.19
+HV-0655,5,Tue,"Los Angeles, CA",2654,Blue Ridge Lines,Full truckload,6,0,83,0,0,0.174,0.179
+HV-0656,4,Mon,"Chicago, IL",640,Allegheny Express,LTL,4,0,86,0,0,0.028,0.055
+HV-0657,5,Mon,"Newark, NJ",250,Susquehanna Trucking,LTL,2,0,98,0,0,0.071,0.026
+HV-0658,1,Mon,"Los Angeles, CA",2776,Keystone Freight,Parcel,9,0,83,0,0,0.138,0.039
+HV-0659,3,Mon,"Philadelphia, PA",206,Keystone Freight,LTL,1,0,70,0,0,0.042,0.165
+HV-0660,3,Wed,"Philadelphia, PA",213,Keystone Freight,Full truckload,3,1,80,0,0,0.004,0.023
+HV-0661,5,Fri,"Newark, NJ",261,Keystone Freight,Parcel,1,0,95,0,0,0.018,0.05
+HV-0662,2,Wed,"Philadelphia, PA",204,Susquehanna Trucking,LTL,2,0,88,0,0,0.037,0.014
+HV-0663,3,Mon,"Columbus, OH",300,Keystone Freight,LTL,1,0,82,0,0,0.025,0.027
+HV-0664,4,Thu,"Chicago, IL",606,Keystone Freight,Parcel,3,0,94,0,0,0.043,0.039
+HV-0665,2,Tue,"Philadelphia, PA",199,Allegheny Express,LTL,2,0,87,0,0,0.045,0.043
+HV-0666,3,Wed,"Philadelphia, PA",184,Susquehanna Trucking,LTL,1,0,98,0,0,0.022,0.032
+HV-0667,2,Tue,"Harrisburg, PA",91,Keystone Freight,Full truckload,1,0,90,0,0,0.006,0.089
+HV-0668,5,Wed,"Harrisburg, PA",91,Keystone Freight,LTL,2,0,98,0,0,0.004,0.044
+HV-0669,4,Fri,"Harrisburg, PA",89,Keystone Freight,Full truckload,2,0,77,0,0,0.017,0.136
+HV-0670,2,Wed,"Pittsburgh, PA",150,Allegheny Express,Full truckload,1,0,84,0,1,0.024,0.003
+HV-0671,4,Wed,"Philadelphia, PA",209,Keystone Freight,LTL,3,0,80,0,0,0.181,0.009
+HV-0672,3,Fri,"Pittsburgh, PA",149,Keystone Freight,Full truckload,2,0,78,0,0,0.021,0.093
+HV-0673,2,Thu,"Charlotte, NC",453,Keystone Freight,LTL,2,0,85,0,0,0.026,0.029
+HV-0674,4,Wed,"Newark, NJ",241,Keystone Freight,LTL,4,0,91,0,0,0.014,0.016
+HV-0675,4,Mon,"Charlotte, NC",450,Keystone Freight,Full truckload,1,0,93,0,0,0.021,0.032
+HV-0676,4,Wed,"Atlanta, GA",680,Keystone Freight,LTL,3,0,83,0,0,0.005,0.018
+HV-0677,2,Fri,"Pittsburgh, PA",141,Keystone Freight,LTL,2,0,95,0,0,0.029,0.009
+HV-0678,2,Wed,"Harrisburg, PA",86,Susquehanna Trucking,LTL,1,0,88,0,0,0.009,0.01
+HV-0679,1,Wed,"Harrisburg, PA",84,Allegheny Express,LTL,2,0,75,0,0,0.102,0.108
+HV-0680,1,Mon,"Harrisburg, PA",87,Susquehanna Trucking,Full truckload,2,0,91,0,0,0.006,0.013
+HV-0681,2,Wed,"Philadelphia, PA",195,Allegheny Express,LTL,3,0,85,0,0,0.021,0.045
+HV-0682,4,Fri,"Los Angeles, CA",2736,Blue Ridge Lines,Parcel,7,0,78,1,1,0.398,0.676
+HV-0683,3,Fri,"Philadelphia, PA",192,Allegheny Express,Parcel,2,1,86,0,0,0.22,0.102
+HV-0684,3,Mon,"Newark, NJ",247,Keystone Freight,LTL,2,1,83,0,0,0.022,0.05
+HV-0685,1,Thu,"Columbus, OH",322,Keystone Freight,Parcel,2,0,92,0,0,0.021,0.047
+HV-0686,5,Mon,"Dallas, TX",1413,Keystone Freight,LTL,4,0,98,0,0,0.067,0.008
+HV-0687,3,Mon,"Charlotte, NC",459,Allegheny Express,LTL,3,0,79,0,0,0.025,0.077
+HV-0688,2,Fri,"Pittsburgh, PA",139,Keystone Freight,LTL,2,0,98,0,0,0.002,0.009
+HV-0689,3,Fri,"Chicago, IL",643,Keystone Freight,Full truckload,3,0,96,0,0,0.012,0.038
+HV-0690,1,Tue,"Chicago, IL",614,Keystone Freight,LTL,3,0,88,0,0,0.083,0.038
+HV-0691,2,Thu,"Chicago, IL",631,Blue Ridge Lines,LTL,4,1,82,0,0,0.072,0.059
+HV-0692,5,Thu,"Charlotte, NC",452,Susquehanna Trucking,Full truckload,4,0,85,0,0,0.026,0.068
+HV-0693,2,Fri,"Dallas, TX",1408,Blue Ridge Lines,LTL,5,0,76,0,1,0.081,0.058
+HV-0694,2,Tue,"Pittsburgh, PA",135,Susquehanna Trucking,Full truckload,3,0,76,0,0,0.017,0.064
+HV-0695,4,Tue,"Harrisburg, PA",86,Susquehanna Trucking,Full truckload,2,0,87,0,0,0.024,0.02
+HV-0696,2,Tue,"Chicago, IL",613,Keystone Freight,LTL,2,0,89,0,1,0.086,0.037
+HV-0697,3,Mon,"Atlanta, GA",693,Allegheny Express,LTL,3,0,94,0,0,0.027,0.062
+HV-0698,4,Thu,"Philadelphia, PA",194,Allegheny Express,Full truckload,3,0,83,0,0,0.034,0.17
+HV-0699,4,Fri,"Pittsburgh, PA",143,Susquehanna Trucking,Full truckload,3,0,84,0,0,0.136,0.049
+HV-0700,4,Mon,"Pittsburgh, PA",136,Allegheny Express,Parcel,1,0,79,0,0,0.136,0.007
+HV-0701,4,Wed,"Newark, NJ",273,Keystone Freight,LTL,3,0,84,0,0,0.029,0.007
+HV-0702,2,Tue,"Atlanta, GA",759,Susquehanna Trucking,Full truckload,3,1,96,0,1,0.173,0.106
+HV-0703,4,Fri,"Pittsburgh, PA",139,Keystone Freight,Full truckload,1,0,78,0,0,0.015,0.051
+HV-0704,3,Tue,"Harrisburg, PA",93,Keystone Freight,Full truckload,2,0,99,0,0,0.002,0.014
+HV-0705,2,Thu,"Harrisburg, PA",97,Keystone Freight,Full truckload,1,0,93,0,0,0.001,0.058
+HV-0706,2,Fri,"Chicago, IL",572,Blue Ridge Lines,Full truckload,2,0,92,0,0,0.018,0.064
+HV-0707,1,Wed,"Dallas, TX",1323,Keystone Freight,LTL,5,0,87,0,0,0.024,0.036
+HV-0708,1,Tue,"Chicago, IL",552,Keystone Freight,Parcel,2,0,90,0,0,0.011,0.121
+HV-0709,2,Tue,"Columbus, OH",286,Blue Ridge Lines,Full truckload,3,0,88,1,0,0.074,0.758
+HV-0710,4,Mon,"Harrisburg, PA",97,Allegheny Express,Full truckload,1,0,88,0,0,0.146,0.042
+HV-0711,1,Mon,"Charlotte, NC",506,Allegheny Express,Full truckload,4,0,80,0,0,0.087,0.121
+HV-0712,4,Fri,"Dallas, TX",1350,Susquehanna Trucking,LTL,5,0,70,1,1,0.476,0.282
+HV-0713,2,Thu,"Chicago, IL",627,Susquehanna Trucking,LTL,4,1,78,0,0,0.369,0.045
+HV-0714,4,Fri,"Pittsburgh, PA",145,Allegheny Express,Full truckload,1,0,89,0,0,0.008,0.047
+HV-0715,1,Tue,"Philadelphia, PA",195,Blue Ridge Lines,Parcel,2,0,87,0,0,0.016,0.153
+HV-0716,2,Fri,"Chicago, IL",560,Keystone Freight,LTL,3,0,91,0,0,0.001,0.019
+HV-0717,5,Tue,"Pittsburgh, PA",150,Keystone Freight,Full truckload,1,0,94,0,0,0.013,0.121
+HV-0718,3,Fri,"Harrisburg, PA",85,Allegheny Express,Full truckload,2,0,76,0,0,0.008,0.04
+HV-0719,4,Mon,"Pittsburgh, PA",129,Susquehanna Trucking,LTL,1,0,86,1,1,0.209,0.525
+HV-0720,1,Mon,"Pittsburgh, PA",139,Blue Ridge Lines,Full truckload,2,0,94,0,0,0.037,0.057
+HV-0721,2,Mon,"Columbus, OH",282,Allegheny Express,LTL,3,0,99,0,0,0.09,0.004
+HV-0722,2,Thu,"Dallas, TX",1435,Susquehanna Trucking,Full truckload,4,0,87,0,0,0.051,0.045
+HV-0723,5,Wed,"Chicago, IL",627,Allegheny Express,Full truckload,3,1,85,0,0,0.143,0.133
+HV-0724,2,Thu,"Chicago, IL",626,Allegheny Express,Full truckload,3,1,86,0,0,0.184,0.035
+HV-0725,5,Fri,"Philadelphia, PA",208,Allegheny Express,LTL,1,0,89,0,0,0.046,0.082
+HV-0726,1,Wed,"Chicago, IL",609,Keystone Freight,Full truckload,4,0,89,0,0,0.004,0.036
+HV-0727,3,Wed,"Newark, NJ",266,Blue Ridge Lines,LTL,3,0,87,0,0,0.124,0.041
+HV-0728,5,Fri,"Harrisburg, PA",93,Allegheny Express,LTL,2,0,86,0,0,0.027,0.026
+HV-0729,2,Mon,"Harrisburg, PA",92,Allegheny Express,Parcel,3,0,91,0,0,0.028,0.118
+HV-0730,5,Fri,"Charlotte, NC",474,Allegheny Express,LTL,2,0,82,0,0,0.083,0.034
+HV-0731,2,Wed,"Harrisburg, PA",86,Blue Ridge Lines,Full truckload,1,0,97,0,0,0.013,0.032
+HV-0732,2,Mon,"Pittsburgh, PA",142,Blue Ridge Lines,LTL,2,0,81,1,1,0.121,0.531
+HV-0733,5,Wed,"Harrisburg, PA",84,Allegheny Express,Full truckload,1,0,83,0,0,0.037,0.022
+HV-0734,2,Thu,"Harrisburg, PA",92,Keystone Freight,LTL,2,0,91,0,0,0.023,0.014
+HV-0735,3,Tue,"Pittsburgh, PA",139,Allegheny Express,LTL,3,0,92,0,0,0.006,0.009
+HV-0736,2,Wed,"Pittsburgh, PA",135,Keystone Freight,Full truckload,3,0,81,0,0,0.001,0.023
+HV-0737,5,Fri,"Philadelphia, PA",191,Allegheny Express,LTL,2,0,84,0,0,0.035,0.095
+HV-0738,2,Wed,"Los Angeles, CA",2705,Keystone Freight,Full truckload,8,1,83,0,1,0.346,0.009
+HV-0739,5,Mon,"Harrisburg, PA",85,Blue Ridge Lines,LTL,1,0,79,0,0,0.094,0.079
+HV-0740,4,Mon,"Harrisburg, PA",86,Allegheny Express,Full truckload,2,0,82,0,0,0.016,0.015
+HV-0741,2,Fri,"Harrisburg, PA",92,Blue Ridge Lines,Full truckload,2,0,91,0,0,0.008,0.033
+HV-0742,5,Tue,"Columbus, OH",303,Keystone Freight,Full truckload,2,0,93,0,0,0.023,0.006
+HV-0743,4,Tue,"Dallas, TX",1347,Blue Ridge Lines,LTL,4,0,89,0,0,0.02,0.061
+HV-0744,5,Mon,"Dallas, TX",1296,Susquehanna Trucking,Full truckload,5,0,84,0,1,0.115,0.164
+HV-0745,5,Tue,"Philadelphia, PA",190,Susquehanna Trucking,Full truckload,2,0,91,0,0,0.006,0.021
+HV-0746,5,Tue,"Atlanta, GA",704,Keystone Freight,Full truckload,3,1,81,0,0,0.029,0.165
+HV-0747,1,Tue,"Pittsburgh, PA",135,Keystone Freight,LTL,2,0,93,0,0,0.025,0.01
+HV-0748,1,Mon,"Columbus, OH",303,Allegheny Express,LTL,4,0,87,0,0,0.097,0.089
+HV-0749,5,Tue,"Columbus, OH",282,Keystone Freight,Full truckload,3,1,96,0,0,0.136,0.013
+HV-0750,2,Mon,"Dallas, TX",1319,Keystone Freight,Full truckload,4,0,91,0,0,0.009,0.095
+HV-0751,5,Wed,"Philadelphia, PA",184,Allegheny Express,Full truckload,3,0,81,0,0,0.007,0.051
+HV-0752,5,Thu,"Columbus, OH",296,Allegheny Express,LTL,1,0,88,0,1,0.017,0.04
+HV-0753,2,Fri,"Columbus, OH",295,Keystone Freight,Full truckload,3,0,85,0,0,0.0,0.044
+HV-0754,4,Wed,"Harrisburg, PA",88,Keystone Freight,Full truckload,3,0,80,0,0,0.006,0.02
+HV-0755,1,Wed,"Philadelphia, PA",203,Keystone Freight,Full truckload,1,0,84,0,0,0.036,0.027
+HV-0756,1,Thu,"Philadelphia, PA",211,Allegheny Express,Full truckload,2,0,91,0,0,0.052,0.055
+HV-0757,5,Wed,"Philadelphia, PA",205,Allegheny Express,LTL,3,1,82,0,0,0.066,0.12
+HV-0758,2,Tue,"Harrisburg, PA",93,Keystone Freight,Full truckload,2,0,83,0,0,0.008,0.009
+HV-0759,2,Tue,"Harrisburg, PA",91,Susquehanna Trucking,LTL,2,1,95,0,1,0.555,0.034
+HV-0760,4,Mon,"Harrisburg, PA",94,Keystone Freight,Parcel,2,1,94,0,0,0.06,0.018
+HV-0761,3,Mon,"Chicago, IL",566,Susquehanna Trucking,LTL,2,0,89,0,0,0.119,0.021
+HV-0762,1,Wed,"Pittsburgh, PA",141,Allegheny Express,LTL,1,1,93,0,0,0.328,0.151
+HV-0763,4,Mon,"Chicago, IL",579,Keystone Freight,Full truckload,2,0,81,0,0,0.009,0.027
+HV-0764,4,Thu,"Dallas, TX",1467,Allegheny Express,LTL,3,0,99,0,0,0.065,0.023
+HV-0765,1,Thu,"Philadelphia, PA",202,Blue Ridge Lines,Full truckload,3,0,91,0,0,0.009,0.056
+HV-0766,2,Tue,"Columbus, OH",285,Keystone Freight,LTL,3,0,85,0,0,0.038,0.036
+HV-0767,3,Mon,"Harrisburg, PA",96,Keystone Freight,LTL,1,0,84,0,0,0.052,0.034
+HV-0768,3,Fri,"Charlotte, NC",486,Blue Ridge Lines,LTL,2,0,84,0,0,0.207,0.152
+HV-0769,1,Mon,"Charlotte, NC",503,Susquehanna Trucking,Full truckload,3,0,99,0,0,0.014,0.02
+HV-0770,1,Fri,"Atlanta, GA",748,Allegheny Express,Parcel,4,0,73,0,0,0.158,0.032
+HV-0771,4,Thu,"Atlanta, GA",716,Susquehanna Trucking,LTL,4,0,89,0,0,0.096,0.06
+HV-0772,3,Thu,"Charlotte, NC",451,Susquehanna Trucking,Full truckload,3,0,86,0,0,0.022,0.086
+HV-0773,3,Thu,"Dallas, TX",1422,Blue Ridge Lines,Full truckload,5,0,87,0,0,0.297,0.087
+HV-0774,5,Thu,"Pittsburgh, PA",142,Keystone Freight,Full truckload,1,0,96,0,0,0.003,0.016
+HV-0775,4,Tue,"Philadelphia, PA",189,Allegheny Express,LTL,1,0,81,0,0,0.049,0.069
+HV-0776,5,Mon,"Newark, NJ",268,Allegheny Express,LTL,2,0,82,0,0,0.08,0.012
+HV-0777,1,Fri,"Harrisburg, PA",85,Keystone Freight,Full truckload,2,0,72,0,0,0.012,0.022
+HV-0778,5,Tue,"Los Angeles, CA",2515,Keystone Freight,Full truckload,6,0,99,0,0,0.049,0.022
+HV-0779,5,Mon,"Philadelphia, PA",205,Blue Ridge Lines,Full truckload,2,0,84,0,0,0.043,0.033
+HV-0780,5,Mon,"Chicago, IL",585,Keystone Freight,LTL,3,0,91,0,0,0.004,0.008
+HV-0781,1,Mon,"Dallas, TX",1443,Susquehanna Trucking,Full truckload,8,0,89,0,0,0.048,0.023
+HV-0782,4,Wed,"Atlanta, GA",691,Blue Ridge Lines,Full truckload,2,0,94,0,0,0.108,0.035
+HV-0783,1,Tue,"Charlotte, NC",454,Susquehanna Trucking,Full truckload,2,1,99,0,0,0.14,0.04
+HV-0784,3,Mon,"Atlanta, GA",711,Keystone Freight,Full truckload,2,0,98,0,0,0.004,0.221
+HV-0785,2,Mon,"Pittsburgh, PA",138,Susquehanna Trucking,Full truckload,3,0,73,0,0,0.12,0.261
+HV-0786,1,Thu,"Los Angeles, CA",2489,Keystone Freight,Full truckload,7,1,90,1,1,0.634,0.352
+HV-0787,1,Mon,"Dallas, TX",1384,Blue Ridge Lines,Parcel,5,0,84,0,0,0.262,0.082
+HV-0788,2,Fri,"Pittsburgh, PA",150,Allegheny Express,Parcel,2,0,75,0,0,0.01,0.017
+HV-0789,3,Wed,"Harrisburg, PA",95,Susquehanna Trucking,Parcel,2,0,88,0,0,0.004,0.015
+HV-0790,5,Mon,"Chicago, IL",572,Keystone Freight,LTL,3,0,89,0,0,0.004,0.025
+HV-0791,2,Fri,"Pittsburgh, PA",144,Allegheny Express,LTL,1,0,84,0,0,0.282,0.15
+HV-0792,5,Fri,"Columbus, OH",286,Susquehanna Trucking,LTL,4,0,99,0,0,0.043,0.07
+HV-0793,2,Fri,"Charlotte, NC",499,Susquehanna Trucking,Full truckload,3,0,98,0,0,0.017,0.029
+HV-0794,5,Wed,"Harrisburg, PA",83,Blue Ridge Lines,Parcel,1,1,88,0,0,0.22,0.086
+HV-0795,1,Fri,"Pittsburgh, PA",129,Keystone Freight,Full truckload,2,0,75,0,0,0.005,0.034
+HV-0796,5,Mon,"Columbus, OH",304,Susquehanna Trucking,Full truckload,2,0,71,0,0,0.041,0.07
+HV-0797,1,Thu,"Philadelphia, PA",212,Keystone Freight,Full truckload,1,0,98,0,0,0.052,0.056
+HV-0798,4,Wed,"Los Angeles, CA",2749,Keystone Freight,Full truckload,8,0,88,0,0,0.007,0.134
+HV-0799,5,Wed,"Chicago, IL",592,Keystone Freight,LTL,4,1,99,0,0,0.066,0.096
+HV-0800,1,Fri,"Chicago, IL",602,Keystone Freight,Full truckload,4,0,80,0,0,0.003,0.041
+HV-0801,3,Wed,"Newark, NJ",269,Keystone Freight,Full truckload,2,0,79,0,0,0.003,0.043
+HV-0802,5,Mon,"Charlotte, NC",510,Allegheny Express,Full truckload,1,0,91,0,0,0.033,0.007
+HV-0803,4,Tue,"Newark, NJ",270,Keystone Freight,Full truckload,3,1,83,0,0,0.113,0.134
+HV-0804,4,Wed,"Newark, NJ",279,Allegheny Express,Full truckload,2,0,87,0,0,0.043,0.034
+HV-0805,1,Fri,"Philadelphia, PA",207,Susquehanna Trucking,LTL,1,0,89,0,0,0.436,0.068
+HV-0806,3,Thu,"Columbus, OH",295,Keystone Freight,Parcel,2,0,83,1,1,0.003,0.793
+HV-0807,4,Wed,"Philadelphia, PA",213,Blue Ridge Lines,Full truckload,4,0,90,0,0,0.05,0.048
+HV-0808,2,Mon,"Philadelphia, PA",203,Keystone Freight,LTL,1,0,87,0,0,0.393,0.021
+HV-0809,3,Thu,"Chicago, IL",606,Keystone Freight,Full truckload,2,0,83,0,0,0.002,0.01
+HV-0810,3,Thu,"Newark, NJ",259,Keystone Freight,LTL,2,0,88,0,0,0.014,0.109
+HV-0811,3,Thu,"Columbus, OH",314,Susquehanna Trucking,LTL,2,0,83,0,0,0.418,0.022
+HV-0812,1,Mon,"Philadelphia, PA",216,Blue Ridge Lines,Full truckload,3,0,85,0,0,0.032,0.065
+HV-0813,4,Thu,"Harrisburg, PA",92,Allegheny Express,Full truckload,1,0,89,0,0,0.027,0.042
+HV-0814,1,Mon,"Chicago, IL",600,Susquehanna Trucking,Full truckload,3,0,90,0,0,0.079,0.152
+HV-0815,3,Fri,"Harrisburg, PA",92,Allegheny Express,LTL,2,0,82,0,0,0.078,0.071
+HV-0816,2,Fri,"Philadelphia, PA",194,Allegheny Express,Full truckload,3,0,96,0,0,0.012,0.115
+HV-0817,4,Mon,"Pittsburgh, PA",147,Susquehanna Trucking,LTL,2,0,91,0,0,0.141,0.025
+HV-0818,2,Mon,"Newark, NJ",279,Keystone Freight,LTL,1,0,95,0,0,0.075,0.116
+HV-0819,5,Fri,"Columbus, OH",308,Susquehanna Trucking,LTL,1,0,88,0,0,0.121,0.024
+HV-0820,5,Mon,"Pittsburgh, PA",133,Keystone Freight,Full truckload,1,0,95,0,0,0.006,0.024
+HV-0821,3,Thu,"Pittsburgh, PA",148,Keystone Freight,LTL,3,0,86,0,0,0.007,0.116
+HV-0822,2,Tue,"Charlotte, NC",508,Allegheny Express,Full truckload,4,1,98,0,0,0.025,0.008
+HV-0823,3,Wed,"Harrisburg, PA",85,Keystone Freight,Full truckload,3,0,99,0,0,0.001,0.02
+HV-0824,1,Mon,"Atlanta, GA",682,Keystone Freight,LTL,3,0,85,0,0,0.071,0.015
+HV-0825,2,Thu,"Atlanta, GA",742,Allegheny Express,LTL,3,0,82,0,0,0.023,0.137
+HV-0826,4,Mon,"Charlotte, NC",507,Keystone Freight,Full truckload,3,0,75,0,0,0.022,0.015
+HV-0827,1,Mon,"Philadelphia, PA",202,Allegheny Express,Full truckload,2,1,86,0,0,0.027,0.074
+HV-0828,1,Fri,"Pittsburgh, PA",131,Allegheny Express,Parcel,1,0,91,0,0,0.017,0.045
+HV-0829,5,Fri,"Charlotte, NC",473,Susquehanna Trucking,LTL,5,0,86,0,0,0.024,0.093
+HV-0830,5,Thu,"Chicago, IL",646,Keystone Freight,Full truckload,2,0,86,0,0,0.058,0.012
+HV-0831,3,Fri,"Newark, NJ",269,Keystone Freight,LTL,3,0,74,0,0,0.055,0.076
+HV-0832,5,Fri,"Atlanta, GA",739,Allegheny Express,Parcel,5,0,69,0,0,0.035,0.013
+HV-0833,4,Tue,"Charlotte, NC",479,Susquehanna Trucking,Parcel,4,0,91,0,0,0.033,0.034
+HV-0834,3,Mon,"Charlotte, NC",462,Keystone Freight,Parcel,2,0,77,0,0,0.01,0.037
+HV-0835,3,Fri,"Charlotte, NC",495,Keystone Freight,Full truckload,3,0,93,0,0,0.01,0.027
+HV-0836,3,Fri,"Harrisburg, PA",87,Keystone Freight,Full truckload,2,0,88,0,0,0.019,0.016
+HV-0837,3,Mon,"Atlanta, GA",743,Keystone Freight,Full truckload,4,0,85,0,0,0.006,0.03
+HV-0838,3,Tue,"Atlanta, GA",708,Susquehanna Trucking,LTL,2,0,82,0,0,0.111,0.146
+HV-0839,4,Mon,"Los Angeles, CA",2780,Allegheny Express,Full truckload,7,0,84,0,0,0.161,0.153
+HV-0840,2,Wed,"Pittsburgh, PA",145,Allegheny Express,LTL,1,0,79,0,0,0.028,0.03
+HV-0841,5,Mon,"Pittsburgh, PA",133,Keystone Freight,Full truckload,1,0,94,0,0,0.012,0.025
+HV-0842,2,Mon,"Newark, NJ",257,Allegheny Express,Parcel,2,0,86,1,1,0.09,0.681
+HV-0843,2,Fri,"Harrisburg, PA",83,Susquehanna Trucking,Parcel,1,0,80,0,0,0.147,0.115
+HV-0844,2,Mon,"Los Angeles, CA",2569,Keystone Freight,Full truckload,7,0,99,0,0,0.034,0.039
+HV-0845,3,Mon,"Columbus, OH",291,Allegheny Express,LTL,1,0,84,1,1,0.264,0.333
+HV-0846,1,Thu,"Pittsburgh, PA",135,Allegheny Express,LTL,2,0,99,0,0,0.004,0.062
+HV-0847,2,Wed,"Chicago, IL",581,Keystone Freight,LTL,3,1,84,0,0,0.11,0.087
+HV-0848,2,Mon,"Columbus, OH",283,Allegheny Express,Full truckload,2,0,92,0,0,0.014,0.047
+HV-0849,1,Tue,"Chicago, IL",640,Allegheny Express,LTL,2,0,81,0,0,0.019,0.01
+HV-0850,3,Tue,"Pittsburgh, PA",141,Keystone Freight,Full truckload,1,0,88,0,0,0.007,0.002
+HV-0851,2,Mon,"Columbus, OH",324,Susquehanna Trucking,Full truckload,4,0,91,0,0,0.011,0.014
+HV-0852,3,Thu,"Charlotte, NC",480,Susquehanna Trucking,Full truckload,3,1,77,0,0,0.276,0.13
+HV-0853,3,Fri,"Newark, NJ",277,Allegheny Express,Parcel,2,1,91,0,0,0.032,0.065
+HV-0854,2,Thu,"Atlanta, GA",695,Keystone Freight,Full truckload,3,1,83,0,0,0.046,0.04
+HV-0855,1,Fri,"Newark, NJ",267,Susquehanna Trucking,LTL,2,0,81,0,0,0.016,0.211
+HV-0856,5,Fri,"Chicago, IL",640,Allegheny Express,Parcel,4,1,97,0,0,0.024,0.113
+HV-0857,3,Mon,"Atlanta, GA",688,Keystone Freight,LTL,3,0,86,0,0,0.078,0.125
+HV-0858,4,Tue,"Harrisburg, PA",85,Allegheny Express,LTL,1,1,77,1,1,0.212,0.601
+HV-0859,2,Wed,"Columbus, OH",306,Susquehanna Trucking,Full truckload,2,0,81,0,0,0.094,0.075
+HV-0860,2,Wed,"Charlotte, NC",484,Allegheny Express,LTL,4,0,97,0,0,0.019,0.026
+HV-0861,2,Thu,"Charlotte, NC",452,Allegheny Express,Parcel,3,0,82,0,0,0.025,0.063
+HV-0862,1,Mon,"Columbus, OH",290,Blue Ridge Lines,LTL,2,1,91,0,0,0.15,0.149
+HV-0863,5,Wed,"Dallas, TX",1397,Keystone Freight,LTL,6,1,99,0,0,0.036,0.065
+HV-0864,2,Tue,"Pittsburgh, PA",145,Allegheny Express,Full truckload,2,1,96,0,0,0.02,0.067
+HV-0865,4,Thu,"Pittsburgh, PA",141,Allegheny Express,LTL,3,0,90,0,0,0.019,0.198
+HV-0866,5,Mon,"Harrisburg, PA",94,Susquehanna Trucking,Full truckload,2,0,80,0,0,0.08,0.317
+HV-0867,2,Fri,"Harrisburg, PA",97,Keystone Freight,LTL,1,0,99,0,0,0.022,0.14
+HV-0868,3,Thu,"Philadelphia, PA",192,Allegheny Express,Full truckload,2,0,91,0,0,0.078,0.004
+HV-0869,4,Mon,"Pittsburgh, PA",143,Allegheny Express,Parcel,2,1,98,0,0,0.019,0.134
+HV-0870,2,Mon,"Harrisburg, PA",91,Keystone Freight,LTL,4,0,95,0,0,0.011,0.007
+HV-0871,5,Wed,"Charlotte, NC",471,Allegheny Express,Full truckload,2,0,79,0,1,0.079,0.102
+HV-0872,2,Wed,"Harrisburg, PA",92,Allegheny Express,LTL,2,1,78,0,0,0.356,0.362
+HV-0873,2,Thu,"Los Angeles, CA",2684,Susquehanna Trucking,Full truckload,7,1,90,0,0,0.199,0.079
+HV-0874,4,Fri,"Newark, NJ",280,Keystone Freight,LTL,3,0,82,0,0,0.011,0.094
+HV-0875,3,Thu,"Columbus, OH",288,Blue Ridge Lines,Full truckload,2,0,88,0,0,0.01,0.095
+HV-0876,3,Thu,"Pittsburgh, PA",140,Keystone Freight,Parcel,2,0,88,0,0,0.006,0.178
+HV-0877,3,Wed,"Newark, NJ",277,Keystone Freight,Full truckload,1,0,89,0,0,0.027,0.027
+HV-0878,5,Fri,"Philadelphia, PA",188,Keystone Freight,Full truckload,3,0,91,0,0,0.013,0.059
+HV-0879,4,Tue,"Charlotte, NC",476,Keystone Freight,LTL,2,0,75,0,0,0.068,0.056
+HV-0880,1,Fri,"Newark, NJ",241,Allegheny Express,Full truckload,2,0,89,0,0,0.067,0.049
+HV-0881,3,Thu,"Philadelphia, PA",197,Susquehanna Trucking,LTL,1,0,86,0,0,0.1,0.034
+HV-0882,3,Thu,"Charlotte, NC",480,Susquehanna Trucking,Parcel,1,0,78,1,1,0.103,0.261
+HV-0883,5,Thu,"Pittsburgh, PA",139,Allegheny Express,Full truckload,2,1,82,0,0,0.064,0.028
+HV-0884,2,Mon,"Columbus, OH",296,Susquehanna Trucking,Full truckload,1,0,75,0,0,0.083,0.018
+HV-0885,4,Thu,"Dallas, TX",1475,Keystone Freight,Parcel,4,0,88,0,0,0.096,0.037
+HV-0886,3,Wed,"Philadelphia, PA",202,Susquehanna Trucking,LTL,2,0,91,0,0,0.123,0.048
+HV-0887,1,Wed,"Atlanta, GA",750,Allegheny Express,LTL,4,1,85,0,0,0.211,0.084
+HV-0888,5,Mon,"Charlotte, NC",468,Keystone Freight,LTL,2,1,84,0,0,0.025,0.021
+HV-0889,1,Wed,"Newark, NJ",278,Keystone Freight,Full truckload,3,0,81,0,0,0.022,0.024
+HV-0890,3,Wed,"Harrisburg, PA",95,Keystone Freight,Full truckload,1,1,97,0,0,0.06,0.022
+HV-0891,5,Mon,"Chicago, IL",557,Susquehanna Trucking,Full truckload,1,0,93,0,0,0.011,0.052
+HV-0892,2,Fri,"Chicago, IL",568,Keystone Freight,Full truckload,1,0,92,0,0,0.032,0.045
+HV-0893,3,Thu,"Newark, NJ",258,Susquehanna Trucking,Full truckload,2,0,90,0,0,0.144,0.019
+HV-0894,5,Wed,"Chicago, IL",617,Allegheny Express,LTL,4,0,76,0,0,0.077,0.049
+HV-0895,1,Wed,"Columbus, OH",299,Blue Ridge Lines,Full truckload,3,0,99,0,0,0.058,0.012
+HV-0896,1,Fri,"Atlanta, GA",729,Keystone Freight,LTL,3,0,94,0,0,0.012,0.051
+HV-0897,2,Wed,"Charlotte, NC",464,Allegheny Express,Full truckload,4,0,94,1,1,0.012,0.141
+HV-0898,5,Tue,"Philadelphia, PA",192,Keystone Freight,LTL,2,1,81,0,0,0.073,0.072
+HV-0899,2,Wed,"Pittsburgh, PA",151,Blue Ridge Lines,Full truckload,2,0,70,0,0,0.105,0.014
+HV-0900,1,Tue,"Columbus, OH",287,Allegheny Express,LTL,3,1,88,0,0,0.013,0.082
+HV-0901,2,Fri,"Columbus, OH",285,Blue Ridge Lines,LTL,2,0,84,0,1,0.149,0.099
+HV-0902,4,Mon,"Newark, NJ",279,Allegheny Express,Full truckload,4,1,91,0,0,0.006,0.057
+HV-0903,2,Fri,"Charlotte, NC",453,Blue Ridge Lines,LTL,2,0,92,0,0,0.037,0.052
+HV-0904,2,Mon,"Pittsburgh, PA",144,Susquehanna Trucking,Full truckload,1,0,84,0,0,0.09,0.055
+HV-0905,3,Wed,"Philadelphia, PA",190,Keystone Freight,LTL,2,0,82,0,0,0.036,0.058
+HV-0906,2,Thu,"Philadelphia, PA",210,Keystone Freight,Parcel,2,0,89,0,0,0.001,0.014
+HV-0907,4,Mon,"Philadelphia, PA",198,Allegheny Express,LTL,2,0,94,0,0,0.054,0.024
+HV-0908,3,Tue,"Newark, NJ",268,Keystone Freight,LTL,3,0,83,0,0,0.019,0.03
+HV-0909,5,Thu,"Harrisburg, PA",91,Blue Ridge Lines,Full truckload,1,0,91,0,0,0.017,0.016
+HV-0910,5,Wed,"Pittsburgh, PA",133,Susquehanna Trucking,LTL,2,1,99,0,0,0.18,0.019
+HV-0911,4,Mon,"Harrisburg, PA",89,Susquehanna Trucking,Full truckload,3,0,88,0,0,0.019,0.028
+HV-0912,5,Tue,"Chicago, IL",584,Allegheny Express,Parcel,3,0,89,0,0,0.05,0.016
+HV-0913,3,Tue,"Harrisburg, PA",83,Keystone Freight,LTL,1,1,91,0,0,0.102,0.121
+HV-0914,2,Mon,"Harrisburg, PA",95,Susquehanna Trucking,LTL,2,0,86,0,0,0.036,0.032
+HV-0915,1,Thu,"Pittsburgh, PA",141,Keystone Freight,Full truckload,1,1,83,0,0,0.028,0.066
+HV-0916,4,Thu,"Charlotte, NC",463,Blue Ridge Lines,Full truckload,1,0,87,0,0,0.311,0.137
+HV-0917,4,Tue,"Charlotte, NC",457,Allegheny Express,Full truckload,3,0,88,0,0,0.013,0.076
+HV-0918,4,Thu,"Philadelphia, PA",196,Susquehanna Trucking,LTL,3,0,79,0,0,0.039,0.061
+HV-0919,3,Thu,"Pittsburgh, PA",150,Keystone Freight,LTL,1,0,82,0,0,0.126,0.036
+HV-0920,3,Fri,"Atlanta, GA",762,Keystone Freight,Full truckload,3,0,81,0,0,0.034,0.006
+HV-0921,1,Wed,"Columbus, OH",292,Blue Ridge Lines,Full truckload,3,1,81,0,0,0.076,0.126
+HV-0922,4,Tue,"Philadelphia, PA",193,Allegheny Express,Full truckload,2,0,80,0,0,0.057,0.103
+HV-0923,5,Fri,"Harrisburg, PA",84,Susquehanna Trucking,LTL,2,1,99,0,0,0.137,0.052
+HV-0924,4,Wed,"Chicago, IL",606,Blue Ridge Lines,Full truckload,3,0,87,0,0,0.335,0.019
+HV-0925,4,Fri,"Dallas, TX",1472,Susquehanna Trucking,Parcel,5,0,86,0,1,0.255,0.059
+HV-0926,3,Tue,"Columbus, OH",319,Susquehanna Trucking,LTL,2,0,85,0,0,0.049,0.024
+HV-0927,1,Wed,"Harrisburg, PA",93,Keystone Freight,Full truckload,3,0,96,0,0,0.0,0.013
+HV-0928,2,Thu,"Atlanta, GA",770,Keystone Freight,Full truckload,2,0,84,0,0,0.021,0.055
+HV-0929,2,Fri,"Philadelphia, PA",210,Allegheny Express,Parcel,2,0,89,0,0,0.003,0.009
+HV-0930,2,Mon,"Columbus, OH",308,Allegheny Express,Parcel,3,0,92,0,0,0.046,0.029
+HV-0931,4,Fri,"Columbus, OH",320,Allegheny Express,Full truckload,3,0,88,0,0,0.006,0.017
+HV-0932,5,Tue,"Dallas, TX",1316,Allegheny Express,LTL,8,0,80,0,0,0.08,0.076
+HV-0933,1,Tue,"Philadelphia, PA",195,Blue Ridge Lines,LTL,2,0,91,0,0,0.282,0.049
+HV-0934,5,Tue,"Newark, NJ",262,Susquehanna Trucking,Full truckload,3,1,90,0,0,0.103,0.095
+HV-0935,1,Thu,"Charlotte, NC",460,Allegheny Express,Full truckload,1,0,98,0,0,0.119,0.036
+HV-0936,2,Tue,"Columbus, OH",288,Blue Ridge Lines,Full truckload,2,1,99,0,0,0.047,0.269
+HV-0937,1,Tue,"Columbus, OH",300,Susquehanna Trucking,LTL,2,0,87,0,0,0.03,0.024
+HV-0938,4,Tue,"Chicago, IL",602,Allegheny Express,Full truckload,3,0,72,0,0,0.045,0.041
+HV-0939,4,Tue,"Pittsburgh, PA",139,Keystone Freight,Full truckload,2,0,88,0,0,0.015,0.016
+HV-0940,5,Tue,"Atlanta, GA",688,Keystone Freight,Full truckload,2,1,94,0,0,0.013,0.213
+HV-0941,5,Fri,"Newark, NJ",269,Keystone Freight,Full truckload,3,0,95,0,0,0.034,0.008
+HV-0942,2,Thu,"Harrisburg, PA",87,Keystone Freight,Full truckload,4,0,75,1,1,0.055,0.54
+HV-0943,1,Thu,"Atlanta, GA",665,Allegheny Express,LTL,2,0,77,0,0,0.119,0.04
+HV-0944,5,Thu,"Harrisburg, PA",83,Keystone Freight,Full truckload,1,0,81,0,0,0.032,0.005
+HV-0945,1,Wed,"Harrisburg, PA",90,Blue Ridge Lines,LTL,1,0,75,0,0,0.347,0.022
+HV-0946,1,Thu,"Chicago, IL",602,Allegheny Express,LTL,4,0,85,0,0,0.059,0.026
+HV-0947,2,Thu,"Los Angeles, CA",2447,Keystone Freight,Full truckload,7,0,95,0,0,0.105,0.058
+HV-0948,2,Fri,"Harrisburg, PA",86,Allegheny Express,LTL,2,0,95,0,0,0.017,0.095
+HV-0949,4,Fri,"Pittsburgh, PA",142,Keystone Freight,LTL,2,0,81,0,0,0.024,0.049
+HV-0950,2,Fri,"Newark, NJ",255,Susquehanna Trucking,Full truckload,3,0,89,0,0,0.021,0.013
+HV-0951,2,Tue,"Philadelphia, PA",212,Keystone Freight,Full truckload,3,0,85,0,0,0.005,0.032
+HV-0952,1,Mon,"Newark, NJ",241,Blue Ridge Lines,Parcel,3,0,88,0,0,0.001,0.029
+HV-0953,5,Mon,"Philadelphia, PA",206,Allegheny Express,LTL,3,0,96,0,0,0.017,0.019
+HV-0954,3,Wed,"Harrisburg, PA",85,Keystone Freight,Full truckload,2,1,99,0,0,0.002,0.021
+HV-0955,4,Mon,"Pittsburgh, PA",144,Allegheny Express,LTL,3,0,91,0,0,0.011,0.034
+HV-0956,2,Tue,"Newark, NJ",264,Keystone Freight,Full truckload,3,1,90,0,0,0.015,0.03
+HV-0957,4,Wed,"Pittsburgh, PA",148,Blue Ridge Lines,LTL,1,0,99,0,0,0.02,0.011
+HV-0958,2,Thu,"Harrisburg, PA",88,Blue Ridge Lines,Full truckload,2,1,89,0,0,0.012,0.131
+HV-0959,1,Fri,"Pittsburgh, PA",147,Keystone Freight,LTL,2,0,89,0,0,0.015,0.003
+HV-0960,2,Thu,"Chicago, IL",577,Keystone Freight,Parcel,4,0,94,0,0,0.003,0.01
+HV-0961,4,Tue,"Philadelphia, PA",208,Blue Ridge Lines,Full truckload,3,0,96,0,0,0.044,0.056
+HV-0962,5,Fri,"Pittsburgh, PA",131,Keystone Freight,Full truckload,2,1,88,0,0,0.035,0.035
+HV-0963,4,Fri,"Atlanta, GA",673,Keystone Freight,Full truckload,2,0,71,0,0,0.007,0.01
+HV-0964,3,Thu,"Los Angeles, CA",2787,Keystone Freight,LTL,6,0,86,0,0,0.294,0.009
+HV-0965,3,Mon,"Columbus, OH",292,Allegheny Express,LTL,1,0,88,0,0,0.164,0.173
+HV-0966,1,Mon,"Charlotte, NC",456,Allegheny Express,LTL,3,0,99,0,0,0.004,0.025
+HV-0967,1,Mon,"Atlanta, GA",753,Keystone Freight,LTL,2,0,96,0,0,0.162,0.009
+HV-0968,1,Mon,"Harrisburg, PA",85,Susquehanna Trucking,Full truckload,2,0,96,0,0,0.014,0.03
+HV-0969,5,Tue,"Atlanta, GA",695,Allegheny Express,LTL,3,0,79,0,0,0.05,0.011
+HV-0970,2,Fri,"Pittsburgh, PA",131,Allegheny Express,Full truckload,1,1,86,0,0,0.072,0.019
+HV-0971,1,Mon,"Atlanta, GA",747,Blue Ridge Lines,Full truckload,5,0,83,0,0,0.054,0.173
+HV-0972,5,Thu,"Los Angeles, CA",2653,Keystone Freight,Full truckload,7,0,88,0,0,0.17,0.097
+HV-0973,3,Fri,"Chicago, IL",643,Allegheny Express,LTL,3,0,99,0,0,0.013,0.064
+HV-0974,1,Mon,"Philadelphia, PA",207,Keystone Freight,Full truckload,1,0,99,0,0,0.004,0.055
+HV-0975,3,Wed,"Harrisburg, PA",93,Allegheny Express,Full truckload,1,0,99,0,0,0.004,0.079
+HV-0976,2,Fri,"Columbus, OH",299,Susquehanna Trucking,Full truckload,2,0,83,0,0,0.024,0.013
+HV-0977,1,Thu,"Harrisburg, PA",86,Keystone Freight,Full truckload,3,0,81,0,0,0.01,0.008
+HV-0978,1,Tue,"Philadelphia, PA",196,Keystone Freight,LTL,3,0,82,0,0,0.005,0.06
+HV-0979,1,Fri,"Harrisburg, PA",85,Allegheny Express,Full truckload,3,0,91,0,0,0.008,0.027
+HV-0980,1,Tue,"Pittsburgh, PA",137,Blue Ridge Lines,LTL,2,0,65,0,0,0.011,0.159
+HV-0981,2,Tue,"Dallas, TX",1407,Keystone Freight,Full truckload,4,0,94,0,0,0.004,0.027
+HV-0982,1,Tue,"Harrisburg, PA",88,Allegheny Express,Full truckload,1,0,90,0,0,0.032,0.114
+HV-0983,2,Tue,"Chicago, IL",576,Susquehanna Trucking,LTL,3,0,81,0,0,0.115,0.057
+HV-0984,4,Fri,"Charlotte, NC",481,Blue Ridge Lines,Full truckload,3,0,80,0,0,0.014,0.148
+HV-0985,4,Fri,"Philadelphia, PA",188,Keystone Freight,Full truckload,1,0,83,0,0,0.013,0.022
+HV-0986,5,Mon,"Columbus, OH",301,Keystone Freight,Full truckload,3,0,88,0,0,0.003,0.081
+HV-0987,1,Tue,"Newark, NJ",266,Keystone Freight,LTL,1,0,78,0,0,0.154,0.024
+HV-0988,4,Mon,"Los Angeles, CA",2413,Keystone Freight,Full truckload,9,0,92,0,0,0.07,0.339
+HV-0989,4,Wed,"Newark, NJ",279,Allegheny Express,LTL,2,0,78,0,0,0.073,0.012
+HV-0990,5,Wed,"Chicago, IL",634,Allegheny Express,LTL,3,1,92,0,0,0.148,0.086
+HV-0991,4,Fri,"Pittsburgh, PA",133,Keystone Freight,LTL,3,0,94,0,0,0.003,0.078
+HV-0992,1,Thu,"Los Angeles, CA",2676,Susquehanna Trucking,LTL,7,0,83,0,1,0.744,0.469
+HV-0993,4,Mon,"Philadelphia, PA",209,Blue Ridge Lines,LTL,1,0,94,1,1,0.501,0.612
+HV-0994,4,Tue,"Chicago, IL",614,Allegheny Express,LTL,2,0,83,0,0,0.027,0.026
+HV-0995,1,Wed,"Chicago, IL",639,Blue Ridge Lines,Full truckload,3,1,93,0,0,0.072,0.098
+HV-0996,1,Thu,"Philadelphia, PA",205,Keystone Freight,LTL,1,0,85,0,0,0.02,0.008
+HV-0997,4,Mon,"Chicago, IL",604,Blue Ridge Lines,Full truckload,2,0,85,1,0,0.059,0.378
+HV-0998,3,Wed,"Columbus, OH",300,Allegheny Express,Parcel,3,0,91,0,0,0.099,0.027
+HV-0999,3,Fri,"Columbus, OH",283,Susquehanna Trucking,Parcel,3,0,87,0,0,0.05,0.02
+HV-1000,2,Tue,"Charlotte, NC",496,Allegheny Express,Parcel,2,0,93,1,0,0.012,0.406
+HV-1001,5,Wed,"Philadelphia, PA",204,Susquehanna Trucking,Full truckload,2,0,89,0,0,0.005,0.029
+HV-1002,2,Tue,"Philadelphia, PA",191,Keystone Freight,LTL,2,0,86,0,0,0.006,0.007
+HV-1003,3,Mon,"Harrisburg, PA",87,Blue Ridge Lines,Full truckload,2,0,99,0,0,0.025,0.032
+HV-1004,4,Mon,"Philadelphia, PA",199,Allegheny Express,Parcel,3,0,92,0,0,0.021,0.026
+HV-1005,3,Fri,"Chicago, IL",599,Allegheny Express,LTL,3,0,99,0,0,0.026,0.031
+HV-1006,1,Wed,"Philadelphia, PA",204,Susquehanna Trucking,Parcel,3,0,81,0,0,0.022,0.057
+HV-1007,1,Tue,"Charlotte, NC",455,Allegheny Express,Full truckload,2,0,86,0,0,0.068,0.073
+HV-1008,4,Tue,"Pittsburgh, PA",133,Keystone Freight,Full truckload,2,1,86,0,0,0.024,0.071
+HV-1009,3,Fri,"Columbus, OH",295,Keystone Freight,Full truckload,3,0,97,0,0,0.002,0.017
+HV-1010,5,Wed,"Pittsburgh, PA",145,Allegheny Express,Full truckload,1,0,81,0,0,0.037,0.065
+HV-1011,2,Tue,"Harrisburg, PA",95,Allegheny Express,LTL,3,0,78,0,0,0.073,0.024
+HV-1012,3,Wed,"Pittsburgh, PA",141,Allegheny Express,Full truckload,3,0,96,0,0,0.022,0.021
+HV-1013,1,Mon,"Atlanta, GA",693,Keystone Freight,LTL,3,0,89,0,0,0.015,0.123
+HV-1014,3,Fri,"Dallas, TX",1400,Susquehanna Trucking,LTL,4,0,82,0,0,0.063,0.094
+HV-1015,4,Thu,"Philadelphia, PA",189,Susquehanna Trucking,Full truckload,2,0,88,0,0,0.009,0.132
+HV-1016,4,Wed,"Chicago, IL",562,Keystone Freight,Full truckload,1,0,91,0,0,0.045,0.034
+HV-1017,4,Mon,"Newark, NJ",249,Allegheny Express,Full truckload,2,0,79,0,0,0.017,0.058
+HV-1018,1,Fri,"Columbus, OH",320,Keystone Freight,Full truckload,2,0,89,0,0,0.009,0.106
+HV-1019,1,Mon,"Chicago, IL",636,Allegheny Express,LTL,4,0,78,0,0,0.21,0.016
+HV-1020,2,Fri,"Harrisburg, PA",91,Allegheny Express,Full truckload,1,0,84,0,0,0.057,0.073
+HV-1021,4,Tue,"Newark, NJ",278,Keystone Freight,Full truckload,1,0,80,0,0,0.001,0.013
+HV-1022,1,Wed,"Harrisburg, PA",86,Susquehanna Trucking,LTL,1,0,96,0,0,0.052,0.065
+HV-1023,1,Thu,"Harrisburg, PA",94,Keystone Freight,Full truckload,1,0,99,0,0,0.006,0.044
+HV-1024,2,Tue,"Chicago, IL",590,Susquehanna Trucking,Parcel,3,1,93,0,0,0.081,0.032
+HV-1025,3,Mon,"Pittsburgh, PA",129,Allegheny Express,Parcel,2,0,77,0,0,0.068,0.011
+HV-1026,3,Fri,"Harrisburg, PA",86,Keystone Freight,LTL,2,0,87,0,0,0.002,0.007
+HV-1027,3,Fri,"Chicago, IL",602,Allegheny Express,Parcel,3,1,89,0,0,0.022,0.033
+HV-1028,1,Thu,"Newark, NJ",256,Allegheny Express,LTL,2,0,90,0,0,0.014,0.061
+HV-1029,2,Mon,"Philadelphia, PA",207,Keystone Freight,Parcel,1,0,91,0,0,0.02,0.03
+HV-1030,3,Tue,"Philadelphia, PA",214,Allegheny Express,Full truckload,2,0,71,0,0,0.048,0.005
+HV-1031,3,Thu,"Philadelphia, PA",196,Allegheny Express,Full truckload,2,0,88,0,0,0.014,0.009
+HV-1032,5,Fri,"Newark, NJ",280,Keystone Freight,Full truckload,2,0,89,0,0,0.008,0.084
+HV-1033,4,Wed,"Columbus, OH",294,Allegheny Express,Full truckload,2,0,99,0,0,0.005,0.042
+HV-1034,2,Tue,"Pittsburgh, PA",134,Keystone Freight,Full truckload,2,0,88,0,0,0.002,0.008
+HV-1035,5,Fri,"Harrisburg, PA",94,Blue Ridge Lines,Parcel,3,0,99,0,0,0.005,0.091
+HV-1036,5,Wed,"Newark, NJ",280,Allegheny Express,LTL,1,0,81,0,0,0.215,0.02
+HV-1037,5,Thu,"Charlotte, NC",445,Keystone Freight,Full truckload,2,0,85,0,0,0.002,0.085
+HV-1038,5,Mon,"Harrisburg, PA",92,Keystone Freight,Full truckload,2,1,85,0,0,0.076,0.033
+HV-1039,4,Mon,"Harrisburg, PA",92,Allegheny Express,Parcel,4,0,74,0,0,0.055,0.089
+HV-1040,3,Wed,"Chicago, IL",619,Susquehanna Trucking,LTL,3,0,89,0,0,0.05,0.057
+HV-1041,1,Mon,"Philadelphia, PA",187,Allegheny Express,Parcel,2,0,97,0,0,0.009,0.012
+HV-1042,5,Wed,"Atlanta, GA",677,Blue Ridge Lines,LTL,4,0,84,0,0,0.082,0.05
+HV-1043,4,Tue,"Newark, NJ",247,Allegheny Express,LTL,2,1,80,0,0,0.111,0.136
+HV-1044,3,Fri,"Atlanta, GA",671,Allegheny Express,LTL,2,0,73,0,0,0.055,0.015
+HV-1045,4,Mon,"Charlotte, NC",473,Keystone Freight,Full truckload,1,0,85,0,0,0.004,0.024
+HV-1046,4,Wed,"Dallas, TX",1348,Allegheny Express,Full truckload,4,0,91,0,0,0.007,0.046
+HV-1047,5,Tue,"Harrisburg, PA",97,Susquehanna Trucking,LTL,2,0,86,0,0,0.067,0.041
+HV-1048,2,Tue,"Chicago, IL",559,Allegheny Express,Full truckload,3,0,96,0,0,0.383,0.073
+HV-1049,2,Mon,"Newark, NJ",273,Allegheny Express,Full truckload,3,1,86,0,0,0.103,0.035
+HV-1050,5,Wed,"Los Angeles, CA",2744,Keystone Freight,LTL,8,0,99,0,0,0.478,0.099
+HV-1051,4,Mon,"Columbus, OH",299,Keystone Freight,LTL,2,0,85,0,0,0.006,0.065
+HV-1052,1,Mon,"Charlotte, NC",487,Allegheny Express,Full truckload,4,0,81,0,0,0.028,0.011
+HV-1053,2,Thu,"Harrisburg, PA",91,Allegheny Express,Full truckload,2,0,83,0,0,0.016,0.009
+HV-1054,3,Fri,"Charlotte, NC",494,Blue Ridge Lines,LTL,2,0,90,0,0,0.024,0.264
+HV-1055,5,Wed,"Los Angeles, CA",2398,Keystone Freight,Full truckload,7,0,78,0,0,0.164,0.144
+HV-1056,4,Tue,"Pittsburgh, PA",131,Keystone Freight,Parcel,3,0,90,0,0,0.003,0.019
+HV-1057,1,Fri,"Charlotte, NC",462,Keystone Freight,LTL,4,0,97,0,1,0.039,0.025
+HV-1058,1,Mon,"Charlotte, NC",494,Blue Ridge Lines,LTL,2,1,76,0,0,0.279,0.404
+HV-1059,1,Wed,"Chicago, IL",556,Keystone Freight,Full truckload,2,0,92,0,0,0.013,0.045
+HV-1060,5,Tue,"Philadelphia, PA",190,Blue Ridge Lines,Full truckload,1,0,80,0,0,0.043,0.042
+HV-1061,1,Tue,"Newark, NJ",252,Keystone Freight,LTL,2,1,91,0,0,0.012,0.141
+HV-1062,5,Tue,"Dallas, TX",1474,Keystone Freight,LTL,5,0,99,0,0,0.025,0.012
+HV-1063,5,Thu,"Columbus, OH",283,Blue Ridge Lines,LTL,3,0,93,0,0,0.051,0.03
+HV-1064,1,Thu,"Dallas, TX",1328,Susquehanna Trucking,LTL,5,0,84,0,0,0.179,0.058
+HV-1065,3,Wed,"Philadelphia, PA",216,Keystone Freight,LTL,3,0,78,0,0,0.062,0.036
+HV-1066,5,Thu,"Pittsburgh, PA",141,Keystone Freight,LTL,3,0,88,0,0,0.023,0.05
+HV-1067,1,Fri,"Columbus, OH",313,Allegheny Express,LTL,2,0,87,0,0,0.006,0.028
+HV-1068,3,Thu,"Dallas, TX",1351,Blue Ridge Lines,LTL,5,0,82,0,0,0.225,0.083
+HV-1069,2,Wed,"Harrisburg, PA",89,Allegheny Express,Full truckload,1,0,95,0,0,0.039,0.019
+HV-1070,4,Tue,"Philadelphia, PA",208,Keystone Freight,Full truckload,2,0,92,0,0,0.002,0.013
+HV-1071,1,Mon,"Harrisburg, PA",86,Susquehanna Trucking,Full truckload,2,0,80,0,0,0.184,0.086
+HV-1072,4,Thu,"Pittsburgh, PA",134,Keystone Freight,LTL,2,0,96,0,0,0.01,0.074
+HV-1073,5,Tue,"Chicago, IL",620,Susquehanna Trucking,LTL,2,1,91,1,1,0.302,0.592
+HV-1074,3,Fri,"Harrisburg, PA",94,Susquehanna Trucking,LTL,3,0,90,0,0,0.152,0.102
+HV-1075,2,Mon,"Los Angeles, CA",2534,Blue Ridge Lines,LTL,8,0,95,0,1,0.617,0.032
+HV-1076,2,Mon,"Harrisburg, PA",94,Allegheny Express,Full truckload,3,0,99,0,0,0.006,0.028
+HV-1077,2,Wed,"Columbus, OH",284,Blue Ridge Lines,LTL,2,0,79,0,0,0.056,0.031
+HV-1078,2,Mon,"Charlotte, NC",473,Susquehanna Trucking,LTL,1,1,92,0,0,0.647,0.199
+HV-1079,2,Thu,"Chicago, IL",626,Blue Ridge Lines,LTL,3,0,74,0,0,0.08,0.078
+HV-1080,3,Mon,"Dallas, TX",1296,Keystone Freight,LTL,6,0,99,0,0,0.035,0.051
+HV-1081,5,Mon,"Columbus, OH",286,Allegheny Express,LTL,3,0,98,0,0,0.083,0.098
+HV-1082,2,Mon,"Los Angeles, CA",2746,Susquehanna Trucking,Full truckload,8,1,91,0,0,0.788,0.362
+HV-1083,4,Tue,"Harrisburg, PA",89,Allegheny Express,LTL,3,0,88,0,0,0.053,0.046
+HV-1084,4,Mon,"Pittsburgh, PA",140,Keystone Freight,Full truckload,1,1,86,0,0,0.113,0.148
+HV-1085,1,Mon,"Los Angeles, CA",2699,Allegheny Express,Full truckload,9,0,99,0,0,0.037,0.128
+HV-1086,1,Tue,"Newark, NJ",259,Keystone Freight,Full truckload,2,0,89,0,0,0.037,0.029
+HV-1087,2,Tue,"Pittsburgh, PA",133,Keystone Freight,LTL,3,0,79,0,0,0.011,0.025
+HV-1088,4,Fri,"Columbus, OH",313,Keystone Freight,Full truckload,3,0,77,0,0,0.001,0.02
+HV-1089,3,Tue,"Harrisburg, PA",97,Susquehanna Trucking,Full truckload,1,0,75,0,0,0.132,0.086
+HV-1090,1,Thu,"Philadelphia, PA",188,Susquehanna Trucking,LTL,3,0,96,0,0,0.017,0.031
+HV-1091,5,Fri,"Pittsburgh, PA",135,Allegheny Express,Full truckload,2,0,97,0,0,0.007,0.102
+HV-1092,4,Tue,"Harrisburg, PA",84,Blue Ridge Lines,LTL,2,1,84,1,1,0.183,0.863
+HV-1093,2,Tue,"Pittsburgh, PA",134,Allegheny Express,Full truckload,2,0,90,0,0,0.007,0.021
+HV-1094,3,Thu,"Columbus, OH",315,Allegheny Express,Full truckload,3,0,78,0,0,0.059,0.074
+HV-1095,2,Mon,"Harrisburg, PA",97,Allegheny Express,Parcel,1,0,94,0,0,0.047,0.037
+HV-1096,4,Tue,"Philadelphia, PA",206,Susquehanna Trucking,LTL,2,0,84,0,0,0.059,0.183
+HV-1097,2,Wed,"Atlanta, GA",743,Susquehanna Trucking,Full truckload,3,0,87,0,0,0.126,0.069
+HV-1098,4,Fri,"Harrisburg, PA",93,Keystone Freight,LTL,1,0,86,0,0,0.091,0.045
+HV-1099,4,Tue,"Harrisburg, PA",91,Keystone Freight,LTL,1,0,97,0,0,0.04,0.103
+HV-1100,4,Wed,"Dallas, TX",1472,Keystone Freight,Full truckload,6,0,83,0,0,0.009,0.04
+HV-1101,3,Thu,"Pittsburgh, PA",144,Keystone Freight,Full truckload,3,0,77,0,0,0.015,0.004
+HV-1102,5,Wed,"Chicago, IL",638,Allegheny Express,Full truckload,3,0,91,0,0,0.055,0.005
+HV-1103,3,Mon,"Los Angeles, CA",2545,Keystone Freight,LTL,8,1,85,0,1,0.642,0.6
+HV-1104,3,Fri,"Chicago, IL",629,Blue Ridge Lines,Parcel,2,0,99,0,0,0.049,0.085
+HV-1105,4,Mon,"Dallas, TX",1398,Blue Ridge Lines,LTL,4,1,78,0,1,0.714,0.43
+HV-1106,4,Fri,"Atlanta, GA",777,Keystone Freight,Parcel,3,0,81,0,0,0.086,0.047
+HV-1107,3,Fri,"Charlotte, NC",485,Allegheny Express,Full truckload,3,0,86,0,0,0.012,0.037
+HV-1108,3,Tue,"Newark, NJ",246,Keystone Freight,Full truckload,3,0,84,0,1,0.115,0.005
+HV-1109,1,Tue,"Atlanta, GA",770,Keystone Freight,Full truckload,4,0,88,0,0,0.023,0.047
+HV-1110,2,Mon,"Harrisburg, PA",85,Blue Ridge Lines,Full truckload,2,1,83,1,1,0.446,0.348
+HV-1111,3,Mon,"Harrisburg, PA",92,Keystone Freight,Full truckload,1,0,85,0,0,0.018,0.019
+HV-1112,2,Wed,"Philadelphia, PA",208,Keystone Freight,LTL,2,0,83,0,0,0.036,0.105
+HV-1113,4,Mon,"Charlotte, NC",517,Allegheny Express,LTL,4,0,87,0,0,0.03,0.132
+HV-1114,5,Wed,"Columbus, OH",286,Blue Ridge Lines,LTL,2,1,87,0,0,0.746,0.011
+HV-1115,1,Mon,"Dallas, TX",1340,Susquehanna Trucking,Full truckload,4,0,90,0,0,0.042,0.083
+HV-1116,5,Wed,"Newark, NJ",242,Keystone Freight,Full truckload,2,0,84,0,0,0.027,0.029
+HV-1117,5,Wed,"Columbus, OH",303,Allegheny Express,Full truckload,2,0,88,0,0,0.001,0.035
+HV-1118,4,Tue,"Atlanta, GA",762,Keystone Freight,LTL,4,1,78,0,0,0.071,0.078
+HV-1119,4,Fri,"Harrisburg, PA",84,Keystone Freight,LTL,1,0,87,0,0,0.043,0.07
+HV-1120,1,Tue,"Charlotte, NC",476,Susquehanna Trucking,Full truckload,2,0,86,0,0,0.014,0.023
+HV-1121,5,Thu,"Columbus, OH",321,Susquehanna Trucking,LTL,3,0,84,0,0,0.066,0.087
+HV-1122,5,Mon,"Chicago, IL",603,Keystone Freight,Parcel,3,0,85,0,0,0.017,0.069
+HV-1123,4,Wed,"Los Angeles, CA",2772,Susquehanna Trucking,Full truckload,8,0,91,0,0,0.022,0.11
+HV-1124,2,Fri,"Pittsburgh, PA",143,Blue Ridge Lines,Parcel,3,0,96,0,0,0.061,0.036
+HV-1125,3,Thu,"Pittsburgh, PA",144,Susquehanna Trucking,Full truckload,3,0,96,0,0,0.047,0.044
+HV-1126,3,Mon,"Chicago, IL",629,Keystone Freight,LTL,3,0,90,0,0,0.031,0.105
+HV-1127,4,Tue,"Columbus, OH",305,Allegheny Express,Full truckload,3,0,82,0,0,0.012,0.051
+HV-1128,5,Wed,"Philadelphia, PA",186,Keystone Freight,Full truckload,2,0,85,0,0,0.008,0.06
+HV-1129,5,Thu,"Columbus, OH",320,Susquehanna Trucking,Full truckload,3,0,83,0,0,0.013,0.071
+HV-1130,5,Wed,"Harrisburg, PA",85,Keystone Freight,LTL,2,0,86,0,0,0.058,0.015
+HV-1131,5,Tue,"Dallas, TX",1364,Allegheny Express,LTL,4,0,86,0,0,0.089,0.091
+HV-1132,2,Wed,"Charlotte, NC",483,Keystone Freight,Parcel,3,0,86,0,0,0.016,0.052
+HV-1133,5,Wed,"Newark, NJ",272,Susquehanna Trucking,LTL,2,0,83,0,0,0.025,0.038
+HV-1134,1,Thu,"Newark, NJ",241,Susquehanna Trucking,Full truckload,3,0,79,0,0,0.016,0.071
+HV-1135,3,Thu,"Pittsburgh, PA",141,Allegheny Express,Full truckload,1,0,95,0,0,0.005,0.014
+HV-1136,5,Wed,"Columbus, OH",314,Allegheny Express,Full truckload,2,0,91,0,1,0.043,0.071
+HV-1137,2,Thu,"Charlotte, NC",515,Keystone Freight,Full truckload,3,1,88,0,0,0.027,0.017
+HV-1138,3,Fri,"Philadelphia, PA",194,Allegheny Express,LTL,3,1,80,0,0,0.182,0.248
+HV-1139,3,Mon,"Newark, NJ",272,Allegheny Express,Full truckload,3,0,84,0,0,0.021,0.073
+HV-1140,1,Fri,"Atlanta, GA",691,Keystone Freight,Full truckload,3,0,93,0,0,0.007,0.224
+HV-1141,2,Wed,"Pittsburgh, PA",133,Blue Ridge Lines,LTL,1,0,81,0,0,0.065,0.104
+HV-1142,4,Wed,"Charlotte, NC",518,Allegheny Express,LTL,3,0,86,0,0,0.019,0.066
+HV-1143,1,Wed,"Philadelphia, PA",185,Allegheny Express,LTL,3,0,90,0,0,0.027,0.019
+HV-1144,2,Wed,"Chicago, IL",604,Allegheny Express,LTL,2,0,94,0,0,0.055,0.061
+HV-1145,2,Tue,"Harrisburg, PA",93,Keystone Freight,Full truckload,1,0,86,0,0,0.007,0.03
+HV-1146,3,Tue,"Newark, NJ",273,Keystone Freight,LTL,1,0,81,0,0,0.24,0.099
+HV-1147,1,Wed,"Harrisburg, PA",85,Keystone Freight,Parcel,2,0,88,0,0,0.018,0.031
+HV-1148,1,Mon,"Charlotte, NC",490,Susquehanna Trucking,Full truckload,1,0,97,0,0,0.043,0.088
+HV-1149,2,Tue,"Harrisburg, PA",87,Keystone Freight,LTL,1,0,98,0,0,0.011,0.029
+HV-1150,3,Mon,"Newark, NJ",257,Keystone Freight,Full truckload,4,0,87,0,0,0.001,0.016
+HV-1151,4,Wed,"Pittsburgh, PA",144,Susquehanna Trucking,LTL,2,1,70,0,0,0.079,0.14
+HV-1152,3,Fri,"Pittsburgh, PA",151,Blue Ridge Lines,Full truckload,2,0,77,0,0,0.134,0.026
+HV-1153,3,Thu,"Pittsburgh, PA",142,Allegheny Express,Full truckload,1,0,87,0,0,0.003,0.027
+HV-1154,4,Mon,"Pittsburgh, PA",140,Keystone Freight,Full truckload,3,0,86,0,0,0.049,0.031
+HV-1155,2,Tue,"Atlanta, GA",686,Keystone Freight,LTL,4,0,84,0,0,0.007,0.031
+HV-1156,3,Fri,"Atlanta, GA",745,Allegheny Express,Full truckload,4,0,89,0,0,0.11,0.045
+HV-1157,4,Fri,"Philadelphia, PA",208,Keystone Freight,Parcel,3,0,87,0,0,0.001,0.035
+HV-1158,2,Tue,"Pittsburgh, PA",138,Allegheny Express,LTL,1,0,86,0,0,0.014,0.022
+HV-1159,1,Fri,"Charlotte, NC",505,Allegheny Express,Full truckload,4,0,99,0,0,0.01,0.011
+HV-1160,4,Tue,"Philadelphia, PA",204,Allegheny Express,Full truckload,2,0,84,0,0,0.033,0.041
+HV-1161,5,Thu,"Pittsburgh, PA",137,Keystone Freight,Full truckload,2,0,85,0,0,0.001,0.041
+HV-1162,4,Thu,"Harrisburg, PA",93,Susquehanna Trucking,LTL,2,0,85,0,0,0.017,0.114
+HV-1163,3,Thu,"Newark, NJ",270,Allegheny Express,LTL,2,0,88,0,0,0.052,0.006
+HV-1164,2,Tue,"Charlotte, NC",494,Keystone Freight,Parcel,3,0,75,0,0,0.042,0.028
+HV-1165,1,Thu,"Chicago, IL",583,Keystone Freight,LTL,3,1,69,0,0,0.051,0.202
+HV-1166,3,Tue,"Newark, NJ",255,Susquehanna Trucking,LTL,1,0,89,0,1,0.476,0.071
+HV-1167,2,Wed,"Chicago, IL",590,Keystone Freight,Full truckload,3,0,90,0,0,0.017,0.02
+HV-1168,1,Mon,"Charlotte, NC",466,Allegheny Express,LTL,2,0,88,0,0,0.038,0.111
+HV-1169,5,Mon,"Chicago, IL",557,Allegheny Express,LTL,4,0,90,0,0,0.074,0.024
+HV-1170,1,Mon,"Charlotte, NC",515,Keystone Freight,LTL,3,0,86,0,0,0.012,0.187
+HV-1171,1,Mon,"Newark, NJ",244,Allegheny Express,Full truckload,3,0,81,0,0,0.018,0.067
+HV-1172,3,Fri,"Philadelphia, PA",211,Keystone Freight,Full truckload,2,0,80,0,0,0.018,0.122
+HV-1173,5,Wed,"Los Angeles, CA",2661,Keystone Freight,Full truckload,8,0,87,0,0,0.102,0.097
+HV-1174,4,Tue,"Harrisburg, PA",84,Keystone Freight,Parcel,2,0,99,0,0,0.004,0.028
+HV-1175,4,Wed,"Chicago, IL",595,Susquehanna Trucking,LTL,3,1,98,0,0,0.087,0.115
+HV-1176,1,Fri,"Pittsburgh, PA",133,Allegheny Express,Full truckload,3,0,84,0,0,0.006,0.146
+HV-1177,4,Fri,"Harrisburg, PA",84,Susquehanna Trucking,Full truckload,2,0,87,0,0,0.002,0.044
+HV-1178,2,Thu,"Los Angeles, CA",2749,Allegheny Express,LTL,7,0,83,1,1,0.516,0.711
+HV-1179,4,Mon,"Atlanta, GA",681,Blue Ridge Lines,LTL,5,0,86,0,0,0.694,0.054
+HV-1180,4,Wed,"Newark, NJ",252,Blue Ridge Lines,Full truckload,2,0,84,0,0,0.004,0.047
+HV-1181,5,Thu,"Harrisburg, PA",87,Allegheny Express,LTL,2,0,92,0,0,0.059,0.047
+HV-1182,3,Mon,"Charlotte, NC",497,Susquehanna Trucking,LTL,2,0,94,0,0,0.06,0.066
+HV-1183,1,Wed,"Chicago, IL",642,Blue Ridge Lines,Parcel,2,0,86,0,0,0.083,0.039
+HV-1184,5,Mon,"Pittsburgh, PA",148,Allegheny Express,LTL,1,1,83,0,0,0.031,0.036
+HV-1185,2,Mon,"Charlotte, NC",494,Susquehanna Trucking,LTL,4,0,99,0,1,0.199,0.043
+HV-1186,4,Fri,"Harrisburg, PA",83,Keystone Freight,Full truckload,3,0,96,0,0,0.012,0.007
+HV-1187,5,Wed,"Philadelphia, PA",188,Susquehanna Trucking,LTL,1,0,97,0,0,0.04,0.001
+HV-1188,5,Wed,"Harrisburg, PA",85,Allegheny Express,LTL,3,0,82,0,0,0.047,0.224
+HV-1189,2,Mon,"Newark, NJ",270,Allegheny Express,Full truckload,2,1,96,0,0,0.009,0.008
+HV-1190,3,Wed,"Harrisburg, PA",90,Keystone Freight,LTL,2,0,95,0,0,0.005,0.018
+HV-1191,1,Thu,"Newark, NJ",240,Susquehanna Trucking,Full truckload,3,1,89,0,0,0.202,0.035
+HV-1192,1,Thu,"Pittsburgh, PA",149,Allegheny Express,LTL,3,0,97,0,0,0.053,0.335
+HV-1193,3,Thu,"Columbus, OH",308,Susquehanna Trucking,Full truckload,1,0,79,0,0,0.031,0.078
+HV-1194,5,Thu,"Harrisburg, PA",95,Allegheny Express,Parcel,1,0,80,0,0,0.035,0.055
+HV-1195,5,Mon,"Newark, NJ",250,Susquehanna Trucking,Full truckload,2,0,96,0,0,0.031,0.013
+HV-1196,3,Mon,"Pittsburgh, PA",131,Allegheny Express,Parcel,2,0,89,0,0,0.012,0.14
+HV-1197,4,Fri,"Pittsburgh, PA",147,Susquehanna Trucking,LTL,1,0,84,0,0,0.017,0.052
+HV-1198,1,Wed,"Newark, NJ",267,Blue Ridge Lines,Parcel,1,0,90,0,0,0.089,0.031
+HV-1199,4,Thu,"Harrisburg, PA",85,Allegheny Express,LTL,2,0,93,0,0,0.107,0.051
+HV-1200,5,Thu,"Newark, NJ",248,Keystone Freight,Full truckload,2,1,89,0,0,0.144,0.035
+HV-1201,3,Fri,"Pittsburgh, PA",150,Keystone Freight,LTL,2,0,86,0,0,0.006,0.018
+HV-1202,3,Mon,"Chicago, IL",572,Susquehanna Trucking,Full truckload,3,0,91,0,0,0.051,0.138
+HV-1203,5,Mon,"Pittsburgh, PA",129,Keystone Freight,Parcel,1,0,75,0,0,0.193,0.058
+HV-1204,3,Mon,"Harrisburg, PA",93,Keystone Freight,LTL,2,1,89,1,1,0.025,0.386
+HV-1205,3,Wed,"Pittsburgh, PA",145,Keystone Freight,Full truckload,2,0,92,0,0,0.006,0.017
+HV-1206,3,Thu,"Columbus, OH",282,Blue Ridge Lines,Full truckload,1,1,82,0,0,0.21,0.137
+HV-1207,2,Fri,"Philadelphia, PA",191,Susquehanna Trucking,Full truckload,2,0,87,0,0,0.011,0.071
+HV-1208,4,Thu,"Charlotte, NC",445,Keystone Freight,Full truckload,1,0,88,0,0,0.036,0.258
+HV-1209,5,Wed,"Newark, NJ",258,Blue Ridge Lines,Full truckload,2,0,78,0,0,0.049,0.043
+HV-1210,1,Fri,"Newark, NJ",267,Keystone Freight,Full truckload,2,0,86,0,0,0.084,0.006
+HV-1211,3,Mon,"Pittsburgh, PA",137,Allegheny Express,Parcel,2,0,87,0,0,0.035,0.006
+HV-1212,4,Mon,"Pittsburgh, PA",131,Allegheny Express,LTL,2,1,88,0,0,0.058,0.019
+HV-1213,2,Tue,"Harrisburg, PA",97,Keystone Freight,LTL,2,0,85,0,0,0.001,0.071
+HV-1214,1,Tue,"Atlanta, GA",713,Blue Ridge Lines,LTL,3,0,96,0,0,0.004,0.039
+HV-1215,2,Thu,"Charlotte, NC",464,Susquehanna Trucking,Full truckload,2,0,97,0,0,0.015,0.113
+HV-1216,5,Thu,"Harrisburg, PA",92,Allegheny Express,Full truckload,1,0,90,0,0,0.022,0.009
+HV-1217,3,Fri,"Los Angeles, CA",2572,Keystone Freight,Full truckload,7,0,92,0,0,0.142,0.139
+HV-1218,3,Wed,"Charlotte, NC",491,Blue Ridge Lines,LTL,3,1,95,0,0,0.656,0.167
+HV-1219,3,Mon,"Chicago, IL",619,Keystone Freight,Full truckload,3,0,98,0,0,0.015,0.021
+HV-1220,5,Thu,"Columbus, OH",312,Allegheny Express,Full truckload,3,1,80,0,0,0.045,0.063
+HV-1221,1,Mon,"Harrisburg, PA",92,Allegheny Express,Full truckload,3,0,80,0,0,0.019,0.085
+HV-1222,1,Fri,"Charlotte, NC",502,Keystone Freight,LTL,2,1,91,0,0,0.014,0.248
+HV-1223,3,Tue,"Pittsburgh, PA",129,Blue Ridge Lines,Full truckload,2,0,81,0,0,0.127,0.039
+HV-1224,2,Mon,"Los Angeles, CA",2660,Allegheny Express,LTL,7,0,96,0,0,0.554,0.026
+HV-1225,3,Mon,"Columbus, OH",313,Blue Ridge Lines,Full truckload,3,0,97,0,0,0.035,0.021
+HV-1226,3,Tue,"Harrisburg, PA",92,Blue Ridge Lines,Parcel,1,0,87,0,0,0.036,0.069
+HV-1227,2,Wed,"Chicago, IL",602,Allegheny Express,Full truckload,3,0,82,0,0,0.015,0.026
+HV-1228,1,Wed,"Pittsburgh, PA",147,Keystone Freight,Parcel,1,0,88,0,0,0.011,0.02
+HV-1229,2,Fri,"Harrisburg, PA",88,Keystone Freight,Full truckload,2,0,85,0,0,0.002,0.157
+HV-1230,2,Tue,"Harrisburg, PA",89,Blue Ridge Lines,Parcel,1,0,86,0,0,0.025,0.109
+HV-1231,4,Wed,"Atlanta, GA",759,Keystone Freight,Parcel,3,0,86,0,0,0.072,0.024
+HV-1232,3,Fri,"Chicago, IL",567,Keystone Freight,Parcel,3,0,87,0,0,0.015,0.017
+HV-1233,5,Tue,"Columbus, OH",294,Allegheny Express,Full truckload,1,0,91,0,0,0.032,0.055
+HV-1234,3,Fri,"Atlanta, GA",701,Keystone Freight,Full truckload,4,0,87,0,0,0.005,0.015
+HV-1235,3,Wed,"Chicago, IL",557,Keystone Freight,LTL,3,1,90,1,0,0.003,0.602
+HV-1236,2,Fri,"Pittsburgh, PA",134,Keystone Freight,Full truckload,3,0,79,0,0,0.163,0.008
+HV-1237,3,Mon,"Chicago, IL",567,Keystone Freight,Parcel,4,0,84,0,0,0.006,0.027
+HV-1238,5,Thu,"Charlotte, NC",491,Blue Ridge Lines,Full truckload,3,0,88,1,1,0.077,0.522
+HV-1239,3,Mon,"Charlotte, NC",489,Blue Ridge Lines,Parcel,3,0,83,0,0,0.051,0.029
+HV-1240,5,Fri,"Newark, NJ",242,Allegheny Express,Full truckload,3,0,85,0,0,0.07,0.028
+HV-1241,2,Wed,"Harrisburg, PA",90,Allegheny Express,LTL,1,1,97,0,1,0.05,0.019
+HV-1242,2,Thu,"Pittsburgh, PA",147,Susquehanna Trucking,LTL,2,0,73,0,0,0.1,0.064
+HV-1243,5,Thu,"Philadelphia, PA",215,Allegheny Express,Full truckload,2,1,90,0,0,0.027,0.027
+HV-1244,3,Tue,"Charlotte, NC",457,Allegheny Express,Full truckload,3,0,92,0,0,0.007,0.019
+HV-1245,3,Tue,"Chicago, IL",620,Blue Ridge Lines,Parcel,3,1,85,0,0,0.065,0.079
+HV-1246,4,Thu,"Philadelphia, PA",213,Blue Ridge Lines,LTL,1,0,83,0,0,0.306,0.145
+HV-1247,5,Wed,"Atlanta, GA",703,Keystone Freight,Full truckload,2,0,96,0,0,0.002,0.076
+HV-1248,2,Thu,"Atlanta, GA",692,Keystone Freight,Parcel,3,0,81,0,0,0.01,0.009
+HV-1249,2,Tue,"Pittsburgh, PA",129,Allegheny Express,LTL,1,0,80,0,0,0.344,0.009
+HV-1250,4,Mon,"Los Angeles, CA",2623,Allegheny Express,Full truckload,6,0,77,0,1,0.419,0.082
+HV-1251,3,Fri,"Dallas, TX",1308,Keystone Freight,LTL,6,0,86,0,0,0.457,0.056
+HV-1252,2,Wed,"Philadelphia, PA",186,Allegheny Express,Full truckload,3,0,89,0,0,0.002,0.067
+HV-1253,4,Thu,"Newark, NJ",274,Allegheny Express,Full truckload,3,0,96,0,0,0.004,0.026
+HV-1254,5,Fri,"Dallas, TX",1451,Keystone Freight,Parcel,5,0,79,0,0,0.044,0.07
+HV-1255,1,Tue,"Philadelphia, PA",205,Allegheny Express,LTL,1,0,87,0,0,0.007,0.014
+HV-1256,5,Fri,"Charlotte, NC",518,Blue Ridge Lines,Full truckload,2,0,82,0,0,0.002,0.305
+HV-1257,5,Mon,"Pittsburgh, PA",131,Allegheny Express,LTL,2,1,84,0,1,0.437,0.101
+HV-1258,5,Thu,"Atlanta, GA",687,Allegheny Express,LTL,3,1,84,0,0,0.051,0.041
+HV-1259,1,Fri,"Columbus, OH",315,Allegheny Express,Parcel,3,0,85,0,0,0.004,0.055
+HV-1260,2,Thu,"Columbus, OH",288,Susquehanna Trucking,Full truckload,2,1,89,1,1,0.057,0.742
+HV-1261,1,Tue,"Columbus, OH",291,Allegheny Express,Parcel,2,0,99,0,0,0.007,0.173
+HV-1262,1,Tue,"Pittsburgh, PA",134,Susquehanna Trucking,Parcel,2,0,96,0,0,0.023,0.033
+HV-1263,4,Tue,"Los Angeles, CA",2530,Susquehanna Trucking,LTL,8,0,86,0,0,0.028,0.127
+HV-1264,5,Tue,"Charlotte, NC",506,Susquehanna Trucking,Full truckload,3,0,95,0,0,0.021,0.066
+HV-1265,2,Mon,"Atlanta, GA",770,Keystone Freight,LTL,3,1,80,0,0,0.358,0.064
+HV-1266,5,Thu,"Columbus, OH",319,Blue Ridge Lines,LTL,2,0,87,0,0,0.101,0.072
+HV-1267,2,Mon,"Pittsburgh, PA",132,Allegheny Express,LTL,1,0,97,0,0,0.006,0.114
+HV-1268,5,Fri,"Philadelphia, PA",211,Blue Ridge Lines,LTL,2,0,84,0,0,0.172,0.08
+HV-1269,2,Fri,"Charlotte, NC",463,Susquehanna Trucking,Full truckload,2,0,92,0,0,0.068,0.024
+HV-1270,2,Wed,"Columbus, OH",280,Keystone Freight,Full truckload,3,0,93,0,0,0.034,0.142
+HV-1271,3,Fri,"Philadelphia, PA",211,Allegheny Express,LTL,3,0,77,0,0,0.05,0.239
+HV-1272,2,Mon,"Harrisburg, PA",84,Keystone Freight,LTL,2,0,84,0,0,0.009,0.048
+HV-1273,2,Tue,"Dallas, TX",1343,Allegheny Express,Parcel,6,0,92,0,0,0.099,0.108
+HV-1274,5,Mon,"Charlotte, NC",480,Blue Ridge Lines,LTL,2,0,89,0,1,0.378,0.116
+HV-1275,5,Thu,"Chicago, IL",603,Allegheny Express,LTL,3,0,73,0,0,0.184,0.126
+HV-1276,1,Tue,"Philadelphia, PA",203,Allegheny Express,Full truckload,3,1,99,0,0,0.007,0.117
+HV-1277,5,Tue,"Columbus, OH",280,Keystone Freight,Full truckload,2,0,87,0,0,0.002,0.017
+HV-1278,5,Tue,"Columbus, OH",284,Susquehanna Trucking,Full truckload,3,0,95,0,0,0.017,0.02
+HV-1279,1,Wed,"Atlanta, GA",675,Keystone Freight,Full truckload,4,0,77,0,0,0.031,0.049
+HV-1280,2,Wed,"Harrisburg, PA",92,Allegheny Express,LTL,3,0,99,0,0,0.007,0.027
+HV-1281,3,Thu,"Newark, NJ",251,Keystone Freight,Parcel,4,0,84,0,0,0.055,0.125
+HV-1282,3,Mon,"Dallas, TX",1373,Susquehanna Trucking,Parcel,5,1,79,0,0,0.506,0.095
+HV-1283,1,Tue,"Pittsburgh, PA",148,Keystone Freight,Full truckload,2,0,85,1,1,0.085,0.268
+HV-1284,1,Fri,"Harrisburg, PA",85,Blue Ridge Lines,LTL,2,0,99,0,0,0.007,0.074
+HV-1285,5,Tue,"Chicago, IL",576,Susquehanna Trucking,Full truckload,3,0,77,0,0,0.051,0.031
+HV-1286,3,Thu,"Harrisburg, PA",86,Allegheny Express,LTL,3,1,89,0,0,0.041,0.149
+HV-1287,3,Mon,"Harrisburg, PA",90,Allegheny Express,Full truckload,2,0,70,0,0,0.014,0.157
+HV-1288,4,Mon,"Columbus, OH",308,Susquehanna Trucking,Full truckload,3,0,83,0,0,0.053,0.009
+HV-1289,3,Thu,"Pittsburgh, PA",137,Allegheny Express,LTL,2,0,81,0,0,0.062,0.078
+HV-1290,1,Wed,"Newark, NJ",258,Susquehanna Trucking,LTL,3,0,91,0,0,0.012,0.028
+HV-1291,5,Thu,"Philadelphia, PA",200,Blue Ridge Lines,Parcel,4,0,99,0,0,0.072,0.024
+HV-1292,4,Fri,"Philadelphia, PA",192,Keystone Freight,Full truckload,1,1,90,0,0,0.181,0.073
+HV-1293,4,Thu,"Columbus, OH",293,Susquehanna Trucking,Full truckload,2,1,95,0,0,0.01,0.033
+HV-1294,4,Wed,"Philadelphia, PA",205,Allegheny Express,Full truckload,2,0,98,0,0,0.001,0.02
+HV-1295,1,Wed,"Dallas, TX",1299,Keystone Freight,Full truckload,4,1,92,0,0,0.201,0.11
+HV-1296,3,Fri,"Harrisburg, PA",93,Allegheny Express,Full truckload,3,0,99,0,0,0.003,0.005
+HV-1297,3,Mon,"Atlanta, GA",755,Allegheny Express,Parcel,4,0,96,0,0,0.009,0.089
+HV-1298,3,Tue,"Charlotte, NC",451,Susquehanna Trucking,Full truckload,3,0,93,0,0,0.023,0.022
+HV-1299,1,Wed,"Philadelphia, PA",193,Keystone Freight,LTL,4,0,98,0,0,0.004,0.012
+HV-1300,1,Tue,"Pittsburgh, PA",132,Allegheny Express,LTL,3,0,81,0,0,0.064,0.049
+HV-1301,1,Fri,"Chicago, IL",591,Blue Ridge Lines,Full truckload,3,0,97,0,0,0.024,0.138
+HV-1302,5,Mon,"Newark, NJ",263,Allegheny Express,Full truckload,3,1,89,0,0,0.096,0.038
+HV-1303,5,Fri,"Charlotte, NC",517,Blue Ridge Lines,Parcel,2,0,95,0,0,0.027,0.046
+HV-1304,2,Wed,"Harrisburg, PA",91,Keystone Freight,LTL,2,0,74,0,0,0.061,0.053
+HV-1305,5,Fri,"Chicago, IL",608,Allegheny Express,LTL,2,0,90,0,0,0.011,0.04
+HV-1306,5,Fri,"Harrisburg, PA",94,Susquehanna Trucking,LTL,1,0,80,0,0,0.093,0.182
+HV-1307,4,Mon,"Newark, NJ",260,Keystone Freight,Full truckload,3,0,91,0,0,0.02,0.024
+HV-1308,1,Thu,"Philadelphia, PA",209,Blue Ridge Lines,Full truckload,2,0,97,0,0,0.016,0.009
+HV-1309,5,Wed,"Chicago, IL",561,Keystone Freight,LTL,3,0,88,0,0,0.012,0.088
+HV-1310,3,Tue,"Los Angeles, CA",2532,Susquehanna Trucking,Full truckload,6,0,99,0,0,0.059,0.091
+HV-1311,4,Fri,"Pittsburgh, PA",143,Keystone Freight,Full truckload,2,1,85,0,0,0.026,0.041
+HV-1312,3,Fri,"Atlanta, GA",760,Allegheny Express,Full truckload,4,0,89,0,0,0.008,0.027
+HV-1313,4,Fri,"Los Angeles, CA",2410,Keystone Freight,LTL,6,0,88,0,0,0.162,0.011
+HV-1314,4,Mon,"Charlotte, NC",483,Susquehanna Trucking,Parcel,2,0,89,0,0,0.011,0.049
+HV-1315,2,Thu,"Los Angeles, CA",2494,Keystone Freight,Full truckload,6,0,97,0,0,0.015,0.168
+HV-1316,2,Mon,"Harrisburg, PA",86,Keystone Freight,Full truckload,3,1,89,0,0,0.111,0.039
+HV-1317,1,Tue,"Newark, NJ",279,Allegheny Express,LTL,3,0,89,0,0,0.017,0.035
+HV-1318,4,Mon,"Los Angeles, CA",2793,Allegheny Express,LTL,8,0,94,1,1,0.487,0.37
+HV-1319,4,Wed,"Atlanta, GA",741,Susquehanna Trucking,Full truckload,4,0,79,0,0,0.08,0.06
+HV-1320,4,Fri,"Charlotte, NC",486,Keystone Freight,Full truckload,2,0,81,0,0,0.005,0.009
+HV-1321,2,Tue,"Chicago, IL",637,Keystone Freight,LTL,3,0,95,0,0,0.006,0.034
+HV-1322,4,Thu,"Pittsburgh, PA",146,Allegheny Express,LTL,1,0,94,0,0,0.043,0.049
+HV-1323,2,Fri,"Harrisburg, PA",89,Blue Ridge Lines,LTL,3,0,82,0,0,0.097,0.086
+HV-1324,4,Mon,"Pittsburgh, PA",150,Blue Ridge Lines,LTL,1,0,89,0,0,0.049,0.041
+HV-1325,3,Mon,"Harrisburg, PA",94,Susquehanna Trucking,LTL,1,0,90,0,0,0.031,0.121
+HV-1326,5,Tue,"Atlanta, GA",667,Allegheny Express,LTL,3,0,87,0,0,0.022,0.1
+HV-1327,1,Thu,"Columbus, OH",276,Allegheny Express,Full truckload,3,0,80,0,0,0.024,0.026
+HV-1328,3,Wed,"Newark, NJ",268,Blue Ridge Lines,Full truckload,2,0,91,0,0,0.026,0.151
+HV-1329,4,Mon,"Philadelphia, PA",206,Keystone Freight,LTL,1,0,87,0,0,0.063,0.043
+HV-1330,5,Mon,"Chicago, IL",623,Allegheny Express,Full truckload,3,1,85,0,0,0.064,0.026
+HV-1331,2,Mon,"Columbus, OH",284,Keystone Freight,Full truckload,2,1,82,0,0,0.014,0.036
+HV-1332,2,Fri,"Charlotte, NC",460,Keystone Freight,LTL,2,0,88,0,0,0.014,0.018
+HV-1333,1,Wed,"Chicago, IL",646,Allegheny Express,LTL,4,0,98,0,0,0.181,0.045
+HV-1334,5,Tue,"Philadelphia, PA",188,Allegheny Express,LTL,3,1,87,0,0,0.057,0.056
+HV-1335,3,Thu,"Atlanta, GA",756,Keystone Freight,Full truckload,3,0,91,0,0,0.015,0.004
+HV-1336,5,Mon,"Dallas, TX",1369,Susquehanna Trucking,LTL,4,1,99,0,0,0.522,0.048
+HV-1337,2,Thu,"Pittsburgh, PA",145,Susquehanna Trucking,Full truckload,3,0,90,0,0,0.014,0.1
+HV-1338,4,Mon,"Atlanta, GA",774,Keystone Freight,LTL,5,0,90,0,0,0.257,0.073
+HV-1339,4,Mon,"Pittsburgh, PA",146,Allegheny Express,Parcel,1,0,81,0,0,0.06,0.082
+HV-1340,2,Fri,"Columbus, OH",303,Keystone Freight,Full truckload,4,0,91,0,0,0.005,0.2
+HV-1341,2,Fri,"Harrisburg, PA",87,Keystone Freight,Full truckload,2,0,90,0,0,0.001,0.03
+HV-1342,3,Thu,"Harrisburg, PA",95,Allegheny Express,Parcel,1,1,99,0,0,0.03,0.011
+HV-1343,2,Wed,"Atlanta, GA",724,Blue Ridge Lines,Full truckload,5,0,99,0,0,0.011,0.024
+HV-1344,5,Mon,"Pittsburgh, PA",130,Susquehanna Trucking,Full truckload,2,0,87,0,0,0.032,0.02
+HV-1345,3,Fri,"Philadelphia, PA",211,Susquehanna Trucking,Full truckload,1,0,92,0,0,0.021,0.011
+HV-1346,4,Mon,"Columbus, OH",322,Blue Ridge Lines,Full truckload,2,0,91,0,0,0.095,0.168
+HV-1347,1,Wed,"Dallas, TX",1442,Allegheny Express,LTL,6,0,83,0,0,0.145,0.097
+HV-1348,2,Mon,"Columbus, OH",316,Susquehanna Trucking,Full truckload,1,1,79,0,1,0.251,0.073
+HV-1349,4,Mon,"Columbus, OH",303,Allegheny Express,LTL,1,0,85,0,0,0.034,0.019
+HV-1350,1,Tue,"Newark, NJ",243,Keystone Freight,LTL,2,0,95,0,0,0.002,0.033
+HV-1351,5,Mon,"Harrisburg, PA",96,Susquehanna Trucking,Full truckload,1,0,91,0,1,0.061,0.121
+HV-1352,3,Tue,"Philadelphia, PA",201,Allegheny Express,LTL,3,0,90,0,0,0.067,0.057
+HV-1353,3,Wed,"Pittsburgh, PA",149,Allegheny Express,Parcel,3,0,95,0,0,0.004,0.063
+HV-1354,2,Tue,"Chicago, IL",554,Keystone Freight,Parcel,2,0,89,0,0,0.024,0.027
+HV-1355,4,Fri,"Chicago, IL",584,Keystone Freight,Full truckload,2,0,87,0,0,0.014,0.047
+HV-1356,2,Mon,"Newark, NJ",241,Susquehanna Trucking,Full truckload,1,0,81,0,0,0.052,0.021
+HV-1357,4,Fri,"Harrisburg, PA",88,Blue Ridge Lines,Full truckload,1,0,89,0,0,0.067,0.017
+HV-1358,1,Mon,"Chicago, IL",585,Allegheny Express,Parcel,2,0,84,0,0,0.002,0.012
+HV-1359,5,Mon,"Harrisburg, PA",96,Keystone Freight,Full truckload,1,1,91,1,1,0.07,0.521
+HV-1360,4,Wed,"Dallas, TX",1473,Susquehanna Trucking,LTL,5,0,91,0,0,0.098,0.058
+HV-1361,1,Thu,"Philadelphia, PA",191,Keystone Freight,Full truckload,1,0,86,0,0,0.005,0.06
+HV-1362,1,Tue,"Pittsburgh, PA",148,Allegheny Express,LTL,2,0,95,0,0,0.011,0.072
+HV-1363,1,Tue,"Harrisburg, PA",87,Allegheny Express,LTL,2,0,92,0,0,0.015,0.009
+HV-1364,3,Fri,"Philadelphia, PA",215,Allegheny Express,Full truckload,3,0,94,0,0,0.093,0.073
+HV-1365,4,Fri,"Harrisburg, PA",95,Blue Ridge Lines,LTL,1,1,90,0,1,0.544,0.2
+HV-1366,2,Wed,"Atlanta, GA",744,Allegheny Express,LTL,3,0,91,0,0,0.004,0.034
+HV-1367,3,Mon,"Newark, NJ",249,Keystone Freight,Full truckload,3,0,88,0,0,0.007,0.086
+HV-1368,4,Mon,"Charlotte, NC",471,Keystone Freight,Full truckload,2,0,95,0,0,0.018,0.034
+HV-1369,3,Wed,"Harrisburg, PA",85,Allegheny Express,Parcel,2,0,81,0,0,0.045,0.016
+HV-1370,2,Mon,"Newark, NJ",252,Blue Ridge Lines,Full truckload,2,0,96,0,0,0.007,0.201
+HV-1371,4,Mon,"Pittsburgh, PA",145,Keystone Freight,LTL,2,0,99,0,0,0.004,0.006
+HV-1372,4,Fri,"Chicago, IL",580,Keystone Freight,LTL,3,0,92,0,0,0.027,0.02
+HV-1373,3,Wed,"Pittsburgh, PA",140,Blue Ridge Lines,Full truckload,2,0,86,0,0,0.016,0.06
+HV-1374,4,Wed,"Harrisburg, PA",84,Allegheny Express,Full truckload,1,0,91,0,0,0.019,0.009
+HV-1375,2,Tue,"Newark, NJ",258,Keystone Freight,Parcel,2,0,85,0,0,0.031,0.06
+HV-1376,2,Mon,"Charlotte, NC",500,Susquehanna Trucking,Full truckload,3,0,87,0,0,0.024,0.064
+HV-1377,4,Mon,"Columbus, OH",296,Keystone Freight,LTL,4,0,84,0,0,0.01,0.18
+HV-1378,3,Wed,"Columbus, OH",321,Allegheny Express,LTL,3,0,85,0,0,0.004,0.023
+HV-1379,5,Fri,"Philadelphia, PA",194,Allegheny Express,Full truckload,1,0,93,0,0,0.027,0.068
+HV-1380,1,Mon,"Chicago, IL",613,Susquehanna Trucking,LTL,2,0,91,0,0,0.01,0.062
+HV-1381,2,Thu,"Dallas, TX",1304,Keystone Freight,Full truckload,3,0,87,0,0,0.046,0.174
+HV-1382,1,Wed,"Harrisburg, PA",94,Susquehanna Trucking,Full truckload,1,0,77,0,0,0.121,0.234
+HV-1383,4,Thu,"Philadelphia, PA",197,Susquehanna Trucking,Full truckload,3,0,91,0,0,0.007,0.02
+HV-1384,2,Thu,"Charlotte, NC",493,Keystone Freight,Parcel,2,0,95,0,0,0.014,0.03
+HV-1385,2,Thu,"Newark, NJ",263,Allegheny Express,Full truckload,1,0,99,0,0,0.002,0.063
+HV-1386,1,Mon,"Harrisburg, PA",84,Susquehanna Trucking,LTL,2,0,86,0,0,0.06,0.031
+HV-1387,3,Tue,"Atlanta, GA",759,Allegheny Express,Full truckload,3,0,88,0,0,0.011,0.021
+HV-1388,1,Tue,"Columbus, OH",300,Keystone Freight,Full truckload,2,1,82,0,0,0.074,0.114
+HV-1389,3,Mon,"Dallas, TX",1427,Keystone Freight,Full truckload,5,1,99,0,0,0.061,0.151
+HV-1390,1,Thu,"Pittsburgh, PA",145,Blue Ridge Lines,LTL,3,0,82,0,0,0.043,0.02
+HV-1391,4,Tue,"Philadelphia, PA",201,Blue Ridge Lines,Full truckload,2,1,86,0,0,0.009,0.022
+HV-1392,5,Fri,"Columbus, OH",286,Allegheny Express,Parcel,3,0,93,0,0,0.007,0.034
+HV-1393,1,Thu,"Pittsburgh, PA",149,Allegheny Express,LTL,2,0,99,0,0,0.012,0.008
+HV-1394,4,Tue,"Pittsburgh, PA",139,Keystone Freight,LTL,2,0,97,0,0,0.002,0.076
+HV-1395,5,Wed,"Los Angeles, CA",2550,Blue Ridge Lines,Full truckload,7,0,86,0,0,0.336,0.086
+HV-1396,1,Mon,"Charlotte, NC",501,Keystone Freight,Full truckload,1,0,86,0,0,0.008,0.044
+HV-1397,2,Wed,"Pittsburgh, PA",151,Allegheny Express,Full truckload,1,0,94,0,0,0.009,0.015
+HV-1398,3,Wed,"Chicago, IL",585,Allegheny Express,Full truckload,2,0,99,0,0,0.004,0.014
+HV-1399,2,Wed,"Newark, NJ",270,Allegheny Express,Full truckload,3,0,86,0,0,0.058,0.042
+HV-1400,2,Wed,"Harrisburg, PA",93,Susquehanna Trucking,Full truckload,2,0,88,0,0,0.017,0.019
+HV-1401,2,Thu,"Harrisburg, PA",84,Keystone Freight,Full truckload,2,0,99,0,0,0.001,0.019
+HV-1402,2,Fri,"Los Angeles, CA",2596,Blue Ridge Lines,Full truckload,8,0,91,1,1,0.283,0.856
+HV-1403,2,Thu,"Harrisburg, PA",92,Keystone Freight,LTL,1,1,91,0,0,0.094,0.2
+HV-1404,1,Tue,"Philadelphia, PA",187,Keystone Freight,LTL,3,0,85,0,0,0.03,0.032
+HV-1405,3,Fri,"Charlotte, NC",451,Blue Ridge Lines,LTL,1,0,94,0,0,0.069,0.055
+HV-1406,3,Fri,"Pittsburgh, PA",146,Allegheny Express,Full truckload,1,0,95,0,0,0.003,0.028
+HV-1407,2,Mon,"Columbus, OH",322,Susquehanna Trucking,LTL,1,1,82,0,0,0.962,0.136
+HV-1408,1,Tue,"Newark, NJ",252,Allegheny Express,Full truckload,1,0,70,0,0,0.024,0.141
+HV-1409,4,Thu,"Los Angeles, CA",2501,Allegheny Express,Full truckload,7,1,99,0,0,0.201,0.013
+HV-1410,5,Fri,"Pittsburgh, PA",140,Keystone Freight,LTL,1,1,86,0,0,0.01,0.093
+HV-1411,4,Mon,"Pittsburgh, PA",144,Allegheny Express,LTL,1,0,89,0,0,0.015,0.005
+HV-1412,5,Mon,"Chicago, IL",557,Keystone Freight,Parcel,2,0,94,0,0,0.012,0.015
+HV-1413,1,Wed,"Pittsburgh, PA",141,Allegheny Express,Full truckload,2,1,80,0,0,0.054,0.031
+HV-1414,1,Tue,"Philadelphia, PA",201,Susquehanna Trucking,Full truckload,2,0,85,0,0,0.013,0.038
+HV-1415,5,Wed,"Charlotte, NC",510,Allegheny Express,Parcel,3,1,92,0,0,0.051,0.088
+HV-1416,4,Mon,"Philadelphia, PA",216,Keystone Freight,Parcel,3,0,95,0,0,0.019,0.012
+HV-1417,5,Fri,"Harrisburg, PA",95,Blue Ridge Lines,LTL,2,0,81,0,0,0.137,0.013
+HV-1418,1,Fri,"Harrisburg, PA",89,Susquehanna Trucking,Full truckload,2,1,99,0,1,0.125,0.005
+HV-1419,2,Thu,"Dallas, TX",1340,Allegheny Express,LTL,6,0,80,0,0,0.118,0.028
+HV-1420,2,Wed,"Harrisburg, PA",84,Blue Ridge Lines,Full truckload,1,0,73,0,0,0.224,0.244
+HV-1421,4,Tue,"Pittsburgh, PA",133,Blue Ridge Lines,Full truckload,2,0,86,0,0,0.041,0.01
+HV-1422,3,Thu,"Pittsburgh, PA",143,Allegheny Express,Full truckload,3,0,84,0,0,0.044,0.025
+HV-1423,1,Wed,"Philadelphia, PA",193,Allegheny Express,Parcel,2,1,85,0,0,0.012,0.093
+HV-1424,2,Tue,"Harrisburg, PA",94,Blue Ridge Lines,LTL,2,0,80,0,0,0.123,0.074
+HV-1425,1,Mon,"Pittsburgh, PA",143,Blue Ridge Lines,Parcel,1,0,74,1,1,0.645,0.754
+HV-1426,5,Mon,"Harrisburg, PA",85,Susquehanna Trucking,LTL,1,0,86,1,1,0.9,0.464
+HV-1427,5,Tue,"Newark, NJ",278,Allegheny Express,Full truckload,1,0,94,0,0,0.038,0.04
+HV-1428,1,Mon,"Charlotte, NC",482,Keystone Freight,Parcel,4,0,84,0,0,0.026,0.014
+HV-1429,4,Mon,"Philadelphia, PA",202,Keystone Freight,Full truckload,2,0,93,0,0,0.003,0.042
+HV-1430,4,Fri,"Pittsburgh, PA",132,Allegheny Express,Full truckload,1,0,86,0,0,0.089,0.006
+HV-1431,5,Thu,"Newark, NJ",242,Susquehanna Trucking,LTL,2,0,92,0,0,0.135,0.096
+HV-1432,1,Tue,"Dallas, TX",1416,Allegheny Express,Parcel,4,0,85,0,0,0.291,0.153
+HV-1433,3,Tue,"Charlotte, NC",509,Susquehanna Trucking,Full truckload,3,0,90,0,0,0.024,0.18
+HV-1434,4,Mon,"Harrisburg, PA",84,Allegheny Express,LTL,2,1,92,0,0,0.044,0.206
+HV-1435,3,Thu,"Charlotte, NC",509,Susquehanna Trucking,Full truckload,3,0,90,0,0,0.001,0.056
+HV-1436,3,Mon,"Philadelphia, PA",201,Allegheny Express,LTL,3,0,96,0,0,0.007,0.062
+HV-1437,5,Tue,"Atlanta, GA",722,Keystone Freight,Parcel,3,0,74,0,0,0.054,0.038
+HV-1438,5,Tue,"Harrisburg, PA",87,Allegheny Express,LTL,2,0,97,0,0,0.047,0.023
+HV-1439,4,Tue,"Chicago, IL",623,Allegheny Express,Full truckload,2,0,99,0,0,0.004,0.045
+HV-1440,2,Thu,"Philadelphia, PA",196,Keystone Freight,Full truckload,2,0,86,0,0,0.022,0.034
+HV-1441,1,Tue,"Harrisburg, PA",93,Keystone Freight,Parcel,2,1,92,0,0,0.015,0.084
+HV-1442,2,Fri,"Harrisburg, PA",91,Susquehanna Trucking,Full truckload,2,0,87,0,0,0.021,0.036
+HV-1443,3,Tue,"Los Angeles, CA",2540,Keystone Freight,Parcel,7,0,75,0,0,0.146,0.091
+HV-1444,5,Tue,"Harrisburg, PA",95,Keystone Freight,LTL,1,0,83,0,0,0.012,0.09
+HV-1445,2,Tue,"Harrisburg, PA",89,Keystone Freight,LTL,1,0,91,0,0,0.007,0.04
+HV-1446,3,Fri,"Philadelphia, PA",214,Allegheny Express,Full truckload,2,0,99,0,0,0.001,0.022
+HV-1447,4,Wed,"Columbus, OH",284,Blue Ridge Lines,LTL,2,0,93,0,0,0.404,0.442
+HV-1448,5,Wed,"Newark, NJ",247,Keystone Freight,LTL,2,0,80,0,0,0.033,0.016
+HV-1449,2,Mon,"Pittsburgh, PA",151,Keystone Freight,Full truckload,1,1,99,0,0,0.021,0.02
+HV-1450,2,Fri,"Chicago, IL",584,Keystone Freight,LTL,1,0,89,0,0,0.106,0.071
+HV-1451,4,Mon,"Harrisburg, PA",88,Blue Ridge Lines,Parcel,2,0,88,0,1,0.28,0.065
+HV-1452,3,Tue,"Harrisburg, PA",83,Susquehanna Trucking,Full truckload,1,0,86,0,0,0.215,0.102
+HV-1453,3,Fri,"Pittsburgh, PA",132,Allegheny Express,Full truckload,2,0,93,0,0,0.005,0.013
+HV-1454,5,Mon,"Philadelphia, PA",194,Allegheny Express,LTL,1,0,96,0,0,0.038,0.022
+HV-1455,5,Mon,"Columbus, OH",296,Blue Ridge Lines,Parcel,2,0,89,0,1,0.075,0.013
+HV-1456,5,Mon,"Harrisburg, PA",91,Allegheny Express,Full truckload,3,0,91,0,0,0.006,0.044
+HV-1457,3,Fri,"Newark, NJ",253,Allegheny Express,Full truckload,3,1,97,0,0,0.026,0.03
+HV-1458,2,Thu,"Columbus, OH",292,Susquehanna Trucking,LTL,2,0,77,0,0,0.072,0.055
+HV-1459,3,Fri,"Newark, NJ",272,Keystone Freight,Full truckload,2,1,97,0,0,0.001,0.016
+HV-1460,2,Thu,"Los Angeles, CA",2715,Allegheny Express,LTL,8,0,82,0,0,0.146,0.04
+HV-1461,3,Tue,"Philadelphia, PA",214,Keystone Freight,Full truckload,2,0,89,0,0,0.017,0.026
+HV-1462,5,Tue,"Columbus, OH",308,Keystone Freight,Full truckload,2,0,90,0,0,0.017,0.008
+HV-1463,3,Thu,"Columbus, OH",322,Blue Ridge Lines,Full truckload,2,1,99,0,0,0.037,0.064
+HV-1464,3,Tue,"Columbus, OH",316,Blue Ridge Lines,Full truckload,2,1,79,0,0,0.279,0.105
+HV-1465,1,Wed,"Harrisburg, PA",83,Keystone Freight,Parcel,3,0,94,0,0,0.004,0.014
+HV-1466,4,Mon,"Charlotte, NC",496,Keystone Freight,LTL,3,0,97,0,0,0.004,0.016
+HV-1467,3,Fri,"Columbus, OH",295,Keystone Freight,LTL,1,0,85,0,0,0.032,0.035
+HV-1468,5,Mon,"Pittsburgh, PA",150,Keystone Freight,LTL,3,0,77,0,0,0.02,0.038
+HV-1469,1,Tue,"Chicago, IL",625,Allegheny Express,Full truckload,4,0,88,0,0,0.006,0.051
+HV-1470,1,Fri,"Dallas, TX",1435,Allegheny Express,Full truckload,5,1,75,0,0,0.137,0.104
+HV-1471,3,Tue,"Philadelphia, PA",188,Susquehanna Trucking,Full truckload,1,0,93,0,0,0.201,0.04
+HV-1472,4,Wed,"Dallas, TX",1330,Allegheny Express,Full truckload,4,0,83,0,0,0.224,0.03
+HV-1473,2,Fri,"Atlanta, GA",754,Susquehanna Trucking,Full truckload,3,1,84,0,1,0.371,0.052
+HV-1474,5,Tue,"Chicago, IL",586,Allegheny Express,Full truckload,3,0,84,0,0,0.014,0.039
+HV-1475,1,Mon,"Pittsburgh, PA",129,Blue Ridge Lines,LTL,2,0,82,0,0,0.015,0.054
+HV-1476,5,Thu,"Chicago, IL",611,Susquehanna Trucking,LTL,2,1,93,0,0,0.133,0.093
+HV-1477,4,Wed,"Dallas, TX",1437,Allegheny Express,Full truckload,5,1,85,0,0,0.036,0.079
+HV-1478,2,Wed,"Columbus, OH",281,Susquehanna Trucking,Parcel,3,1,84,0,0,0.103,0.09
+HV-1479,1,Tue,"Pittsburgh, PA",151,Keystone Freight,Full truckload,2,0,83,0,0,0.001,0.01
+HV-1480,3,Mon,"Columbus, OH",322,Blue Ridge Lines,LTL,3,0,84,0,0,0.05,0.066
+HV-1481,3,Thu,"Pittsburgh, PA",143,Keystone Freight,Full truckload,1,0,86,0,0,0.008,0.007
+HV-1482,2,Fri,"Philadelphia, PA",199,Keystone Freight,LTL,1,0,85,0,0,0.039,0.023
+HV-1483,3,Wed,"Philadelphia, PA",187,Susquehanna Trucking,Full truckload,2,0,78,1,1,0.354,0.405
+HV-1484,1,Thu,"Chicago, IL",638,Keystone Freight,Parcel,4,0,83,0,0,0.003,0.021
+HV-1485,2,Mon,"Dallas, TX",1305,Blue Ridge Lines,LTL,7,0,86,0,0,0.182,0.134
+HV-1486,1,Mon,"Los Angeles, CA",2501,Keystone Freight,Full truckload,8,0,82,0,0,0.159,0.055
+HV-1487,4,Mon,"Dallas, TX",1418,Blue Ridge Lines,Full truckload,4,1,95,0,0,0.226,0.457
+HV-1488,3,Wed,"Pittsburgh, PA",148,Allegheny Express,LTL,2,1,86,0,0,0.217,0.045
+HV-1489,4,Tue,"Philadelphia, PA",190,Susquehanna Trucking,LTL,2,1,86,1,1,0.234,0.484
+HV-1490,4,Wed,"Chicago, IL",600,Allegheny Express,Parcel,3,0,90,0,0,0.021,0.056
+HV-1491,3,Wed,"Atlanta, GA",755,Allegheny Express,LTL,4,0,85,0,0,0.025,0.13
+HV-1492,4,Mon,"Dallas, TX",1358,Keystone Freight,LTL,4,0,92,0,0,0.124,0.09
+HV-1493,3,Fri,"Charlotte, NC",465,Allegheny Express,LTL,4,0,99,0,0,0.037,0.034
+HV-1494,3,Mon,"Dallas, TX",1459,Keystone Freight,Full truckload,5,0,97,0,0,0.139,0.081
+HV-1495,2,Tue,"Chicago, IL",579,Susquehanna Trucking,Full truckload,2,0,98,0,0,0.019,0.167
+HV-1496,3,Fri,"Dallas, TX",1480,Allegheny Express,Full truckload,5,0,88,0,0,0.019,0.042
+HV-1497,1,Fri,"Philadelphia, PA",205,Keystone Freight,Full truckload,3,0,88,0,0,0.001,0.027
+HV-1498,3,Thu,"Chicago, IL",598,Susquehanna Trucking,LTL,3,0,99,0,0,0.179,0.066
+HV-1499,2,Tue,"Newark, NJ",260,Allegheny Express,Full truckload,2,0,78,1,0,0.021,0.382
+HV-1500,1,Thu,"Newark, NJ",269,Keystone Freight,Parcel,4,0,87,0,0,0.046,0.064
+HV-1501,1,Fri,"Dallas, TX",1387,Keystone Freight,Full truckload,5,0,83,0,0,0.118,0.021
+HV-1502,3,Wed,"Pittsburgh, PA",140,Susquehanna Trucking,LTL,3,0,76,0,0,0.112,0.025
+HV-1503,2,Wed,"Philadelphia, PA",203,Allegheny Express,LTL,2,0,90,0,0,0.002,0.014
+HV-1504,3,Tue,"Charlotte, NC",478,Blue Ridge Lines,LTL,2,1,88,1,1,0.7,0.806
+HV-1505,3,Wed,"Pittsburgh, PA",142,Allegheny Express,Full truckload,3,0,82,0,0,0.005,0.027
+HV-1506,1,Wed,"Pittsburgh, PA",151,Keystone Freight,Full truckload,2,0,97,0,0,0.004,0.013
+HV-1507,1,Fri,"Dallas, TX",1472,Keystone Freight,LTL,3,0,97,0,0,0.147,0.117
+HV-1508,4,Fri,"Los Angeles, CA",2538,Allegheny Express,Full truckload,8,1,97,1,1,0.275,0.649
+HV-1509,5,Mon,"Harrisburg, PA",88,Blue Ridge Lines,LTL,2,0,85,0,0,0.404,0.095
+HV-1510,4,Fri,"Chicago, IL",558,Keystone Freight,LTL,3,0,88,0,0,0.024,0.059
+HV-1511,1,Wed,"Harrisburg, PA",83,Allegheny Express,Full truckload,1,0,86,0,0,0.02,0.13
+HV-1512,3,Thu,"Chicago, IL",598,Susquehanna Trucking,Full truckload,3,0,91,0,0,0.005,0.058
+HV-1513,3,Wed,"Chicago, IL",556,Keystone Freight,Full truckload,2,0,83,0,0,0.005,0.005
+HV-1514,5,Thu,"Pittsburgh, PA",140,Susquehanna Trucking,LTL,2,0,99,0,0,0.125,0.03
+HV-1515,4,Mon,"Pittsburgh, PA",138,Susquehanna Trucking,LTL,2,0,75,1,1,0.557,0.84
+HV-1516,5,Thu,"Pittsburgh, PA",147,Susquehanna Trucking,Full truckload,2,0,90,1,1,0.142,0.093
+HV-1517,4,Thu,"Dallas, TX",1411,Keystone Freight,LTL,5,0,96,0,0,0.152,0.064
+HV-1518,2,Wed,"Dallas, TX",1425,Allegheny Express,Full truckload,6,0,93,0,0,0.059,0.021
+HV-1519,1,Tue,"Harrisburg, PA",83,Keystone Freight,Full truckload,3,0,80,0,0,0.003,0.028
+HV-1520,1,Thu,"Columbus, OH",305,Keystone Freight,LTL,2,0,81,0,0,0.046,0.04
+HV-1521,3,Fri,"Charlotte, NC",481,Keystone Freight,LTL,2,0,94,0,0,0.074,0.038
+HV-1522,5,Thu,"Newark, NJ",266,Keystone Freight,LTL,3,0,75,0,0,0.062,0.025
+HV-1523,5,Tue,"Harrisburg, PA",92,Allegheny Express,Parcel,2,0,87,0,0,0.016,0.028
+HV-1524,1,Thu,"Chicago, IL",594,Keystone Freight,LTL,1,0,80,0,0,0.087,0.074
+HV-1525,5,Wed,"Newark, NJ",249,Susquehanna Trucking,LTL,2,0,76,0,0,0.022,0.023
+HV-1526,5,Thu,"Newark, NJ",244,Keystone Freight,LTL,1,0,80,0,0,0.01,0.062
+HV-1527,2,Fri,"Charlotte, NC",445,Allegheny Express,Parcel,4,0,88,0,0,0.004,0.061
+HV-1528,1,Mon,"Columbus, OH",301,Blue Ridge Lines,LTL,2,0,93,0,0,0.24,0.169
+HV-1529,1,Fri,"Harrisburg, PA",86,Blue Ridge Lines,LTL,1,1,86,0,1,0.781,0.291
+HV-1530,5,Mon,"Charlotte, NC",493,Keystone Freight,Parcel,2,0,98,0,0,0.008,0.087
+HV-1531,5,Mon,"Pittsburgh, PA",135,Allegheny Express,LTL,1,0,86,0,0,0.064,0.047
+HV-1532,1,Thu,"Los Angeles, CA",2557,Keystone Freight,LTL,8,1,91,0,0,0.316,0.115
+HV-1533,5,Fri,"Philadelphia, PA",207,Blue Ridge Lines,LTL,3,0,93,0,1,0.221,0.01
+HV-1534,3,Fri,"Pittsburgh, PA",130,Allegheny Express,Full truckload,2,0,92,0,0,0.01,0.089
+HV-1535,5,Mon,"Dallas, TX",1476,Keystone Freight,LTL,5,1,91,0,0,0.015,0.117
+HV-1536,2,Wed,"Harrisburg, PA",93,Keystone Freight,Parcel,3,1,92,0,0,0.045,0.037
+HV-1537,5,Fri,"Columbus, OH",318,Keystone Freight,Full truckload,3,0,89,0,0,0.013,0.028
+HV-1538,1,Fri,"Pittsburgh, PA",132,Keystone Freight,Full truckload,1,0,84,0,0,0.013,0.016
+HV-1539,3,Mon,"Charlotte, NC",450,Keystone Freight,LTL,3,0,87,0,0,0.311,0.05
+HV-1540,5,Tue,"Pittsburgh, PA",148,Blue Ridge Lines,LTL,2,0,90,0,0,0.042,0.029
+HV-1541,2,Mon,"Charlotte, NC",463,Allegheny Express,Full truckload,2,0,90,0,0,0.027,0.009
+HV-1542,5,Tue,"Pittsburgh, PA",151,Keystone Freight,Full truckload,3,1,90,0,0,0.068,0.062
+HV-1543,5,Tue,"Harrisburg, PA",94,Allegheny Express,Parcel,4,0,92,0,0,0.024,0.09
+HV-1544,3,Thu,"Pittsburgh, PA",143,Susquehanna Trucking,LTL,2,0,79,1,1,0.264,0.604
+HV-1545,1,Wed,"Columbus, OH",302,Blue Ridge Lines,LTL,2,0,93,0,0,0.018,0.104
+HV-1546,3,Wed,"Pittsburgh, PA",134,Susquehanna Trucking,Parcel,2,0,96,0,0,0.035,0.094
+HV-1547,4,Wed,"Philadelphia, PA",190,Keystone Freight,Full truckload,1,0,98,0,0,0.031,0.019
+HV-1548,4,Fri,"Atlanta, GA",681,Blue Ridge Lines,Full truckload,2,0,87,0,0,0.033,0.034
+HV-1549,2,Thu,"Pittsburgh, PA",130,Allegheny Express,Full truckload,2,1,80,0,0,0.059,0.07
+HV-1550,5,Thu,"Pittsburgh, PA",129,Keystone Freight,LTL,1,0,99,0,0,0.002,0.014
+HV-1551,4,Mon,"Philadelphia, PA",188,Keystone Freight,LTL,1,0,96,0,0,0.01,0.027
+HV-1552,4,Mon,"Chicago, IL",602,Keystone Freight,LTL,4,0,75,0,0,0.036,0.003
+HV-1553,5,Thu,"Pittsburgh, PA",139,Keystone Freight,Full truckload,2,0,90,0,0,0.004,0.01
+HV-1554,5,Mon,"Chicago, IL",572,Keystone Freight,LTL,2,0,84,0,0,0.011,0.155
+HV-1555,3,Tue,"Atlanta, GA",744,Allegheny Express,LTL,4,0,92,0,0,0.01,0.012
+HV-1556,3,Wed,"Harrisburg, PA",85,Susquehanna Trucking,Full truckload,3,0,91,0,0,0.012,0.012
+HV-1557,3,Fri,"Harrisburg, PA",95,Keystone Freight,LTL,2,0,76,0,1,0.014,0.062
+HV-1558,1,Tue,"Philadelphia, PA",206,Susquehanna Trucking,Full truckload,2,1,90,0,1,0.188,0.041
+HV-1559,2,Mon,"Newark, NJ",267,Allegheny Express,Full truckload,1,0,83,0,0,0.058,0.105
+HV-1560,1,Mon,"Atlanta, GA",682,Keystone Freight,Full truckload,2,0,82,0,0,0.045,0.017
+HV-1561,5,Fri,"Harrisburg, PA",95,Susquehanna Trucking,Full truckload,1,0,80,0,0,0.048,0.056
+HV-1562,2,Mon,"Philadelphia, PA",213,Keystone Freight,Full truckload,1,0,98,0,0,0.002,0.053
+HV-1563,4,Tue,"Harrisburg, PA",85,Allegheny Express,Full truckload,2,0,79,0,0,0.085,0.129
+HV-1564,1,Tue,"Dallas, TX",1377,Keystone Freight,Parcel,4,1,82,1,1,0.335,0.308
+HV-1565,1,Mon,"Philadelphia, PA",206,Allegheny Express,LTL,3,0,84,0,0,0.024,0.027
+HV-1566,1,Thu,"Charlotte, NC",479,Keystone Freight,LTL,2,0,86,0,0,0.005,0.068
+HV-1567,2,Mon,"Columbus, OH",315,Keystone Freight,Parcel,2,0,99,0,0,0.03,0.19
+HV-1568,1,Mon,"Dallas, TX",1379,Allegheny Express,Full truckload,3,0,99,0,0,0.077,0.011
+HV-1569,3,Thu,"Pittsburgh, PA",144,Keystone Freight,Full truckload,2,0,90,0,0,0.004,0.008
+HV-1570,4,Thu,"Philadelphia, PA",189,Allegheny Express,LTL,2,0,77,0,0,0.02,0.164
+HV-1571,1,Wed,"Columbus, OH",310,Susquehanna Trucking,Parcel,3,0,83,0,0,0.137,0.036
+HV-1572,4,Thu,"Atlanta, GA",712,Keystone Freight,Parcel,3,1,83,0,1,0.075,0.058
+HV-1573,5,Tue,"Pittsburgh, PA",141,Blue Ridge Lines,Full truckload,2,0,85,1,1,0.097,0.548
+HV-1574,5,Fri,"Harrisburg, PA",85,Keystone Freight,Full truckload,2,0,99,0,0,0.004,0.003
+HV-1575,3,Thu,"Charlotte, NC",446,Keystone Freight,Full truckload,3,0,90,0,0,0.01,0.079
+HV-1576,1,Thu,"Pittsburgh, PA",143,Susquehanna Trucking,Full truckload,1,0,88,0,0,0.023,0.036
+HV-1577,5,Wed,"Chicago, IL",606,Susquehanna Trucking,LTL,4,0,92,0,1,0.298,0.157
+HV-1578,3,Thu,"Chicago, IL",576,Keystone Freight,LTL,4,1,86,0,0,0.069,0.082
+HV-1579,3,Tue,"Pittsburgh, PA",139,Keystone Freight,LTL,3,0,99,0,0,0.003,0.051
+HV-1580,1,Tue,"Pittsburgh, PA",142,Allegheny Express,LTL,1,0,92,0,0,0.008,0.045
+HV-1581,1,Mon,"Los Angeles, CA",2447,Allegheny Express,LTL,5,0,91,0,1,0.559,0.083
+HV-1582,2,Fri,"Pittsburgh, PA",144,Blue Ridge Lines,LTL,3,1,99,0,0,0.061,0.048
+HV-1583,1,Wed,"Harrisburg, PA",94,Allegheny Express,LTL,2,0,79,0,0,0.111,0.035
+HV-1584,1,Wed,"Dallas, TX",1391,Susquehanna Trucking,Parcel,4,0,85,0,0,0.104,0.139
+HV-1585,5,Fri,"Newark, NJ",262,Allegheny Express,LTL,2,0,86,0,0,0.022,0.044
+HV-1586,5,Mon,"Chicago, IL",642,Keystone Freight,LTL,3,0,96,0,0,0.008,0.008
+HV-1587,4,Fri,"Chicago, IL",638,Blue Ridge Lines,LTL,4,0,87,1,1,0.353,0.503
+HV-1588,4,Tue,"Pittsburgh, PA",132,Susquehanna Trucking,Full truckload,1,0,88,0,0,0.028,0.124
+HV-1589,3,Wed,"Charlotte, NC",451,Susquehanna Trucking,LTL,4,0,97,0,0,0.014,0.055
+HV-1590,1,Tue,"Dallas, TX",1472,Keystone Freight,Full truckload,7,0,99,0,0,0.004,0.087
+HV-1591,5,Thu,"Philadelphia, PA",212,Allegheny Express,Full truckload,3,0,92,0,0,0.024,0.043
+HV-1592,2,Thu,"Newark, NJ",268,Keystone Freight,Full truckload,2,1,88,0,0,0.014,0.114
+HV-1593,4,Fri,"Dallas, TX",1316,Susquehanna Trucking,Full truckload,5,0,90,0,0,0.08,0.145
+HV-1594,4,Fri,"Atlanta, GA",723,Keystone Freight,LTL,1,1,90,0,0,0.058,0.212
+HV-1595,5,Tue,"Pittsburgh, PA",141,Keystone Freight,Full truckload,4,0,84,0,0,0.053,0.027
+HV-1596,2,Mon,"Dallas, TX",1302,Allegheny Express,LTL,5,0,88,0,0,0.153,0.086
+HV-1597,3,Thu,"Pittsburgh, PA",135,Keystone Freight,LTL,2,0,90,0,0,0.006,0.024
+HV-1598,1,Thu,"Newark, NJ",248,Allegheny Express,LTL,3,0,96,0,0,0.005,0.068
+HV-1599,3,Fri,"Chicago, IL",632,Keystone Freight,Full truckload,3,0,85,0,0,0.005,0.122
+HV-1600,1,Tue,"Philadelphia, PA",204,Susquehanna Trucking,LTL,2,0,82,0,0,0.026,0.192
+HV-1601,4,Mon,"Harrisburg, PA",88,Keystone Freight,LTL,1,0,86,0,0,0.078,0.015
+HV-1602,3,Mon,"Harrisburg, PA",96,Susquehanna Trucking,Full truckload,1,0,83,0,0,0.002,0.065
+HV-1603,5,Tue,"Philadelphia, PA",214,Keystone Freight,Parcel,2,0,89,0,0,0.004,0.083
+HV-1604,4,Mon,"Dallas, TX",1491,Susquehanna Trucking,Full truckload,5,0,88,1,1,0.089,0.403
+HV-1605,3,Tue,"Harrisburg, PA",90,Blue Ridge Lines,LTL,3,0,90,0,0,0.072,0.081
+HV-1606,3,Wed,"Charlotte, NC",451,Keystone Freight,Parcel,3,0,99,0,0,0.021,0.021
+HV-1607,5,Wed,"Philadelphia, PA",184,Allegheny Express,LTL,2,0,95,0,0,0.026,0.027
+HV-1608,1,Mon,"Chicago, IL",574,Blue Ridge Lines,Parcel,2,0,81,0,1,0.548,0.04
+HV-1609,1,Fri,"Harrisburg, PA",83,Keystone Freight,LTL,2,1,91,0,0,0.01,0.048
+HV-1610,4,Tue,"Harrisburg, PA",88,Susquehanna Trucking,LTL,2,0,93,0,0,0.14,0.05
+HV-1611,1,Fri,"Philadelphia, PA",208,Blue Ridge Lines,LTL,2,0,78,0,0,0.019,0.096
+HV-1612,2,Thu,"Atlanta, GA",725,Allegheny Express,Parcel,3,1,84,0,1,0.115,0.146
+HV-1613,1,Tue,"Atlanta, GA",758,Allegheny Express,LTL,4,0,89,0,0,0.02,0.002
+HV-1614,2,Mon,"Harrisburg, PA",86,Allegheny Express,Full truckload,1,0,81,0,0,0.015,0.016
+HV-1615,1,Wed,"Pittsburgh, PA",150,Keystone Freight,Parcel,2,0,95,0,0,0.02,0.046
+HV-1616,4,Thu,"Newark, NJ",250,Allegheny Express,LTL,4,0,78,0,0,0.063,0.036
+HV-1617,4,Mon,"Pittsburgh, PA",130,Susquehanna Trucking,LTL,1,0,82,0,0,0.335,0.028
+HV-1618,1,Thu,"Pittsburgh, PA",149,Keystone Freight,LTL,2,0,87,0,0,0.032,0.07
+HV-1619,1,Fri,"Philadelphia, PA",203,Keystone Freight,LTL,2,0,91,0,0,0.046,0.015
+HV-1620,1,Wed,"Dallas, TX",1502,Blue Ridge Lines,Full truckload,5,0,85,0,0,0.06,0.148
+HV-1621,1,Tue,"Charlotte, NC",444,Susquehanna Trucking,LTL,3,0,82,0,0,0.034,0.039
+HV-1622,1,Wed,"Pittsburgh, PA",143,Blue Ridge Lines,Full truckload,1,0,80,0,0,0.056,0.312
+HV-1623,5,Tue,"Los Angeles, CA",2662,Keystone Freight,LTL,6,1,94,0,0,0.475,0.203
+HV-1624,4,Tue,"Harrisburg, PA",94,Susquehanna Trucking,Parcel,3,1,85,0,0,0.17,0.013
+HV-1625,1,Fri,"Columbus, OH",306,Allegheny Express,Full truckload,3,1,88,0,0,0.019,0.028
+HV-1626,3,Wed,"Harrisburg, PA",94,Keystone Freight,Full truckload,2,0,77,0,0,0.015,0.085
+HV-1627,1,Tue,"Los Angeles, CA",2712,Blue Ridge Lines,Full truckload,7,0,74,0,0,0.184,0.036
+HV-1628,5,Mon,"Columbus, OH",308,Allegheny Express,LTL,3,0,85,0,0,0.004,0.018
+HV-1629,5,Tue,"Pittsburgh, PA",146,Keystone Freight,LTL,1,0,75,0,0,0.024,0.101
+HV-1630,1,Tue,"Newark, NJ",255,Susquehanna Trucking,Full truckload,1,1,96,0,0,0.096,0.115
+HV-1631,4,Wed,"Dallas, TX",1392,Susquehanna Trucking,Parcel,4,0,91,0,0,0.036,0.311
+HV-1632,5,Tue,"Harrisburg, PA",91,Allegheny Express,Full truckload,2,0,79,0,0,0.002,0.032
+HV-1633,2,Thu,"Pittsburgh, PA",131,Blue Ridge Lines,Full truckload,2,0,97,0,0,0.026,0.051
+HV-1634,4,Thu,"Philadelphia, PA",198,Blue Ridge Lines,LTL,1,0,75,0,0,0.08,0.07
+HV-1635,5,Fri,"Pittsburgh, PA",129,Keystone Freight,LTL,3,0,84,0,1,0.046,0.044
+HV-1636,5,Wed,"Charlotte, NC",489,Susquehanna Trucking,Full truckload,5,0,92,0,0,0.016,0.015
+HV-1637,3,Thu,"Charlotte, NC",487,Keystone Freight,Full truckload,4,0,82,0,0,0.012,0.018
+HV-1638,3,Tue,"Charlotte, NC",488,Allegheny Express,Parcel,3,0,84,0,0,0.111,0.018
+HV-1639,5,Fri,"Pittsburgh, PA",149,Allegheny Express,Full truckload,1,1,84,0,0,0.343,0.108
+HV-1640,5,Fri,"Chicago, IL",555,Blue Ridge Lines,LTL,4,0,87,0,0,0.324,0.079
+HV-1641,4,Fri,"Philadelphia, PA",213,Keystone Freight,Full truckload,2,0,79,0,0,0.008,0.041
+HV-1642,3,Wed,"Philadelphia, PA",185,Blue Ridge Lines,Full truckload,2,0,99,0,0,0.021,0.011
+HV-1643,5,Tue,"Philadelphia, PA",190,Allegheny Express,Parcel,3,0,94,0,0,0.035,0.085
+HV-1644,4,Mon,"Los Angeles, CA",2544,Blue Ridge Lines,Parcel,8,0,91,0,1,0.386,0.015
+HV-1645,5,Fri,"Philadelphia, PA",189,Keystone Freight,Full truckload,3,0,91,0,0,0.005,0.012
+HV-1646,2,Thu,"Columbus, OH",319,Keystone Freight,LTL,1,0,75,0,0,0.022,0.125
+HV-1647,4,Mon,"Harrisburg, PA",93,Keystone Freight,Parcel,1,0,99,0,0,0.013,0.019
+HV-1648,5,Mon,"Chicago, IL",590,Keystone Freight,Full truckload,2,0,83,0,0,0.037,0.014
+HV-1649,4,Wed,"Philadelphia, PA",214,Keystone Freight,LTL,3,0,80,0,0,0.029,0.056
+HV-1650,2,Thu,"Chicago, IL",579,Keystone Freight,LTL,3,0,80,0,0,0.016,0.029
+HV-1651,5,Thu,"Pittsburgh, PA",129,Keystone Freight,LTL,3,0,92,0,0,0.005,0.077
+HV-1652,3,Tue,"Columbus, OH",292,Allegheny Express,Full truckload,3,0,96,0,0,0.003,0.036
+HV-1653,5,Fri,"Columbus, OH",293,Allegheny Express,LTL,2,1,99,0,0,0.102,0.045
+HV-1654,1,Fri,"Chicago, IL",585,Susquehanna Trucking,LTL,3,0,91,0,0,0.221,0.07
+HV-1655,3,Fri,"Harrisburg, PA",96,Susquehanna Trucking,LTL,3,0,81,0,0,0.323,0.009
+HV-1656,4,Fri,"Harrisburg, PA",93,Keystone Freight,LTL,1,0,84,0,0,0.023,0.098
+HV-1657,4,Mon,"Columbus, OH",310,Keystone Freight,Parcel,2,1,77,0,0,0.105,0.036
+HV-1658,4,Wed,"Pittsburgh, PA",136,Allegheny Express,Full truckload,2,0,86,0,0,0.038,0.013
+HV-1659,3,Wed,"Philadelphia, PA",213,Allegheny Express,LTL,2,1,88,0,0,0.127,0.085
+HV-1660,1,Thu,"Pittsburgh, PA",149,Allegheny Express,LTL,2,0,87,0,1,0.214,0.006
+HV-1661,3,Wed,"Columbus, OH",283,Blue Ridge Lines,Parcel,4,0,91,0,0,0.032,0.017
+HV-1662,2,Wed,"Columbus, OH",276,Keystone Freight,LTL,2,0,96,0,0,0.041,0.031
+HV-1663,1,Wed,"Chicago, IL",566,Susquehanna Trucking,LTL,3,0,92,0,0,0.011,0.015
+HV-1664,3,Wed,"Los Angeles, CA",2442,Blue Ridge Lines,Full truckload,6,0,91,0,0,0.576,0.107
+HV-1665,4,Tue,"Philadelphia, PA",195,Keystone Freight,LTL,3,0,74,0,0,0.014,0.03
+HV-1666,2,Mon,"Los Angeles, CA",2746,Allegheny Express,Full truckload,7,0,89,0,0,0.016,0.19
+HV-1667,1,Fri,"Pittsburgh, PA",131,Allegheny Express,LTL,1,0,83,0,0,0.028,0.022
+HV-1668,4,Fri,"Philadelphia, PA",214,Allegheny Express,Parcel,1,0,83,0,0,0.031,0.063
+HV-1669,4,Thu,"Philadelphia, PA",188,Keystone Freight,LTL,1,1,75,0,0,0.275,0.158
+HV-1670,1,Thu,"Charlotte, NC",452,Susquehanna Trucking,Full truckload,2,0,96,0,0,0.025,0.117
+HV-1671,1,Wed,"Philadelphia, PA",211,Keystone Freight,LTL,1,0,85,0,0,0.034,0.023
+HV-1672,4,Wed,"Philadelphia, PA",212,Susquehanna Trucking,Full truckload,3,0,84,0,0,0.024,0.09
+HV-1673,5,Mon,"Atlanta, GA",692,Keystone Freight,Full truckload,3,0,95,0,0,0.011,0.103
+HV-1674,4,Tue,"Philadelphia, PA",198,Keystone Freight,LTL,4,0,73,0,0,0.039,0.005
+HV-1675,2,Mon,"Newark, NJ",247,Allegheny Express,LTL,2,0,96,0,0,0.012,0.211
+HV-1676,4,Wed,"Pittsburgh, PA",142,Keystone Freight,LTL,2,1,82,0,0,0.331,0.027
+HV-1677,1,Tue,"Newark, NJ",267,Susquehanna Trucking,Full truckload,2,1,81,0,0,0.047,0.053
+HV-1678,3,Mon,"Pittsburgh, PA",141,Susquehanna Trucking,LTL,2,1,95,0,0,0.087,0.146
+HV-1679,4,Thu,"Columbus, OH",276,Keystone Freight,Full truckload,2,0,92,0,0,0.008,0.003
+HV-1680,5,Wed,"Harrisburg, PA",86,Susquehanna Trucking,Full truckload,1,0,99,0,0,0.001,0.016
+HV-1681,5,Mon,"Harrisburg, PA",92,Blue Ridge Lines,LTL,2,0,89,0,0,0.24,0.023
+HV-1682,5,Tue,"Philadelphia, PA",192,Blue Ridge Lines,LTL,3,0,80,0,0,0.031,0.051
+HV-1683,1,Fri,"Pittsburgh, PA",138,Keystone Freight,LTL,3,0,86,0,0,0.018,0.009
+HV-1684,5,Tue,"Columbus, OH",321,Keystone Freight,LTL,3,1,77,0,0,0.043,0.02
+HV-1685,3,Mon,"Newark, NJ",278,Allegheny Express,Full truckload,3,0,87,0,0,0.087,0.007
+HV-1686,3,Thu,"Columbus, OH",294,Allegheny Express,Full truckload,3,0,96,0,0,0.04,0.174
+HV-1687,4,Wed,"Columbus, OH",285,Susquehanna Trucking,Full truckload,2,0,91,0,0,0.005,0.006
+HV-1688,4,Wed,"Chicago, IL",574,Allegheny Express,Parcel,3,1,71,0,1,0.172,0.134
+HV-1689,3,Wed,"Atlanta, GA",747,Blue Ridge Lines,LTL,2,0,94,0,0,0.101,0.028
+HV-1690,3,Fri,"Chicago, IL",642,Blue Ridge Lines,Full truckload,2,0,82,0,0,0.07,0.063
+HV-1691,3,Tue,"Harrisburg, PA",90,Keystone Freight,Parcel,2,0,94,0,0,0.003,0.017
+HV-1692,1,Wed,"Philadelphia, PA",212,Keystone Freight,LTL,1,0,86,0,0,0.057,0.055
+HV-1693,5,Thu,"Newark, NJ",265,Allegheny Express,Full truckload,3,1,96,0,0,0.015,0.064
+HV-1694,3,Wed,"Harrisburg, PA",86,Blue Ridge Lines,Full truckload,1,0,93,0,0,0.014,0.057
+HV-1695,1,Tue,"Pittsburgh, PA",147,Keystone Freight,Full truckload,1,0,89,0,0,0.005,0.076
+HV-1696,1,Thu,"Chicago, IL",572,Keystone Freight,Full truckload,1,0,87,0,0,0.031,0.06
+HV-1697,5,Mon,"Charlotte, NC",489,Keystone Freight,Parcel,3,0,86,0,0,0.011,0.039
+HV-1698,4,Tue,"Chicago, IL",599,Keystone Freight,Full truckload,2,0,96,0,0,0.014,0.01
+HV-1699,1,Tue,"Harrisburg, PA",85,Keystone Freight,Full truckload,1,0,91,0,0,0.009,0.083
+HV-1700,1,Wed,"Philadelphia, PA",212,Keystone Freight,LTL,2,0,86,0,0,0.21,0.19
+HV-1701,2,Thu,"Los Angeles, CA",2578,Keystone Freight,Full truckload,7,0,96,0,0,0.047,0.024
+HV-1702,3,Wed,"Charlotte, NC",471,Susquehanna Trucking,LTL,3,0,87,0,0,0.013,0.054
+HV-1703,3,Fri,"Harrisburg, PA",88,Keystone Freight,Full truckload,2,0,84,0,0,0.006,0.028
+HV-1704,1,Thu,"Harrisburg, PA",90,Keystone Freight,LTL,1,0,98,0,0,0.012,0.023
+HV-1705,1,Mon,"Chicago, IL",558,Susquehanna Trucking,Parcel,3,1,85,0,0,0.52,0.05
+HV-1706,1,Tue,"Columbus, OH",284,Keystone Freight,Full truckload,2,0,88,0,0,0.045,0.02
+HV-1707,5,Mon,"Chicago, IL",646,Blue Ridge Lines,LTL,3,0,92,0,0,0.323,0.219
+HV-1708,1,Wed,"Harrisburg, PA",97,Blue Ridge Lines,Parcel,3,0,83,0,0,0.028,0.126
+HV-1709,1,Fri,"Pittsburgh, PA",130,Allegheny Express,Full truckload,2,0,86,0,0,0.051,0.025
+HV-1710,5,Fri,"Harrisburg, PA",89,Keystone Freight,LTL,1,0,82,0,0,0.074,0.108
+HV-1711,1,Mon,"Harrisburg, PA",85,Keystone Freight,LTL,1,0,94,0,0,0.028,0.043
+HV-1712,3,Tue,"Atlanta, GA",740,Susquehanna Trucking,Full truckload,2,1,91,0,0,0.077,0.039
+HV-1713,5,Fri,"Pittsburgh, PA",142,Blue Ridge Lines,Full truckload,2,0,94,0,0,0.001,0.044
+HV-1714,5,Thu,"Newark, NJ",261,Keystone Freight,Parcel,2,0,99,0,0,0.006,0.02
+HV-1715,3,Tue,"Charlotte, NC",443,Keystone Freight,Full truckload,3,0,95,0,0,0.001,0.034
+HV-1716,1,Mon,"Pittsburgh, PA",147,Susquehanna Trucking,LTL,3,0,99,0,0,0.024,0.099
+HV-1717,5,Wed,"Harrisburg, PA",84,Blue Ridge Lines,Full truckload,2,0,82,0,0,0.005,0.033
+HV-1718,4,Mon,"Pittsburgh, PA",149,Allegheny Express,Full truckload,3,0,79,0,0,0.051,0.085
+HV-1719,4,Tue,"Newark, NJ",246,Allegheny Express,Full truckload,2,0,91,0,0,0.009,0.02
+HV-1720,5,Mon,"Charlotte, NC",476,Keystone Freight,LTL,2,0,88,0,0,0.008,0.054
+HV-1721,4,Wed,"Dallas, TX",1419,Keystone Freight,LTL,5,1,87,0,0,0.088,0.115
+HV-1722,5,Thu,"Pittsburgh, PA",142,Keystone Freight,Parcel,1,0,70,0,0,0.087,0.045
+HV-1723,3,Mon,"Dallas, TX",1417,Allegheny Express,Full truckload,6,0,85,0,0,0.154,0.079
+HV-1724,1,Wed,"Chicago, IL",594,Keystone Freight,Parcel,3,0,88,0,0,0.02,0.027
+HV-1725,3,Thu,"Columbus, OH",280,Susquehanna Trucking,LTL,4,1,81,0,0,0.099,0.151
+HV-1726,3,Tue,"Charlotte, NC",460,Susquehanna Trucking,LTL,1,1,99,0,0,0.145,0.114
+HV-1727,1,Thu,"Charlotte, NC",498,Keystone Freight,LTL,3,0,90,0,0,0.01,0.018
+HV-1728,2,Tue,"Philadelphia, PA",199,Susquehanna Trucking,Parcel,3,0,88,0,0,0.022,0.047
+HV-1729,5,Mon,"Chicago, IL",605,Keystone Freight,LTL,4,0,93,0,1,0.052,0.017
+HV-1730,3,Fri,"Columbus, OH",314,Keystone Freight,LTL,4,0,83,0,0,0.01,0.019
+HV-1731,2,Mon,"Newark, NJ",257,Allegheny Express,Full truckload,2,0,95,0,0,0.039,0.017
+HV-1732,4,Wed,"Atlanta, GA",747,Blue Ridge Lines,Full truckload,3,0,76,0,0,0.049,0.012
+HV-1733,5,Tue,"Harrisburg, PA",88,Keystone Freight,LTL,2,0,86,0,0,0.006,0.023
+HV-1734,2,Mon,"Harrisburg, PA",91,Keystone Freight,LTL,3,0,83,1,1,0.124,0.785
+HV-1735,2,Mon,"Newark, NJ",261,Susquehanna Trucking,Parcel,1,0,80,1,1,0.334,0.388
+HV-1736,2,Mon,"Newark, NJ",261,Allegheny Express,Full truckload,2,1,84,0,1,0.263,0.013
+HV-1737,2,Fri,"Harrisburg, PA",92,Keystone Freight,Full truckload,3,0,94,0,0,0.001,0.077
+HV-1738,3,Fri,"Charlotte, NC",469,Blue Ridge Lines,Full truckload,2,0,97,0,0,0.014,0.077
+HV-1739,4,Tue,"Harrisburg, PA",85,Allegheny Express,LTL,2,0,83,0,0,0.014,0.018
+HV-1740,1,Fri,"Atlanta, GA",774,Allegheny Express,LTL,4,0,89,0,0,0.054,0.047
+HV-1741,3,Tue,"Charlotte, NC",473,Keystone Freight,Full truckload,3,0,98,0,0,0.003,0.027
+HV-1742,1,Wed,"Philadelphia, PA",212,Allegheny Express,Full truckload,2,0,86,0,0,0.018,0.048
+HV-1743,2,Fri,"Chicago, IL",626,Keystone Freight,Parcel,3,1,99,0,0,0.007,0.01
+HV-1744,4,Mon,"Philadelphia, PA",184,Keystone Freight,Full truckload,3,0,94,0,0,0.004,0.017
+HV-1745,3,Fri,"Chicago, IL",559,Allegheny Express,LTL,3,0,91,0,0,0.021,0.125
+HV-1746,4,Tue,"Dallas, TX",1430,Keystone Freight,LTL,6,1,92,0,1,0.447,0.122
+HV-1747,4,Mon,"Newark, NJ",270,Keystone Freight,LTL,3,1,76,0,0,0.281,0.048
+HV-1748,2,Mon,"Pittsburgh, PA",131,Keystone Freight,Full truckload,1,0,92,0,0,0.008,0.028
+HV-1749,2,Thu,"Chicago, IL",574,Allegheny Express,LTL,4,1,84,0,0,0.014,0.148
+HV-1750,1,Tue,"Atlanta, GA",680,Blue Ridge Lines,LTL,2,0,92,0,0,0.031,0.038
+HV-1751,2,Thu,"Charlotte, NC",517,Keystone Freight,LTL,4,0,87,0,0,0.017,0.058
+HV-1752,2,Tue,"Harrisburg, PA",85,Susquehanna Trucking,Full truckload,3,0,86,1,1,0.043,0.315
+HV-1753,1,Thu,"Atlanta, GA",693,Allegheny Express,Full truckload,3,1,96,0,0,0.015,0.028
+HV-1754,5,Wed,"Atlanta, GA",692,Susquehanna Trucking,Full truckload,4,1,73,0,0,0.45,0.228
+HV-1755,3,Wed,"Harrisburg, PA",84,Keystone Freight,LTL,1,0,73,0,0,0.02,0.032
+HV-1756,3,Mon,"Harrisburg, PA",93,Keystone Freight,Parcel,2,0,84,0,0,0.049,0.044
+HV-1757,2,Thu,"Charlotte, NC",492,Keystone Freight,LTL,3,0,86,0,0,0.145,0.12
+HV-1758,3,Tue,"Harrisburg, PA",83,Susquehanna Trucking,Full truckload,3,0,82,0,0,0.24,0.092
+HV-1759,5,Fri,"Newark, NJ",247,Susquehanna Trucking,Full truckload,1,0,87,0,0,0.024,0.031
+HV-1760,2,Wed,"Atlanta, GA",721,Allegheny Express,Full truckload,3,0,91,0,0,0.009,0.146
+HV-1761,5,Mon,"Philadelphia, PA",202,Keystone Freight,LTL,1,1,86,1,1,0.142,0.858
+HV-1762,2,Thu,"Columbus, OH",280,Susquehanna Trucking,Full truckload,3,0,87,0,0,0.022,0.013
+HV-1763,1,Fri,"Philadelphia, PA",187,Susquehanna Trucking,Full truckload,1,0,81,0,0,0.018,0.07
+HV-1764,4,Mon,"Atlanta, GA",773,Allegheny Express,LTL,3,0,70,0,0,0.124,0.065
+HV-1765,1,Tue,"Harrisburg, PA",85,Keystone Freight,Full truckload,2,0,78,0,1,0.048,0.055
+HV-1766,4,Fri,"Atlanta, GA",686,Keystone Freight,Full truckload,3,0,88,0,0,0.014,0.018
+HV-1767,4,Tue,"Harrisburg, PA",83,Susquehanna Trucking,Full truckload,1,0,99,0,0,0.029,0.069
+HV-1768,1,Mon,"Charlotte, NC",489,Blue Ridge Lines,LTL,3,0,96,0,0,0.056,0.071
+HV-1769,5,Tue,"Harrisburg, PA",85,Susquehanna Trucking,LTL,1,0,84,0,0,0.224,0.035
+HV-1770,2,Mon,"Pittsburgh, PA",129,Keystone Freight,LTL,3,1,83,0,0,0.076,0.036
+HV-1771,1,Mon,"Newark, NJ",260,Allegheny Express,LTL,2,0,91,0,0,0.085,0.118
+HV-1772,1,Mon,"Philadelphia, PA",191,Blue Ridge Lines,LTL,1,0,77,0,0,0.702,0.043
+HV-1773,1,Fri,"Harrisburg, PA",93,Keystone Freight,LTL,2,1,89,0,0,0.119,0.029
+HV-1774,3,Tue,"Chicago, IL",624,Keystone Freight,Parcel,2,0,92,0,0,0.012,0.018
+HV-1775,2,Thu,"Los Angeles, CA",2733,Susquehanna Trucking,LTL,8,0,86,0,1,0.528,0.057
+HV-1776,4,Mon,"Dallas, TX",1508,Blue Ridge Lines,Full truckload,6,1,93,0,0,0.418,0.046
+HV-1777,1,Thu,"Columbus, OH",299,Susquehanna Trucking,Full truckload,3,0,92,0,0,0.002,0.041
+HV-1778,1,Thu,"Harrisburg, PA",87,Blue Ridge Lines,Full truckload,2,0,83,0,0,0.009,0.019
+HV-1779,3,Thu,"Newark, NJ",279,Allegheny Express,Full truckload,1,0,85,0,0,0.046,0.045
+HV-1780,4,Fri,"Charlotte, NC",475,Blue Ridge Lines,Parcel,1,1,93,0,1,0.349,0.084
+HV-1781,4,Wed,"Charlotte, NC",484,Allegheny Express,Full truckload,4,0,85,0,0,0.006,0.005
+HV-1782,4,Mon,"Chicago, IL",584,Blue Ridge Lines,Full truckload,3,0,84,0,0,0.127,0.067
+HV-1783,5,Tue,"Harrisburg, PA",83,Susquehanna Trucking,LTL,1,1,81,0,0,0.372,0.089
+HV-1784,5,Wed,"Philadelphia, PA",190,Keystone Freight,Full truckload,3,0,87,0,0,0.008,0.051
+HV-1785,1,Thu,"Chicago, IL",596,Allegheny Express,LTL,3,1,91,0,0,0.199,0.12
+HV-1786,1,Fri,"Pittsburgh, PA",142,Keystone Freight,Full truckload,2,0,88,0,0,0.005,0.082
+HV-1787,3,Mon,"Los Angeles, CA",2801,Allegheny Express,Full truckload,9,0,97,0,0,0.231,0.041
+HV-1788,4,Mon,"Charlotte, NC",483,Keystone Freight,LTL,3,0,87,0,0,0.015,0.088
+HV-1789,5,Thu,"Charlotte, NC",512,Susquehanna Trucking,Full truckload,3,0,85,0,0,0.012,0.099
+HV-1790,2,Tue,"Atlanta, GA",748,Keystone Freight,Full truckload,2,0,97,0,0,0.002,0.023
+HV-1791,5,Wed,"Charlotte, NC",481,Keystone Freight,Full truckload,3,0,93,0,0,0.009,0.024
+HV-1792,5,Thu,"Chicago, IL",574,Keystone Freight,Full truckload,2,0,89,0,0,0.026,0.131
+HV-1793,5,Mon,"Pittsburgh, PA",129,Blue Ridge Lines,Parcel,1,0,88,0,0,0.714,0.038
+HV-1794,3,Thu,"Philadelphia, PA",195,Keystone Freight,Full truckload,2,0,98,0,0,0.017,0.01
+HV-1795,5,Tue,"Columbus, OH",314,Susquehanna Trucking,Full truckload,2,1,89,0,0,0.108,0.164
+HV-1796,3,Tue,"Charlotte, NC",486,Blue Ridge Lines,LTL,2,0,80,0,0,0.098,0.017
+HV-1797,3,Thu,"Los Angeles, CA",2479,Susquehanna Trucking,Parcel,8,1,96,0,0,0.198,0.513
+HV-1798,5,Wed,"Charlotte, NC",445,Keystone Freight,LTL,4,0,89,0,0,0.045,0.051
+HV-1799,2,Thu,"Dallas, TX",1345,Allegheny Express,LTL,5,1,92,0,0,0.058,0.408
+HV-1800,4,Wed,"Chicago, IL",568,Allegheny Express,Full truckload,3,0,84,0,0,0.018,0.018
+HV-1801,4,Tue,"Pittsburgh, PA",144,Susquehanna Trucking,Full truckload,2,1,88,0,0,0.101,0.093
+HV-1802,1,Thu,"Atlanta, GA",666,Blue Ridge Lines,Full truckload,4,0,92,0,0,0.003,0.029
+HV-1803,5,Mon,"Harrisburg, PA",93,Keystone Freight,Parcel,2,0,82,0,0,0.038,0.057
+HV-1804,5,Mon,"Columbus, OH",323,Keystone Freight,LTL,2,0,88,0,0,0.009,0.042
+HV-1805,3,Tue,"Charlotte, NC",478,Allegheny Express,Full truckload,2,0,91,0,0,0.023,0.026
+HV-1806,4,Tue,"Charlotte, NC",508,Allegheny Express,LTL,4,0,96,0,0,0.009,0.028
+HV-1807,1,Thu,"Philadelphia, PA",204,Allegheny Express,Full truckload,2,0,84,0,0,0.005,0.032
+HV-1808,3,Tue,"Los Angeles, CA",2439,Keystone Freight,Full truckload,8,1,91,0,0,0.341,0.103
+HV-1809,2,Tue,"Philadelphia, PA",188,Keystone Freight,Full truckload,1,0,94,0,0,0.044,0.123
+HV-1810,4,Fri,"Newark, NJ",278,Blue Ridge Lines,Full truckload,2,0,99,0,0,0.022,0.05
+HV-1811,3,Tue,"Dallas, TX",1380,Keystone Freight,Parcel,5,0,84,0,0,0.036,0.04
+HV-1812,3,Fri,"Philadelphia, PA",205,Allegheny Express,Parcel,1,0,90,0,0,0.022,0.019
+HV-1813,1,Wed,"Charlotte, NC",514,Susquehanna Trucking,LTL,3,0,99,0,1,0.039,0.075
+HV-1814,1,Fri,"Columbus, OH",291,Keystone Freight,LTL,1,0,92,1,1,0.119,0.635
+HV-1815,4,Mon,"Pittsburgh, PA",143,Keystone Freight,Parcel,2,1,82,0,0,0.043,0.027
+HV-1816,3,Fri,"Charlotte, NC",496,Susquehanna Trucking,Full truckload,3,0,83,0,0,0.03,0.015
+HV-1817,5,Fri,"Pittsburgh, PA",140,Allegheny Express,LTL,3,0,85,0,0,0.025,0.197
+HV-1818,4,Fri,"Philadelphia, PA",195,Susquehanna Trucking,Full truckload,1,1,92,0,0,0.17,0.017
+HV-1819,5,Mon,"Atlanta, GA",664,Keystone Freight,Full truckload,2,0,83,0,0,0.04,0.049
+HV-1820,1,Mon,"Dallas, TX",1490,Keystone Freight,Full truckload,5,0,90,0,0,0.006,0.01
+HV-1821,5,Wed,"Harrisburg, PA",83,Allegheny Express,Full truckload,1,1,87,0,0,0.054,0.042
+HV-1822,2,Fri,"Pittsburgh, PA",149,Susquehanna Trucking,Full truckload,1,0,91,0,0,0.075,0.093
+HV-1823,1,Wed,"Dallas, TX",1453,Blue Ridge Lines,LTL,5,0,81,0,0,0.115,0.093
+HV-1824,5,Fri,"Harrisburg, PA",95,Blue Ridge Lines,Full truckload,4,0,99,0,0,0.002,0.035
+HV-1825,1,Wed,"Los Angeles, CA",2768,Allegheny Express,LTL,6,1,82,1,1,0.603,0.889
+HV-1826,3,Mon,"Charlotte, NC",494,Susquehanna Trucking,Parcel,3,0,80,0,0,0.09,0.111
+HV-1827,4,Fri,"Newark, NJ",252,Allegheny Express,Parcel,1,0,83,0,0,0.012,0.006
+HV-1828,1,Fri,"Philadelphia, PA",208,Allegheny Express,LTL,2,0,84,0,0,0.004,0.016
+HV-1829,4,Thu,"Pittsburgh, PA",131,Susquehanna Trucking,LTL,1,0,91,1,1,0.194,0.124
+HV-1830,5,Mon,"Philadelphia, PA",202,Keystone Freight,Full truckload,2,0,99,0,0,0.007,0.015
+HV-1831,5,Tue,"Harrisburg, PA",83,Susquehanna Trucking,Full truckload,1,1,86,0,0,0.219,0.101
+HV-1832,5,Fri,"Atlanta, GA",752,Susquehanna Trucking,Full truckload,3,0,78,0,0,0.022,0.067
+HV-1833,5,Tue,"Philadelphia, PA",186,Allegheny Express,LTL,3,0,77,0,0,0.08,0.008
+HV-1834,4,Fri,"Chicago, IL",641,Keystone Freight,Parcel,4,0,95,0,0,0.017,0.023
+HV-1835,3,Wed,"Newark, NJ",264,Keystone Freight,Parcel,1,0,77,0,0,0.031,0.224
+HV-1836,4,Fri,"Atlanta, GA",666,Keystone Freight,Full truckload,3,0,85,0,0,0.012,0.041
+HV-1837,3,Mon,"Columbus, OH",300,Blue Ridge Lines,LTL,3,0,69,0,0,0.043,0.183
+HV-1838,2,Fri,"Columbus, OH",281,Allegheny Express,LTL,1,0,78,0,0,0.027,0.048
+HV-1839,1,Wed,"Harrisburg, PA",94,Susquehanna Trucking,Full truckload,1,0,89,0,0,0.009,0.418
+HV-1840,4,Mon,"Newark, NJ",271,Susquehanna Trucking,LTL,2,0,87,0,0,0.011,0.02
+HV-1841,4,Wed,"Charlotte, NC",466,Blue Ridge Lines,LTL,3,0,82,0,0,0.091,0.066
+HV-1842,5,Tue,"Philadelphia, PA",200,Susquehanna Trucking,Full truckload,2,0,84,0,0,0.006,0.136
+HV-1843,5,Mon,"Pittsburgh, PA",148,Keystone Freight,LTL,1,1,94,0,0,0.018,0.044
+HV-1844,4,Fri,"Newark, NJ",255,Allegheny Express,LTL,3,0,99,0,0,0.008,0.025
+HV-1845,1,Mon,"Los Angeles, CA",2808,Keystone Freight,Full truckload,8,0,83,0,0,0.25,0.102
+HV-1846,2,Mon,"Los Angeles, CA",2547,Allegheny Express,LTL,7,0,95,0,0,0.122,0.036
+HV-1847,3,Mon,"Newark, NJ",243,Allegheny Express,LTL,1,0,81,0,0,0.041,0.267
+HV-1848,2,Thu,"Columbus, OH",287,Allegheny Express,LTL,3,1,84,0,0,0.042,0.048
+HV-1849,4,Tue,"Pittsburgh, PA",135,Keystone Freight,Full truckload,2,0,94,0,0,0.003,0.046
+HV-1850,5,Thu,"Atlanta, GA",742,Keystone Freight,Full truckload,4,0,88,0,0,0.013,0.04
+HV-1851,5,Mon,"Harrisburg, PA",85,Blue Ridge Lines,Parcel,2,0,94,0,0,0.012,0.029
+HV-1852,5,Tue,"Harrisburg, PA",93,Keystone Freight,Full truckload,1,0,91,0,0,0.115,0.012
+HV-1853,1,Tue,"Chicago, IL",620,Susquehanna Trucking,LTL,4,1,93,0,0,0.195,0.126
+HV-1854,5,Thu,"Columbus, OH",281,Allegheny Express,LTL,1,0,99,0,0,0.016,0.025
+HV-1855,2,Fri,"Pittsburgh, PA",129,Keystone Freight,Full truckload,2,1,95,0,0,0.005,0.04
+HV-1856,2,Tue,"Atlanta, GA",698,Blue Ridge Lines,Full truckload,3,0,82,0,0,0.034,0.006
+HV-1857,2,Tue,"Charlotte, NC",503,Keystone Freight,LTL,3,0,92,0,0,0.009,0.159
+HV-1858,3,Tue,"Philadelphia, PA",201,Keystone Freight,LTL,2,0,85,0,0,0.016,0.027
+HV-1859,5,Fri,"Harrisburg, PA",90,Blue Ridge Lines,LTL,1,1,68,0,0,0.374,0.092
+HV-1860,4,Wed,"Pittsburgh, PA",146,Keystone Freight,LTL,4,0,92,0,0,0.004,0.177
+HV-1861,1,Thu,"Dallas, TX",1468,Susquehanna Trucking,Parcel,3,0,89,0,1,0.511,0.057
+HV-1862,2,Fri,"Pittsburgh, PA",131,Allegheny Express,Full truckload,1,0,86,0,0,0.004,0.059
+HV-1863,4,Mon,"Philadelphia, PA",196,Keystone Freight,LTL,2,0,79,0,0,0.034,0.052
+HV-1864,4,Tue,"Chicago, IL",616,Keystone Freight,Parcel,1,1,85,0,0,0.195,0.14
+HV-1865,2,Thu,"Philadelphia, PA",201,Allegheny Express,Full truckload,3,0,88,0,0,0.022,0.03
+HV-1866,4,Tue,"Atlanta, GA",776,Allegheny Express,Full truckload,4,1,79,0,0,0.196,0.097
+HV-1867,5,Wed,"Columbus, OH",291,Susquehanna Trucking,LTL,2,0,93,0,0,0.015,0.014
+HV-1868,1,Fri,"Newark, NJ",243,Keystone Freight,Full truckload,2,0,90,0,0,0.01,0.13
+HV-1869,4,Thu,"Columbus, OH",277,Allegheny Express,Full truckload,2,0,82,0,0,0.06,0.11
+HV-1870,1,Tue,"Charlotte, NC",511,Susquehanna Trucking,Parcel,4,1,84,0,0,0.171,0.021
+HV-1871,3,Thu,"Dallas, TX",1403,Allegheny Express,Parcel,5,0,89,0,0,0.019,0.172
+HV-1872,3,Wed,"Charlotte, NC",483,Allegheny Express,LTL,3,0,95,0,0,0.002,0.018
+HV-1873,3,Thu,"Los Angeles, CA",2773,Susquehanna Trucking,Parcel,8,0,81,1,1,0.578,0.828
+HV-1874,5,Wed,"Chicago, IL",636,Keystone Freight,Full truckload,3,0,90,0,0,0.007,0.032
+HV-1875,1,Mon,"Dallas, TX",1456,Keystone Freight,LTL,5,1,94,0,0,0.082,0.053
+HV-1876,2,Mon,"Columbus, OH",293,Susquehanna Trucking,LTL,2,1,98,1,1,0.598,0.344
+HV-1877,5,Wed,"Chicago, IL",618,Allegheny Express,Full truckload,2,0,92,0,0,0.007,0.019
+HV-1878,1,Wed,"Philadelphia, PA",193,Allegheny Express,Full truckload,2,0,79,0,0,0.009,0.054
+HV-1879,5,Mon,"Harrisburg, PA",83,Susquehanna Trucking,Full truckload,1,0,90,0,0,0.021,0.088
+HV-1880,1,Thu,"Los Angeles, CA",2545,Keystone Freight,LTL,7,0,82,0,0,0.044,0.145
+HV-1881,2,Mon,"Los Angeles, CA",2599,Blue Ridge Lines,LTL,7,0,85,0,0,0.762,0.123
+HV-1882,3,Wed,"Harrisburg, PA",92,Allegheny Express,LTL,2,0,94,0,0,0.007,0.059
+HV-1883,2,Mon,"Newark, NJ",268,Blue Ridge Lines,Full truckload,3,0,96,0,0,0.037,0.076
+HV-1884,2,Thu,"Chicago, IL",621,Blue Ridge Lines,Full truckload,2,0,87,0,0,0.014,0.056
+HV-1885,3,Fri,"Harrisburg, PA",89,Susquehanna Trucking,Parcel,2,0,92,0,0,0.166,0.152
+HV-1886,4,Tue,"Dallas, TX",1300,Keystone Freight,LTL,5,0,87,0,0,0.038,0.021
+HV-1887,3,Tue,"Newark, NJ",263,Blue Ridge Lines,Parcel,4,0,94,0,0,0.029,0.216
+HV-1888,3,Thu,"Atlanta, GA",663,Susquehanna Trucking,Parcel,4,0,95,1,1,0.449,0.422
+HV-1889,4,Wed,"Columbus, OH",284,Allegheny Express,LTL,3,0,78,0,0,0.02,0.011
+HV-1890,2,Fri,"Harrisburg, PA",85,Keystone Freight,LTL,1,1,80,0,0,0.254,0.084
+HV-1891,1,Tue,"Dallas, TX",1293,Keystone Freight,Full truckload,5,0,91,0,0,0.017,0.02
+HV-1892,1,Thu,"Harrisburg, PA",87,Allegheny Express,Full truckload,1,0,91,0,0,0.016,0.078
+HV-1893,2,Fri,"Los Angeles, CA",2562,Susquehanna Trucking,Full truckload,7,0,97,0,0,0.095,0.03
+HV-1894,2,Tue,"Newark, NJ",275,Allegheny Express,Full truckload,2,0,93,0,0,0.009,0.036
+HV-1895,1,Thu,"Los Angeles, CA",2752,Allegheny Express,LTL,7,1,92,0,0,0.232,0.07
+HV-1896,2,Tue,"Charlotte, NC",461,Keystone Freight,LTL,4,0,84,0,0,0.01,0.044
+HV-1897,1,Mon,"Newark, NJ",251,Keystone Freight,Full truckload,3,0,74,0,0,0.01,0.047
+HV-1898,4,Fri,"Philadelphia, PA",193,Keystone Freight,Full truckload,1,0,99,0,1,0.004,0.012
+HV-1899,1,Fri,"Pittsburgh, PA",132,Allegheny Express,Full truckload,2,0,85,0,0,0.004,0.03
+HV-1900,4,Tue,"Newark, NJ",259,Keystone Freight,Full truckload,4,1,89,0,0,0.021,0.052
+HV-1901,1,Mon,"Charlotte, NC",452,Allegheny Express,Full truckload,4,0,82,0,0,0.005,0.013
+HV-1902,5,Mon,"Charlotte, NC",454,Blue Ridge Lines,Full truckload,4,0,83,0,0,0.018,0.069
+HV-1903,5,Mon,"Pittsburgh, PA",135,Allegheny Express,Full truckload,3,0,82,0,0,0.008,0.074
+HV-1904,2,Thu,"Philadelphia, PA",213,Susquehanna Trucking,LTL,2,0,92,0,0,0.069,0.037
+HV-1905,2,Mon,"Philadelphia, PA",206,Allegheny Express,LTL,3,1,87,0,0,0.11,0.065
+HV-1906,5,Tue,"Pittsburgh, PA",143,Susquehanna Trucking,LTL,3,0,77,0,0,0.097,0.062
+HV-1907,4,Fri,"Pittsburgh, PA",142,Blue Ridge Lines,LTL,1,0,88,0,0,0.066,0.05
+HV-1908,3,Tue,"Pittsburgh, PA",150,Allegheny Express,LTL,1,0,80,0,0,0.007,0.009
+HV-1909,3,Mon,"Chicago, IL",571,Keystone Freight,Full truckload,3,1,87,0,0,0.048,0.11
+HV-1910,1,Thu,"Dallas, TX",1421,Keystone Freight,Parcel,5,0,97,0,0,0.051,0.006
+HV-1911,1,Mon,"Chicago, IL",599,Blue Ridge Lines,Parcel,5,0,91,0,0,0.145,0.022
+HV-1912,1,Thu,"Dallas, TX",1310,Keystone Freight,Full truckload,4,0,85,0,0,0.008,0.026
+HV-1913,1,Mon,"Philadelphia, PA",204,Allegheny Express,Full truckload,3,0,86,1,1,0.264,0.29
+HV-1914,3,Tue,"Pittsburgh, PA",136,Blue Ridge Lines,Full truckload,1,0,90,0,0,0.031,0.089
+HV-1915,3,Mon,"Columbus, OH",290,Allegheny Express,LTL,4,0,80,0,0,0.147,0.061
+HV-1916,5,Thu,"Philadelphia, PA",187,Allegheny Express,Parcel,1,0,85,0,0,0.043,0.071
+HV-1917,5,Thu,"Atlanta, GA",718,Keystone Freight,Full truckload,4,1,98,0,0,0.036,0.039
+HV-1918,1,Tue,"Philadelphia, PA",207,Keystone Freight,LTL,1,0,87,0,0,0.023,0.069
+HV-1919,3,Mon,"Chicago, IL",644,Susquehanna Trucking,Full truckload,3,0,84,0,0,0.217,0.02
+HV-1920,3,Thu,"Pittsburgh, PA",141,Susquehanna Trucking,Full truckload,2,0,86,0,0,0.044,0.112
+HV-1921,1,Fri,"Philadelphia, PA",208,Susquehanna Trucking,Parcel,3,0,91,0,0,0.016,0.035
+HV-1922,3,Fri,"Harrisburg, PA",96,Blue Ridge Lines,LTL,2,0,85,0,0,0.327,0.158
+HV-1923,5,Mon,"Philadelphia, PA",205,Allegheny Express,LTL,2,0,89,0,0,0.05,0.059
+HV-1924,3,Tue,"Philadelphia, PA",206,Susquehanna Trucking,Full truckload,2,0,81,0,0,0.026,0.037
+HV-1925,1,Fri,"Los Angeles, CA",2523,Allegheny Express,Full truckload,9,0,93,0,0,0.107,0.081
+HV-1926,3,Wed,"Harrisburg, PA",85,Susquehanna Trucking,Full truckload,2,1,96,0,0,0.064,0.034
+HV-1927,1,Mon,"Charlotte, NC",481,Susquehanna Trucking,Full truckload,2,1,93,1,1,0.043,0.432
+HV-1928,3,Thu,"Newark, NJ",260,Allegheny Express,Full truckload,2,0,89,0,0,0.008,0.037
+HV-1929,4,Thu,"Harrisburg, PA",87,Susquehanna Trucking,LTL,1,0,92,0,0,0.005,0.008
+HV-1930,2,Tue,"Philadelphia, PA",191,Keystone Freight,LTL,3,0,94,0,0,0.005,0.005
+HV-1931,5,Fri,"Philadelphia, PA",206,Keystone Freight,Parcel,2,0,95,1,0,0.004,0.757
+HV-1932,1,Thu,"Newark, NJ",252,Keystone Freight,Parcel,2,0,87,0,0,0.012,0.143
+HV-1933,5,Mon,"Philadelphia, PA",204,Keystone Freight,LTL,3,0,95,0,1,0.035,0.049
+HV-1934,5,Mon,"Atlanta, GA",695,Keystone Freight,Full truckload,3,0,97,0,0,0.005,0.052
+HV-1935,3,Mon,"Chicago, IL",595,Blue Ridge Lines,LTL,3,1,82,0,1,0.348,0.124
+HV-1936,3,Tue,"Philadelphia, PA",186,Susquehanna Trucking,Full truckload,3,0,84,0,0,0.07,0.028
+HV-1937,1,Wed,"Pittsburgh, PA",136,Susquehanna Trucking,Full truckload,1,0,84,0,0,0.002,0.034
+HV-1938,5,Tue,"Chicago, IL",614,Keystone Freight,LTL,2,0,90,0,0,0.036,0.132
+HV-1939,3,Wed,"Los Angeles, CA",2667,Keystone Freight,Full truckload,8,0,99,0,0,0.003,0.012
+HV-1940,3,Wed,"Newark, NJ",245,Blue Ridge Lines,Full truckload,1,0,93,0,0,0.02,0.018
+HV-1941,1,Wed,"Los Angeles, CA",2561,Allegheny Express,LTL,8,0,88,0,0,0.072,0.185
+HV-1942,3,Wed,"Pittsburgh, PA",137,Keystone Freight,Full truckload,1,0,93,0,0,0.0,0.068
+HV-1943,1,Thu,"Atlanta, GA",689,Keystone Freight,Full truckload,3,0,88,0,0,0.015,0.076
+HV-1944,5,Mon,"Philadelphia, PA",214,Blue Ridge Lines,Parcel,2,0,92,0,0,0.03,0.018
+HV-1945,5,Fri,"Los Angeles, CA",2550,Keystone Freight,LTL,7,1,99,0,0,0.58,0.032
+HV-1946,3,Mon,"Newark, NJ",255,Allegheny Express,LTL,3,1,90,0,0,0.05,0.051
+HV-1947,4,Mon,"Charlotte, NC",449,Susquehanna Trucking,LTL,4,0,89,0,0,0.087,0.276
+HV-1948,4,Thu,"Dallas, TX",1406,Allegheny Express,Full truckload,5,1,90,0,0,0.334,0.06
+HV-1949,5,Wed,"Philadelphia, PA",212,Keystone Freight,Full truckload,2,0,76,0,0,0.002,0.109
+HV-1950,1,Wed,"Charlotte, NC",512,Keystone Freight,LTL,4,0,98,0,0,0.007,0.003
+HV-1951,1,Fri,"Newark, NJ",267,Allegheny Express,Parcel,2,0,77,0,0,0.146,0.031
+HV-1952,4,Fri,"Chicago, IL",640,Susquehanna Trucking,LTL,3,0,92,0,0,0.104,0.07
+HV-1953,2,Thu,"Los Angeles, CA",2698,Susquehanna Trucking,LTL,8,0,73,1,1,0.799,0.8
+HV-1954,2,Fri,"Pittsburgh, PA",140,Keystone Freight,Full truckload,2,0,91,0,0,0.003,0.005
+HV-1955,1,Thu,"Harrisburg, PA",88,Keystone Freight,Full truckload,1,0,77,0,0,0.012,0.06
+HV-1956,3,Tue,"Newark, NJ",263,Allegheny Express,Full truckload,2,0,84,0,0,0.001,0.039
+HV-1957,5,Tue,"Columbus, OH",282,Susquehanna Trucking,LTL,2,0,99,0,0,0.016,0.048
+HV-1958,1,Tue,"Philadelphia, PA",215,Keystone Freight,Parcel,4,0,90,0,0,0.002,0.023
+HV-1959,5,Mon,"Dallas, TX",1454,Allegheny Express,Parcel,4,0,80,1,1,0.085,0.311
+HV-1960,5,Fri,"Harrisburg, PA",88,Keystone Freight,LTL,2,0,86,0,0,0.084,0.026
+HV-1961,5,Mon,"Pittsburgh, PA",137,Keystone Freight,Full truckload,2,0,85,0,0,0.003,0.041
+HV-1962,4,Fri,"Dallas, TX",1471,Allegheny Express,LTL,6,0,82,0,1,0.468,0.106
+HV-1963,5,Tue,"Chicago, IL",622,Allegheny Express,Full truckload,4,1,91,1,1,0.296,0.091
+HV-1964,4,Fri,"Philadelphia, PA",210,Susquehanna Trucking,Full truckload,2,0,87,0,0,0.01,0.003
+HV-1965,4,Mon,"Charlotte, NC",446,Susquehanna Trucking,Full truckload,2,1,92,0,0,0.284,0.22
+HV-1966,5,Mon,"Charlotte, NC",451,Susquehanna Trucking,Parcel,2,0,92,0,0,0.081,0.027
+HV-1967,3,Wed,"Los Angeles, CA",2459,Susquehanna Trucking,Full truckload,7,0,84,0,0,0.099,0.039
+HV-1968,1,Thu,"Philadelphia, PA",196,Keystone Freight,Parcel,3,0,85,0,0,0.107,0.002
+HV-1969,1,Wed,"Philadelphia, PA",203,Blue Ridge Lines,LTL,2,0,76,0,0,0.174,0.067
+HV-1970,5,Wed,"Columbus, OH",318,Blue Ridge Lines,Full truckload,2,1,91,0,0,0.059,0.331
+HV-1971,2,Tue,"Harrisburg, PA",86,Blue Ridge Lines,LTL,2,0,94,0,0,0.039,0.096
+HV-1972,1,Tue,"Pittsburgh, PA",140,Keystone Freight,Parcel,2,0,96,0,0,0.009,0.038
+HV-1973,5,Mon,"Chicago, IL",593,Blue Ridge Lines,Parcel,3,0,81,0,0,0.295,0.049
+HV-1974,4,Wed,"Pittsburgh, PA",139,Allegheny Express,Full truckload,2,0,87,0,0,0.001,0.239
+HV-1975,1,Tue,"Philadelphia, PA",200,Allegheny Express,LTL,2,0,85,0,0,0.041,0.064
+HV-1976,3,Thu,"Philadelphia, PA",188,Allegheny Express,LTL,2,0,94,0,0,0.013,0.01
+HV-1977,5,Thu,"Pittsburgh, PA",140,Blue Ridge Lines,Full truckload,1,0,78,0,0,0.107,0.128
+HV-1978,5,Wed,"Pittsburgh, PA",130,Allegheny Express,Parcel,1,0,99,0,0,0.02,0.033
+HV-1979,3,Mon,"Dallas, TX",1465,Susquehanna Trucking,Full truckload,5,0,92,0,0,0.016,0.063
+HV-1980,2,Tue,"Los Angeles, CA",2733,Blue Ridge Lines,Parcel,8,0,95,0,0,0.469,0.058
+HV-1981,2,Mon,"Harrisburg, PA",87,Susquehanna Trucking,LTL,1,0,84,0,0,0.102,0.219
+HV-1982,1,Fri,"Philadelphia, PA",202,Susquehanna Trucking,Parcel,2,0,93,0,0,0.013,0.015
+HV-1983,1,Wed,"Newark, NJ",275,Keystone Freight,Full truckload,3,0,87,0,0,0.007,0.079
+HV-1984,2,Wed,"Los Angeles, CA",2543,Allegheny Express,Full truckload,6,1,84,0,1,0.752,0.06
+HV-1985,3,Mon,"Pittsburgh, PA",138,Allegheny Express,LTL,2,0,85,0,0,0.007,0.039
+HV-1986,3,Tue,"Harrisburg, PA",93,Keystone Freight,LTL,3,0,88,0,0,0.102,0.021
+HV-1987,5,Wed,"Dallas, TX",1483,Susquehanna Trucking,LTL,6,0,84,0,0,0.248,0.182
+HV-1988,1,Fri,"Pittsburgh, PA",143,Blue Ridge Lines,Full truckload,2,0,89,0,0,0.005,0.019
+HV-1989,1,Thu,"Los Angeles, CA",2693,Keystone Freight,Parcel,7,0,90,0,0,0.045,0.07
+HV-1990,4,Thu,"Dallas, TX",1507,Allegheny Express,LTL,6,0,89,0,1,0.361,0.203
+HV-1991,1,Thu,"Los Angeles, CA",2680,Keystone Freight,Full truckload,8,1,99,1,1,0.128,0.546
+HV-1992,5,Wed,"Chicago, IL",613,Keystone Freight,LTL,2,0,79,0,0,0.07,0.012
+HV-1993,1,Thu,"Pittsburgh, PA",142,Allegheny Express,Full truckload,1,1,87,0,0,0.11,0.024
+HV-1994,2,Tue,"Charlotte, NC",443,Susquehanna Trucking,LTL,2,1,80,0,0,0.181,0.135
+HV-1995,1,Mon,"Newark, NJ",266,Keystone Freight,Full truckload,1,0,90,0,0,0.028,0.194
+HV-1996,5,Fri,"Dallas, TX",1434,Allegheny Express,Full truckload,6,0,89,0,0,0.031,0.153
+HV-1997,2,Thu,"Chicago, IL",584,Blue Ridge Lines,Full truckload,1,1,99,0,0,0.195,0.024
+HV-1998,4,Mon,"Pittsburgh, PA",149,Allegheny Express,Full truckload,2,1,96,0,0,0.028,0.079
+HV-1999,2,Tue,"Atlanta, GA",716,Keystone Freight,Full truckload,3,0,96,0,0,0.005,0.044
+HV-2000,1,Fri,"Chicago, IL",569,Allegheny Express,Full truckload,3,0,87,0,0,0.014,0.081
