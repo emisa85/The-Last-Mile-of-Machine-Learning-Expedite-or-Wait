@@ -76,7 +76,7 @@ grid, costs = cost_curve(y, score, fee, penalty, per_week)
 bt, bc = best_threshold(y, score, fee, penalty, per_week)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(
-    ["🎚️ Play with the threshold", "🎲 Round 1: ten shipments", "🥊 Model showdown", "🎯 Is the model honest?", "📄 Data"]
+    ["Play with the threshold", "Round 1: ten shipments", "Model showdown", "Is the model honest?", "Data"]
 )
 
 # ------------------------------------------------------------- tab 1 -------
