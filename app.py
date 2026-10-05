@@ -86,7 +86,7 @@ with tab1:
     for c, label, val in [
         (k1, "Cost per week", f"${m['cost_week']:,.0f}"),
         (k2, "Expedited / week", f"{m['expedited'] / 5:.0f}"),
-        (k3, "Lates missed / week", f"{m['fn'] / 5:.1f}"),
+        (k3, "Lates missed / week", f"{m['fn'] / 5:.0f}"),
         (k4, "Accuracy", f"{m['accuracy']:.1%}"),
         (k5, "Precision", "-" if np.isnan(m['precision']) else f"{m['precision']:.1%}"),
         (k6, "Recall", f"{m['recall']:.1%}"),
