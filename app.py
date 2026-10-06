@@ -9,7 +9,7 @@ import pandas as pd
 import altair as alt
 import streamlit as st
 from expedite_data import (make_data, metrics, metrics_topk, roc_curve, auc, cost_curve,
-                           best_threshold, formula_threshold, calibration_table, PER_WEEK)
+                           formula_threshold, calibration_table, PER_WEEK)
 
 st.set_page_config(page_title="Expedite or Wait?", page_icon="🚚", layout="wide")
 
@@ -20,12 +20,19 @@ SCENARIOS = {
     "Air-freight expedite  (fee \\$600, penalty \\$900)": (600, 900),
     "Custom": None,
 }
+
+
+def fmt_weeks(w):
+    """5.0 -> '5', 2.5 -> '2.5', 13.333 -> '13.3'"""
+    return f"{w:.1f}".rstrip("0").rstrip(".")
+
+
 ROUND1 = ["HV-1766", "HV-0993", "HV-1770", "HV-0174", "HV-0253", "HV-0510", "HV-0324", "HV-1447", "HV-0175", "HV-1437"]
 
 st.markdown(
     f"""
     <style>
-      .big-number {{ font-size: 2.6rem; font-weight: 800; color: {NAVY}; line-height: 1.05; }}
+      .big-number {{ font-size: clamp(1.6rem, 2.1vw, 2.6rem); white-space: nowrap; font-weight: 800; color: {NAVY}; line-height: 1.05; }}
       .small-label {{ font-size: 0.85rem; color: #4A5561; text-transform: uppercase; letter-spacing: .04em; }}
       .cm-cell {{ border-radius: 10px; padding: 14px 10px; text-align: center; color: white; }}
       .cm-title {{ font-size: 0.8rem; opacity: .9; text-transform: uppercase; letter-spacing: .04em; }}
@@ -43,6 +50,32 @@ def load():
     return make_data()
 
 
+@st.cache_data
+def curve_for(col, fee, penalty, per_week):
+    """Cost for every threshold, and the best one. Cached: a slider move does not recompute it."""
+    dd = load()
+    grid, costs = cost_curve(dd.late.values, dd[col].values, fee, penalty, per_week)
+    i = int(np.argmin(costs))
+    return grid, costs, float(grid[i]), float(costs[i])
+
+
+@st.cache_data
+def roc_and_auc():
+    dd = load()
+    out = {}
+    for name, col in [("Vendor", "p_vendor"), ("Homemade", "p_homemade")]:
+        f_, t_ = roc_curve(dd.late.values, dd[col].values)
+        out[name] = (f_, t_, auc(dd.late.values, dd[col].values))
+    return out
+
+
+@st.cache_data
+def calibration_both():
+    dd = load()
+    return pd.concat([calibration_table(dd.late.values, dd.p_vendor.values).assign(Model="Vendor"),
+                      calibration_table(dd.late.values, dd.p_homemade.values).assign(Model="Homemade")])
+
+
 d = load()
 y = d.late.values
 
@@ -50,7 +83,7 @@ y = d.late.values
 with st.sidebar:
     st.title("🚚 Expedite or Wait?")
     st.caption("Happy Valley Gear Co. (a made-up company) - Bellefonte, PA distribution center")
-    scenario = st.radio("Class scenario", list(SCENARIOS.keys()), index=0)
+    scenario = st.radio("Cost scenario", list(SCENARIOS.keys()), index=0)
     if SCENARIOS[scenario]:
         fee, penalty = SCENARIOS[scenario]
         st.write(f"Expedite fee **\\${fee:,}**  ·  Late penalty **\\${penalty:,}**")
@@ -58,6 +91,8 @@ with st.sidebar:
         fee = st.number_input("Expedite fee ($ per expedited shipment)", 0, 5000, 150, 25)
         penalty = st.number_input("Late penalty ($ per late shipment you did not expedite)", 0, 20000, 1500, 50)
     per_week = st.number_input("Inbound shipments per week", 50, 5000, PER_WEEK, 50)
+    weeks = len(d) / per_week       # 2,000 shipments = 5 weeks at 400 a week
+    to_week = per_week / len(d)     # a count in the data -> a count per week
     model_name = st.radio("Model", ["Vendor model (AUC 0.86)", "Homemade model (AUC 0.76)"], index=0)
     col = "p_vendor" if model_name.startswith("Vendor") else "p_homemade"
     score = d[col].values
@@ -65,15 +100,15 @@ with st.sidebar:
     t = st.slider("Threshold  -  expedite if probability ≥ t", 0.01, 0.99, 0.50, 0.01)
     st.caption("Software default is 0.50. Is that where the money is?")
     st.markdown("---")
-    st.caption("2,000 shipments = 5 weeks of history. Costs are shown per week.")
+    st.caption(f"2,000 shipments = {fmt_weeks(weeks)} weeks of history at {per_week:,} a week. Costs are shown per week.")
 
 t_star = formula_threshold(fee, penalty)
 m = metrics(y, score, t, fee, penalty, per_week)
 m_never = metrics(y, score, 1.01, fee, penalty, per_week)
 m_all = metrics(y, score, 0.0, fee, penalty, per_week)
 m_star = metrics(y, score, t_star, fee, penalty, per_week)
-grid, costs = cost_curve(y, score, fee, penalty, per_week)
-bt, bc = best_threshold(y, score, fee, penalty, per_week)
+grid, costs, bt, bc = curve_for(col, fee, penalty, per_week)
+m_best = metrics(y, score, bt, fee, penalty, per_week)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(
     ["Play with the threshold", "Round 1: ten shipments", "Model showdown", "Is the model honest?", "Data"]
@@ -85,8 +120,8 @@ with tab1:
     k1, k2, k3, k4, k5, k6 = st.columns(6)
     for c, label, val in [
         (k1, "Cost per week", f"${m['cost_week']:,.0f}"),
-        (k2, "Expedited / week", f"{m['expedited'] / 5:.0f}"),
-        (k3, "Lates missed / week", f"{m['fn'] / 5:.0f}"),
+        (k2, "Expedited / week", f"{m['expedited'] * to_week:.1f}"),
+        (k3, "Lates missed / week", f"{m['fn'] * to_week:.1f}"),
         (k4, "Accuracy", f"{m['accuracy']:.1%}"),
         (k5, "Precision", "-" if np.isnan(m['precision']) else f"{m['precision']:.1%}"),
         (k6, "Recall", f"{m['recall']:.1%}"),
@@ -96,7 +131,7 @@ with tab1:
     st.write("")
     left, right = st.columns([1.05, 1.4])
     with left:
-        st.markdown("**Confusion matrix (5 weeks of shipments)**")
+        st.markdown(f"**Confusion matrix ({fmt_weeks(weeks)} weeks of shipments)**")
         c1, c2 = st.columns(2)
         c1.markdown(f"<div class='cm-cell' style='background:{ORANGE}'><div class='cm-title'>Caught it</div><div class='cm-num'>{m['tp']}</div><div class='cm-sub'>late, expedited (TP) · paid ${fee:,} each</div></div>", unsafe_allow_html=True)
         c2.markdown(f"<div class='cm-cell' style='background:{SKY}'><div class='cm-title'>Wasted expedite</div><div class='cm-num'>{m['fp']}</div><div class='cm-sub'>on time, expedited (FP) · paid ${fee:,} each</div></div>", unsafe_allow_html=True)
@@ -106,16 +141,16 @@ with tab1:
         c4.markdown(f"<div class='cm-cell' style='background:{BLUE}'><div class='cm-title'>Correct wait</div><div class='cm-num'>{m['tn']}</div><div class='cm-sub'>on time, not expedited (TN) · $0</div></div>", unsafe_allow_html=True)
         st.write("")
         st.markdown(
-            f"<div class='idea'><b>Cost per week</b> = {fee:,} × ({m['tp']} + {m['fp']}) + {penalty:,} × {m['fn']} = ${m['cost_total']:,.0f} over 5 weeks "
+            f"<div class='idea'><b>Cost per week</b> = {fee:,} × ({m['tp']} + {m['fp']}) + {penalty:,} × {m['fn']} = ${m['cost_total']:,.0f} over {fmt_weeks(weeks)} weeks "
             f"→ <b>${m['cost_week']:,.0f} / week</b></div>", unsafe_allow_html=True)
         st.write("")
         comp = pd.DataFrame({
             "Policy": ["Never expedite", "Expedite everything", f"Your threshold t = {t:.2f}", f"Formula t* = fee/penalty = {t_star:.2f}", f"Best threshold on this data = {bt:.2f}"],
             "Cost / week": [m_never["cost_week"], m_all["cost_week"], m["cost_week"], m_star["cost_week"], bc],
-            "Expedited / week": [0, per_week, m["expedited"] / 5, m_star["expedited"] / 5, metrics(y, score, bt, fee, penalty, per_week)["expedited"] / 5],
-            "Lates missed / week": [m_never["fn"] / 5, 0, m["fn"] / 5, m_star["fn"] / 5, metrics(y, score, bt, fee, penalty, per_week)["fn"] / 5],
+            "Expedited / week": [0, per_week, m["expedited"] * to_week, m_star["expedited"] * to_week, m_best["expedited"] * to_week],
+            "Lates missed / week": [m_never["fn"] * to_week, 0, m["fn"] * to_week, m_star["fn"] * to_week, m_best["fn"] * to_week],
         })
-        st.dataframe(comp.style.format({"Cost / week": "${:,.0f}", "Expedited / week": "{:.0f}", "Lates missed / week": "{:.1f}"}), hide_index=True, width="stretch")
+        st.dataframe(comp.style.format({"Cost / week": "${:,.0f}", "Expedited / week": "{:.1f}", "Lates missed / week": "{:.1f}"}), hide_index=True, width="stretch")
 
     with right:
         cc = pd.DataFrame({"t": grid, "cost": costs})
@@ -196,10 +231,11 @@ with tab2:
 with tab3:
     st.subheader("Two models, one dock")
     V = d.p_vendor.values; Hm = d.p_homemade.values
+    roc_all = roc_and_auc()
+    fv, tv, auc_v = roc_all["Vendor"]; fh, th, auc_h = roc_all["Homemade"]
     a1, a2 = st.columns(2)
-    a1.metric("Vendor model - AUC", f"{auc(y, V):.3f}", help="Gradient boosting, 40 features")
-    a2.metric("Homemade model - AUC", f"{auc(y, Hm):.3f}", help="Logistic regression, 5 features + the carrier's 'behind schedule' alert")
-    fv, tv = roc_curve(y, V); fh, th = roc_curve(y, Hm)
+    a1.metric("Vendor model - AUC", f"{auc_v:.3f}", help="Gradient boosting, 40 features")
+    a2.metric("Homemade model - AUC", f"{auc_h:.3f}", help="Logistic regression, 5 features + the carrier's 'behind schedule' alert")
     roc = pd.concat([pd.DataFrame({"fpr": fv, "tpr": tv, "Model": "Vendor"}), pd.DataFrame({"fpr": fh, "tpr": th, "Model": "Homemade"})])
     roc_chart = alt.Chart(roc).mark_line(strokeWidth=2.5).encode(
         x=alt.X("fpr:Q", title="False positive rate (on-time shipments you expedite)"),
@@ -214,13 +250,13 @@ with tab3:
     with b2:
         st.markdown("**No cap: pick the threshold from the costs**")
         rows = []
-        for name, s in [("Vendor", V), ("Homemade", Hm)]:
-            mf = metrics(y, s, t_star, fee, penalty, per_week); bt_, bc_ = best_threshold(y, s, fee, penalty, per_week)
+        for name, s, col_ in [("Vendor", V, "p_vendor"), ("Homemade", Hm, "p_homemade")]:
+            mf = metrics(y, s, t_star, fee, penalty, per_week); _, _, bt_, bc_ = curve_for(col_, fee, penalty, per_week)
             rows.append({"Model": name, f"Cost/wk at t*={t_star:.2f}": mf["cost_week"], "Best t (data)": bt_, "Cost/wk at best t": bc_})
         st.dataframe(pd.DataFrame(rows).style.format({f"Cost/wk at t*={t_star:.2f}": "${:,.0f}", "Cost/wk at best t": "${:,.0f}", "Best t (data)": "{:.2f}"}), hide_index=True, width="stretch")
         st.markdown("**With a cap: you can only expedite this many per week**")
         cap = st.slider("Expedites allowed per week", 5, 120, 20, 5)
-        k = int(cap * 5)
+        k = max(1, min(int(round(cap * weeks)), len(d)))   # trucks allowed in the whole history
         rows = []
         for name, s in [("Vendor", V), ("Homemade", Hm)]:
             mk = metrics_topk(y, s, k, fee, penalty, per_week)
@@ -232,16 +268,22 @@ with tab3:
 with tab4:
     st.subheader("Are the probabilities honest? (calibration)")
     st.write("The formula t* = fee / penalty only works if a '0.10' really means 'late one time in ten'. Group shipments by their predicted probability and check.")
-    cal = pd.concat([calibration_table(y, d.p_vendor.values).assign(Model="Vendor"), calibration_table(y, d.p_homemade.values).assign(Model="Homemade")])
-    line = alt.Chart(cal).mark_line(point=alt.OverlayMarkDef(size=90, filled=True), strokeWidth=2.5).encode(
+    cal = calibration_both()
+    cal_base = alt.Chart(cal).encode(
         x=alt.X("avg_score:Q", title="Average predicted probability in the bin", scale=alt.Scale(domain=[0, 1])),
         y=alt.Y("late_rate:Q", title="Share that actually arrived late", scale=alt.Scale(domain=[0, 1])),
         color=alt.Color("Model:N", scale=alt.Scale(domain=["Vendor", "Homemade"], range=[BLUE, ORANGE])),
-        tooltip=["Model:N", "bin:N", "n:Q", alt.Tooltip("avg_score:Q", format=".2f"), alt.Tooltip("late_rate:Q", format=".2f")],
+        tooltip=["Model:N", alt.Tooltip("bin:N", title="Probability bin"), alt.Tooltip("n:Q", title="Shipments"),
+                 alt.Tooltip("avg_score:Q", title="Average predicted", format=".2f"), alt.Tooltip("late_rate:Q", title="Share actually late", format=".2f")],
     )
+    line = cal_base.mark_line(strokeWidth=2.5) + cal_base.mark_point(filled=True, opacity=1).encode(
+        size=alt.Size("n:Q", scale=alt.Scale(type="sqrt", range=[40, 900]), legend=None))
     diag = alt.Chart(pd.DataFrame({"x": [0, 1], "y": [0, 1]})).mark_line(color="#C4CAD1", strokeDash=[4, 4]).encode(x="x:Q", y="y:Q")
     st.altair_chart((diag + line).properties(height=380, title="Points on the dashed line = honest probabilities"), width="stretch")
-    st.dataframe(cal.style.format({"avg_score": "{:.3f}", "late_rate": "{:.3f}"}), hide_index=True, width="stretch")
+    st.caption("Bigger dots hold more shipments. Most trucks sit in the first few dots; the far-right dots rest on a few dozen trucks at most, so they wobble.")
+    cal_show = cal[["Model", "bin", "n", "avg_score", "late_rate"]].rename(columns={
+        "bin": "Probability bin", "n": "Shipments", "avg_score": "Average predicted", "late_rate": "Share actually late"})
+    st.dataframe(cal_show.style.format({"Average predicted": "{:.3f}", "Share actually late": "{:.3f}"}), hide_index=True, width="stretch")
     st.caption("If a model is not calibrated, either recalibrate it (Platt scaling, isotonic regression) or pick the threshold from the cost curve on real data instead of from the formula.")
 
 # ------------------------------------------------------------- tab 5 -------
