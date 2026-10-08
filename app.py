@@ -185,7 +185,7 @@ with tab1:
         st.altair_chart(alt.vconcat(top + rule, bottom + rule, spacing=2).resolve_scale(x="shared"), width="stretch")
         st.caption("Blue bars (up): on-time shipments. Orange bars (down): late shipments. Right of the line you pay the fee; left of the line you risk the penalty.")
 
-    st.info("**The model ranks. The business decides where to cut.**")
+        st.markdown("<div class='idea' style='display:inline-block; padding:6px 14px; font-weight:700;'>The model ranks. The business decides where to cut.</div>", unsafe_allow_html=True)
 
 # ------------------------------------------------------------- tab 2 -------
 with tab2:
