@@ -185,7 +185,7 @@ with tab1:
         st.altair_chart(alt.vconcat(top + rule, bottom + rule, spacing=2).resolve_scale(x="shared"), width="stretch")
         st.caption("Blue bars (up): on-time shipments. Orange bars (down): late shipments. Right of the line you pay the fee; left of the line you risk the penalty.")
 
-    st.info("**The model ranks. The business decides where to cut.**  Try: set the scenario to *Air-freight expedite* and leave t at 0.10 - the old threshold becomes very expensive.")
+    st.info("**The model ranks. The business decides where to cut.**")
 
 # ------------------------------------------------------------- tab 2 -------
 with tab2:
